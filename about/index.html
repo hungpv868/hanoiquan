@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>/* BASE_HREF_AUTO — set <base> so the site works at root (local, custom domain) AND at /hanoiquan/ on GitHub Pages */(function(){var p=location.pathname,seg=p.split('/').filter(Boolean)[0];var base=(location.hostname.endsWith('github.io')&&seg)?'/'+seg+'/':'/';document.write('<base href="'+base+'">');})();</script>
+
   <meta name="theme-color" content="#1A1310">
   <title>À propos · HanoiQuan — L'histoire d'une cuisine entre Hanoi et Paris</title>
   <meta name="description" data-i18n-attr="content:meta.about.description" content="L'histoire de HanoiQuan : une famille, deux maisons, une cuisine vietnamienne sincère à Paris.">
@@ -23,14 +25,14 @@
   <meta property="og:site_name" content="HanoiQuan">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300..900;1,300..900&display=swap">
 
-  <link rel="stylesheet" href="/assets/css/base.css">
-  <link rel="stylesheet" href="/assets/css/pages.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
 
   <script>
     (function () {
@@ -66,14 +68,14 @@
 
   <header class="site-header">
     <div class="site-header__inner">
-      <a href="/" class="logo" data-i18n-attr="aria-label:common.logoAria" aria-label="HanoiQuan — accueil">HanoiQuan</a>
+      <a href="./" class="logo" data-i18n-attr="aria-label:common.logoAria" aria-label="HanoiQuan — accueil">HanoiQuan</a>
       <button class="nav-toggle" data-i18n-attr="aria-label:common.nav.menuOpen" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-main">☰</button>
       <nav class="nav-main" id="nav-main" data-i18n-attr="aria-label:common.nav.label" aria-label="Principal">
         <ul>
-          <li><a href="/14e/" data-i18n="common.nav.branch14e">HanoiQuan 14e</a></li>
-          <li><a href="/seine/" data-i18n="common.nav.branchSeine">HanoiQuan Seine</a></li>
-          <li><a href="/about/" data-i18n="common.nav.about">À propos</a></li>
-          <li><a href="/contact/" data-i18n="common.nav.contact">Contact</a></li>
+          <li><a href="14e/" data-i18n="common.nav.branch14e">HanoiQuan 14e</a></li>
+          <li><a href="seine/" data-i18n="common.nav.branchSeine">HanoiQuan Seine</a></li>
+          <li><a href="about/" data-i18n="common.nav.about">À propos</a></li>
+          <li><a href="contact/" data-i18n="common.nav.contact">Contact</a></li>
         </ul>
       </nav>
       <div class="site-header__actions">
@@ -94,7 +96,7 @@
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
           </svg>
         </button>
-        <a href="/reservation/" class="btn btn--primary" data-i18n="common.nav.reserve">Réserver</a>
+        <a href="reservation/" class="btn btn--primary" data-i18n="common.nav.reserve">Réserver</a>
       </div>
     </div>
   </header>
@@ -171,13 +173,13 @@
         <p class="overline" data-i18n="pages.about.addresses.overline">Nos deux maisons</p>
         <h2 id="about-addr-title" data-i18n="pages.about.addresses.h2">Une famille, deux adresses.</h2>
         <div class="about-addresses__cards">
-          <a href="/14e/" class="about-address-card">
+          <a href="14e/" class="about-address-card">
             <span class="about-address-card__num" aria-hidden="true">I</span>
             <h3 data-i18n="pages.about.addresses.card14eTitle">HanoiQuan 14e</h3>
             <p data-i18n="pages.about.addresses.card14eBody">La cuisine vietnamienne dans toute sa diversité — pho, bun, banh mi.</p>
             <span class="about-address-card__cta" data-i18n="pages.about.addresses.card14eCta">Découvrir 14e →</span>
           </a>
-          <a href="/seine/" class="about-address-card">
+          <a href="seine/" class="about-address-card">
             <span class="about-address-card__num" aria-hidden="true">II</span>
             <h3 data-i18n="pages.about.addresses.cardSeineTitle">HanoiQuan Seine</h3>
             <p data-i18n="pages.about.addresses.cardSeineBody">Le pho dans toute sa profondeur — cinq variations, douze heures.</p>
@@ -194,8 +196,8 @@
         <h2 id="about-cta-title" data-i18n="pages.about.cta.h2">Réservez votre table.</h2>
         <p class="lead" data-i18n="pages.about.cta.body">Choisissez votre maison. Nous confirmons sous deux heures.</p>
         <div class="about-cta__buttons">
-          <a href="/reservation/?branch=14e" class="btn btn--primary" data-i18n="pages.about.cta.btn14e">Réserver à 14e</a>
-          <a href="/reservation/?branch=seine" class="btn btn--ghost" data-i18n="pages.about.cta.btnSeine">Réserver à Seine</a>
+          <a href="reservation/?branch=14e" class="btn btn--primary" data-i18n="pages.about.cta.btn14e">Réserver à 14e</a>
+          <a href="reservation/?branch=seine" class="btn btn--ghost" data-i18n="pages.about.cta.btnSeine">Réserver à Seine</a>
         </div>
       </div>
     </section>
@@ -218,31 +220,31 @@
       <div class="footer-col">
         <h3 data-i18n="common.footer.discover">Découvrir</h3>
         <ul>
-          <li><a href="/14e/" data-i18n="common.nav.branch14e">HanoiQuan 14e</a></li>
-          <li><a href="/seine/" data-i18n="common.nav.branchSeine">HanoiQuan Seine</a></li>
-          <li><a href="/about/" data-i18n="common.nav.about">À propos</a></li>
-          <li><a href="/contact/" data-i18n="common.nav.contact">Contact</a></li>
-          <li><a href="/reservation/" data-i18n="common.nav.reserve">Réserver</a></li>
+          <li><a href="14e/" data-i18n="common.nav.branch14e">HanoiQuan 14e</a></li>
+          <li><a href="seine/" data-i18n="common.nav.branchSeine">HanoiQuan Seine</a></li>
+          <li><a href="about/" data-i18n="common.nav.about">À propos</a></li>
+          <li><a href="contact/" data-i18n="common.nav.contact">Contact</a></li>
+          <li><a href="reservation/" data-i18n="common.nav.reserve">Réserver</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h3 data-i18n="common.footer.language">Langue</h3>
         <ul>
-          <li><a href="/" hreflang="fr" data-i18n="common.lang.fr">Français</a></li>
-          <li><a href="/en/" hreflang="en" data-i18n="common.lang.en">English</a></li>
-          <li><a href="/vi/" hreflang="vi" data-i18n="common.lang.vi">Tiếng Việt</a></li>
+          <li><a href="./" hreflang="fr" data-i18n="common.lang.fr">Français</a></li>
+          <li><a href="en/" hreflang="en" data-i18n="common.lang.en">English</a></li>
+          <li><a href="vi/" hreflang="vi" data-i18n="common.lang.vi">Tiếng Việt</a></li>
         </ul>
       </div>
     </div>
     <div class="site-footer__bottom">
       <p data-i18n="common.footer.copyright">© 2026 HanoiQuan</p>
       <ul>
-        <li><a href="/mentions-legales/" data-i18n="common.footer.legal">Mentions légales</a></li>
-        <li><a href="/politique-confidentialite/" data-i18n="common.footer.privacy">Politique de confidentialité</a></li>
+        <li><a href="mentions-legales/" data-i18n="common.footer.legal">Mentions légales</a></li>
+        <li><a href="politique-confidentialite/" data-i18n="common.footer.privacy">Politique de confidentialité</a></li>
       </ul>
     </div>
   </footer>
 
-  <script type="module" src="/assets/js/main.js"></script>
+  <script type="module" src="assets/js/main.js"></script>
 </body>
 </html>

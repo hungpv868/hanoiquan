@@ -64,9 +64,11 @@ function initMobileNav() {
 }
 
 function initActiveNav() {
-  const path = window.location.pathname;
+  /* Use anchor.pathname (resolved through <base>) so this works under any base path. */
+  const path = window.location.pathname.replace(/\/+$/, '/');
   document.querySelectorAll('.nav-main a').forEach(a => {
-    if (a.getAttribute('href') === path) {
+    const aPath = a.pathname.replace(/\/+$/, '/');
+    if (aPath === path) {
       a.setAttribute('aria-current', 'page');
     }
   });

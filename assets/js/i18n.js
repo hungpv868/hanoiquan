@@ -32,7 +32,9 @@ let currentLocale = DEFAULT_LOCALE;
 async function loadLocale(locale) {
   if (cache[locale]) return cache[locale];
   try {
-    const res = await fetch(`/assets/i18n/${locale}.json`);
+    /* Resolve via document base so it works under /hanoiquan/ (GitHub Pages) and / (local). */
+    const base = document.baseURI || (location.origin + '/');
+    const res = await fetch(new URL(`assets/i18n/${locale}.json`, base));
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     cache[locale] = await res.json();
     return cache[locale];
