@@ -1,0 +1,377 @@
+/* ============================================================
+   HanoiQuan — /seine/
+   Editorial pho essay · long-form · cinematic deep dark.
+   Six sections.
+   ============================================================ */
+
+
+/* ============================================================
+   1 · Hero — cinematic, italic display, steam
+   ============================================================ */
+.seine-hero {
+  position: relative;
+  min-height: 92vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding-block: var(--space-5xl);
+  padding-inline: var(--gutter);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* Deep radial vignette + warm core, evoking a low-key food shot. */
+.seine-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background:
+    radial-gradient(ellipse 50% 40% at 50% 65%, rgba(232, 163, 61, 0.18), transparent 65%),
+    radial-gradient(ellipse 80% 60% at 50% 100%, rgba(15, 10, 7, 0.6), transparent 70%),
+    var(--bg-base);
+}
+
+/* Steam — ascending warm haze */
+.seine-hero__steam {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
+  height: 70vh;
+  pointer-events: none;
+  z-index: -1;
+}
+.seine-hero__steam-col {
+  position: absolute;
+  bottom: 0;
+  width: 90px;
+  height: 100%;
+  background: radial-gradient(ellipse 50% 80% at 50% 100%, rgba(244, 237, 224, 0.18), transparent 70%);
+  filter: blur(28px);
+  animation: seineSteam 7s ease-in-out infinite;
+  opacity: 0;
+}
+.seine-hero__steam-col:nth-child(1) { left:  20%; animation-delay: 0s;   }
+.seine-hero__steam-col:nth-child(2) { left:  45%; animation-delay: 2.3s; }
+.seine-hero__steam-col:nth-child(3) { left:  70%; animation-delay: 4.6s; }
+
+@keyframes seineSteam {
+  0%   { transform: translateY(20%)  scale(0.8); opacity: 0; }
+  25%  { opacity: 0.7; }
+  60%  { opacity: 0.5; }
+  100% { transform: translateY(-25%) scale(1.15); opacity: 0; }
+}
+
+.seine-hero .eyebrow {
+  margin-bottom: var(--space-lg);
+}
+
+.seine-hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 0.98;
+  letter-spacing: -0.02em;
+  margin-block: var(--space-md);
+  text-wrap: balance;
+}
+
+.seine-hero__sub {
+  margin: var(--space-md) auto var(--space-2xl);
+  max-width: 42ch;
+  font-style: italic;
+  color: var(--ink-secondary);
+}
+.seine-hero__meta {
+  font-family: var(--font-mono);
+  font-size: var(--fs-overline);
+  letter-spacing: 0.15em;
+  color: var(--ink-muted);
+  margin-top: var(--space-2xl);
+  text-transform: uppercase;
+}
+
+
+/* ============================================================
+   Editorial section base (II → V share this)
+   ============================================================ */
+.seine-section {
+  max-width: var(--container-narrow);
+  margin-inline: auto;
+}
+.seine-section__num {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: var(--fs-overline);
+  letter-spacing: 0.25em;
+  color: var(--accent-saffron);
+  text-transform: uppercase;
+  margin-bottom: var(--space-md);
+}
+.seine-section h2 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  margin-bottom: var(--space-xl);
+  text-wrap: balance;
+}
+.seine-section p {
+  color: var(--ink-secondary);
+  font-size: var(--fs-body-lg);
+  line-height: var(--lh-relaxed);
+  margin-block: var(--space-md);
+}
+
+.seine-section__quote {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  text-align: center;
+  color: var(--accent-saffron);
+  padding-block: var(--space-3xl);
+  max-width: 24ch;
+  margin-inline: auto;
+  line-height: 1.3;
+}
+
+
+/* ============================================================
+   3 · Pho menu — 5 large editorial cards
+   ============================================================ */
+.seine-menu__grid {
+  display: grid;
+  gap: var(--space-md);
+  margin-top: var(--space-2xl);
+}
+.seine-menu__item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: var(--space-lg);
+  align-items: baseline;
+  padding: var(--space-xl);
+  background: var(--bg-elevated);
+  border-left: 2px solid var(--accent-saffron);
+  border-radius: var(--radius-sm);
+  transition: background var(--motion-base) var(--ease-standard),
+              transform  var(--motion-base) var(--ease-emphasized);
+}
+.seine-menu__item:hover {
+  background: var(--bg-overlay);
+  transform: translateX(4px);
+}
+.seine-menu__item__num {
+  font-family: var(--font-mono);
+  font-size: var(--fs-caption);
+  letter-spacing: 0.15em;
+  color: var(--ink-muted);
+  align-self: start;
+  padding-top: 4px;
+}
+.seine-menu__item h3 {
+  font-family: var(--font-display);
+  font-size: var(--fs-h4);
+  font-weight: 600;
+  margin-bottom: var(--space-2xs);
+}
+.seine-menu__item__vi {
+  display: block;
+  font-style: italic;
+  color: var(--accent-saffron);
+  font-size: var(--fs-caption);
+  margin-bottom: var(--space-xs);
+}
+.seine-menu__item p {
+  font-size: var(--fs-body);
+  margin: 0;
+}
+.seine-menu__item__price {
+  font-family: var(--font-mono);
+  color: var(--accent-saffron);
+  font-size: var(--fs-body);
+  letter-spacing: 0.05em;
+  align-self: start;
+  padding-top: 4px;
+  white-space: nowrap;
+}
+
+@media (max-width: 599px) {
+  .seine-menu__item {
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+      "num price"
+      "body body";
+    gap: var(--space-sm);
+  }
+  .seine-menu__item__num   { grid-area: num; }
+  .seine-menu__item__price { grid-area: price; justify-self: end; }
+  .seine-menu__item > div  { grid-area: body; }
+}
+
+
+/* ============================================================
+   4 · Broth timeline — interactive vertical
+   ============================================================ */
+.seine-timeline {
+  position: relative;
+  margin-top: var(--space-3xl);
+  padding-left: var(--space-2xl);
+  list-style: none;
+  border-left: 1px solid var(--border-subtle);
+}
+
+.seine-timeline__step {
+  position: relative;
+  padding-block: var(--space-lg);
+  cursor: pointer;
+  transition: opacity var(--motion-base) var(--ease-standard);
+  outline: none;
+}
+.seine-timeline__step:focus-visible {
+  outline: 2px solid var(--accent-saffron);
+  outline-offset: 4px;
+  border-radius: var(--radius-xs);
+}
+
+/* Default: dim non-active when JS is up, fully visible when JS off */
+.has-timeline .seine-timeline__step:not(.is-active) {
+  opacity: 0.45;
+}
+.seine-timeline__step.is-active { opacity: 1; }
+
+/* Dot marker on the line */
+.seine-timeline__step::before {
+  content: "";
+  position: absolute;
+  left: calc(-1 * var(--space-2xl) - 5px);
+  top: var(--space-xl);
+  width: 9px;
+  height: 9px;
+  background: var(--bg-base);
+  border: 1px solid var(--border-strong);
+  border-radius: 50%;
+  transition: background var(--motion-fast) var(--ease-standard),
+              border-color var(--motion-fast) var(--ease-standard),
+              transform var(--motion-base) var(--ease-emphasized);
+}
+.seine-timeline__step.is-active::before {
+  background: var(--accent-saffron);
+  border-color: var(--accent-saffron);
+  transform: scale(1.4);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent-saffron) 20%, transparent);
+}
+
+.seine-timeline__hour {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: var(--fs-overline);
+  letter-spacing: 0.2em;
+  color: var(--ink-muted);
+  margin-bottom: var(--space-xs);
+  transition: color var(--motion-fast) var(--ease-standard),
+              font-size var(--motion-base) var(--ease-emphasized);
+  text-transform: uppercase;
+}
+.seine-timeline__step.is-active .seine-timeline__hour {
+  color: var(--accent-saffron);
+  font-size: 1.125rem;
+}
+
+.seine-timeline__step p {
+  color: var(--ink-secondary);
+  font-size: var(--fs-body);
+  margin: 0;
+  line-height: var(--lh-relaxed);
+}
+
+
+/* ============================================================
+   5 · Pairings — 3 columns
+   ============================================================ */
+.seine-pairings__cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-2xl);
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--border-subtle);
+}
+.seine-pairings__col h3 {
+  font-family: var(--font-mono);
+  font-size: var(--fs-overline);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent-saffron);
+  margin-bottom: var(--space-sm);
+}
+.seine-pairings__col p {
+  color: var(--ink-secondary);
+  font-size: var(--fs-body);
+  font-style: italic;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .seine-pairings__cols { grid-template-columns: 1fr; gap: var(--space-xl); }
+}
+
+
+/* ============================================================
+   6 · Reservation CTA — quiet centered
+   ============================================================ */
+.seine-cta {
+  text-align: center;
+  background: var(--bg-elevated);
+  position: relative;
+  overflow: hidden;
+}
+.seine-cta::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(232, 163, 61, 0.08), transparent 60%);
+  pointer-events: none;
+}
+.seine-cta > * { position: relative; z-index: 1; }
+
+.seine-cta h2 {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.seine-cta__info {
+  font-family: var(--font-mono);
+  font-size: var(--fs-caption);
+  color: var(--ink-muted);
+  margin-block: var(--space-lg) var(--space-xl);
+  white-space: pre-line;
+  line-height: var(--lh-relaxed);
+  letter-spacing: 0.05em;
+}
+.seine-cta__crosslink {
+  margin-top: var(--space-2xl);
+  color: var(--ink-muted);
+  font-style: italic;
+}
+.seine-cta__crosslink a {
+  color: var(--accent-saffron);
+  font-style: normal;
+  font-weight: 500;
+}
+.seine-cta__crosslink a:hover { color: var(--accent-saffron-soft); }
+
+
+/* ============================================================
+   Reduced motion overrides
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  .seine-hero__steam-col { animation: none; opacity: 0.3; }
+  .seine-menu__item:hover { transform: none; }
+  .seine-timeline__step.is-active::before { transform: none; }
+}

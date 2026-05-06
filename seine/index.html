@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1A1310">
+  <title>HanoiQuan Seine · Spécialiste du Pho à Paris — Bord de Seine</title>
+  <meta name="description" data-i18n-attr="content:meta.seine.description" content="Le pho dans toute son authenticité, au bord de la Seine. Bouillon mijoté 12 heures, cinq variations, herbes fraîches du marché. Réservation.">
+
+  <link rel="canonical" href="https://hanoiquan.fr/seine/">
+  <link rel="alternate" hreflang="fr" href="https://hanoiquan.fr/seine/">
+  <link rel="alternate" hreflang="en" href="https://hanoiquan.fr/en/seine/">
+  <link rel="alternate" hreflang="vi" href="https://hanoiquan.fr/vi/seine/">
+  <link rel="alternate" hreflang="x-default" href="https://hanoiquan.fr/seine/">
+
+  <meta property="og:type" content="restaurant.restaurant">
+  <meta property="og:title" content="HanoiQuan Seine — Le pho, douze heures de patience">
+  <meta property="og:description" content="Le pho dans toute son authenticité, au bord de la Seine.">
+  <meta property="og:url" content="https://hanoiquan.fr/seine/">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="vi_VN">
+  <meta property="og:site_name" content="HanoiQuan">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300..900;1,300..900&display=swap">
+
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/seine.css">
+
+  <script>
+    /* Set theme + color-scheme + meta theme-color BEFORE first paint
+       to avoid flash of incorrect theme. */
+    (function () {
+      try {
+        var t = localStorage.getItem('hanoiquan-theme')
+          || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        var root = document.documentElement;
+        root.setAttribute('data-theme', t);
+        root.style.colorScheme = t;
+        if (t === 'light') {
+          var meta = document.querySelector('meta[name="theme-color"]');
+          if (meta) meta.setAttribute('content', '#F7F1E3');
+        }
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "@id": "https://hanoiquan.fr/seine/#restaurant",
+    "name": "HanoiQuan Seine",
+    "url": "https://hanoiquan.fr/seine/",
+    "description": "Restaurant vietnamien spécialisé dans le pho, au bord de la Seine à Paris.",
+    "servesCuisine": ["Vietnamese"],
+    "priceRange": "€€",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "[Numéro + rue]",
+      "postalCode": "75000",
+      "addressLocality": "Paris",
+      "addressCountry": "FR"
+    },
+    "telephone": "+33-1-00-00-00-00",
+    "email": "seine@hanoiquan.fr",
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "12:00", "closes": "14:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "19:00", "closes": "22:00" }
+    ],
+    "acceptsReservations": "https://hanoiquan.fr/reservation/?branch=seine",
+    "potentialAction": {
+      "@type": "ReserveAction",
+      "target": "https://hanoiquan.fr/reservation/?branch=seine"
+    },
+    "hasMenu": {
+      "@type": "Menu",
+      "name": "Carte HanoiQuan Seine",
+      "description": "Cinq variations autour du pho, bouillon mijoté 12 heures.",
+      "hasMenuSection": [
+        {
+          "@type": "MenuSection",
+          "name": "Pho",
+          "hasMenuItem": [
+            { "@type": "MenuItem", "name": "Phở bò tái",       "description": "Bouillon clair, lamelles de bœuf saignantes." },
+            { "@type": "MenuItem", "name": "Phở bò chín, gân", "description": "Bœuf cuit lentement et tendons fondants." },
+            { "@type": "MenuItem", "name": "Phở đặc biệt",     "description": "Toutes les coupes de bœuf en un seul bol." },
+            { "@type": "MenuItem", "name": "Phở gà",           "description": "Bouillon de poulet fermier, plus délicat." },
+            { "@type": "MenuItem", "name": "Phở chay",         "description": "Bouillon de champignons et légumes racine." }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Pour accompagner",
+          "hasMenuItem": [
+            { "@type": "MenuItem", "name": "Nem rán" },
+            { "@type": "MenuItem", "name": "Gỏi cuốn" },
+            { "@type": "MenuItem", "name": "Bánh mì pâté" }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "À boire",
+          "hasMenuItem": [
+            { "@type": "MenuItem", "name": "Trà đá" },
+            { "@type": "MenuItem", "name": "Bia Hanoi" },
+            { "@type": "MenuItem", "name": "Vin nature" }
+          ]
+        }
+      ]
+    },
+    "parentOrganization": { "@id": "https://hanoiquan.fr/#organization" }
+  }
+  </script>
+</head>
+<body data-page="seine">
+  <a class="skip-link" href="#main" data-i18n="common.skipLink">Aller au contenu principal</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="/" class="logo" data-i18n-attr="aria-label:common.logoAria" aria-label="HanoiQuan — accueil">HanoiQuan</a>
+      <button class="nav-toggle" data-i18n-attr="aria-label:common.nav.menuOpen" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-main">☰</button>
+      <nav class="nav-main" id="nav-main" data-i18n-attr="aria-label:common.nav.label" aria-label="Principal">
+        <ul>
+          <li><a href="/14e/" data-i18n="common.nav.branch14e">HanoiQuan 14e</a></li>
+          <li><a href="/seine/" data-i18n="common.nav.branchSeine">HanoiQuan Seine</a></li>
+          <li><a href="/about/" data-i18n="common.nav.about">À propos</a></li>
+          <li><a href="/contact/" data-i18n="common.nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="site-header__actions">
+        <div class="lang-switcher">
+          <button class="lang-switcher__toggle" data-i18n-attr="aria-label:common.lang.switch" aria-label="Changer de langue" aria-haspopup="true" aria-expanded="false">FR</button>
+          <ul class="lang-switcher__menu" role="menu">
+            <li><button data-lang="fr" role="menuitem" data-i18n="common.lang.fr">Français</button></li>
+            <li><button data-lang="en" role="menuitem" data-i18n="common.lang.en">English</button></li>
+            <li><button data-lang="vi" role="menuitem" data-i18n="common.lang.vi">Tiếng Việt</button></li>
+          </ul>
+        </div>
+        <button class="theme-toggle" type="button" aria-label="Activer le thème clair" aria-pressed="false">
+          <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg>
+          <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+        <a href="/reservation/?branch=seine" class="btn btn--primary" data-i18n="common.nav.reserve">Réserver</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- 1 · Hero -->
+    <section class="seine-hero" data-reveal aria-labelledby="seine-hero-title">
+      <div class="seine-hero__steam" aria-hidden="true">
+        <span class="seine-hero__steam-col"></span>
+        <span class="seine-hero__steam-col"></span>
+        <span class="seine-hero__steam-col"></span>
+      </div>
+      <div class="container">
+        <p class="eyebrow" data-i18n="pages.seine.hero.eyebrow">Maison II · Bord de Seine</p>
+        <h1 id="seine-hero-title" data-i18n-html="pages.seine.hero.h1Html">Le pho,<br>douze heures<br>de patience.</h1>
+        <p class="lead seine-hero__sub" data-i18n="pages.seine.hero.sub">Une seule promesse, déclinée en cinq.</p>
+        <a href="/reservation/?branch=seine" class="btn btn--primary" data-i18n="pages.seine.hero.cta">Réserver une table à Seine</a>
+        <p class="seine-hero__meta">[Adresse] · 12h–14h / 19h–22h · [Jours]</p>
+      </div>
+    </section>
+
+    <!-- 2 · Pho philosophy (I) -->
+    <section data-reveal aria-labelledby="seine-philo-title">
+      <div class="container seine-section">
+        <p class="seine-section__num" data-i18n="pages.seine.philosophy.num">I — Notre philosophie</p>
+        <h2 id="seine-philo-title" data-i18n="pages.seine.philosophy.h2">Un bouillon clair, une mémoire dense.</h2>
+        <p data-i18n="pages.seine.philosophy.body1">Le pho n'est pas une soupe. C'est une mémoire. À Hanoi, on le boit le matin, debout sur un tabouret en plastique, dans la vapeur de la rue. Chez HanoiQuan Seine, nous avons choisi la manière du Nord&nbsp;: un bouillon clair, presque transparent, où chaque ingrédient se distingue.</p>
+        <blockquote class="seine-section__quote" data-i18n="pages.seine.philosophy.quote">« Bouillon clair, mémoire dense. »</blockquote>
+        <p data-i18n="pages.seine.philosophy.body2">Os de bœuf, gingembre torréfié, anis étoilé, cannelle, cardamome noire. Douze heures à frémir, jamais à bouillir.</p>
+      </div>
+    </section>
+
+    <!-- 3 · Pho menu (II) — five variations -->
+    <section data-reveal aria-labelledby="seine-menu-title">
+      <div class="container seine-section">
+        <p class="seine-section__num" data-i18n="pages.seine.menu.num">II — Cinq variations</p>
+        <h2 id="seine-menu-title" data-i18n="pages.seine.menu.h2">Cinq pho. Une seule patience.</h2>
+        <div class="seine-menu__grid">
+          <article class="seine-menu__item">
+            <span class="seine-menu__item__num">01</span>
+            <div>
+              <h3 data-i18n="pages.seine.menu.boTaiName">Pho bœuf saignant</h3>
+              <span class="seine-menu__item__vi" lang="vi">Phở bò tái</span>
+              <p data-i18n="pages.seine.menu.boTaiDesc">Lamelles fines, juste saisies dans le bouillon brûlant.</p>
+            </div>
+            <span class="seine-menu__item__price">€16</span>
+          </article>
+
+          <article class="seine-menu__item">
+            <span class="seine-menu__item__num">02</span>
+            <div>
+              <h3 data-i18n="pages.seine.menu.boChinName">Pho bœuf cuit &amp; tendons</h3>
+              <span class="seine-menu__item__vi" lang="vi">Phở bò chín, gân</span>
+              <p data-i18n="pages.seine.menu.boChinDesc">Pour les puristes. Cuisson lente, viande fondante.</p>
+            </div>
+            <span class="seine-menu__item__price">€16</span>
+          </article>
+
+          <article class="seine-menu__item">
+            <span class="seine-menu__item__num">03</span>
+            <div>
+              <h3 data-i18n="pages.seine.menu.dacBietName">Pho spécial maison</h3>
+              <span class="seine-menu__item__vi" lang="vi">Phở đặc biệt</span>
+              <p data-i18n="pages.seine.menu.dacBietDesc">Toutes les coupes de bœuf en un seul bol — saignant, cuit, gras, tendons.</p>
+            </div>
+            <span class="seine-menu__item__price">€19</span>
+          </article>
+
+          <article class="seine-menu__item">
+            <span class="seine-menu__item__num">04</span>
+            <div>
+              <h3 data-i18n="pages.seine.menu.gaName">Pho au poulet</h3>
+              <span class="seine-menu__item__vi" lang="vi">Phở gà</span>
+              <p data-i18n="pages.seine.menu.gaDesc">Bouillon de volaille fermière, plus léger, plus délicat.</p>
+            </div>
+            <span class="seine-menu__item__price">€15</span>
+          </article>
+
+          <article class="seine-menu__item">
+            <span class="seine-menu__item__num">05</span>
+            <div>
+              <h3 data-i18n="pages.seine.menu.chayName">Pho végétarien</h3>
+              <span class="seine-menu__item__vi" lang="vi">Phở chay</span>
+              <p data-i18n="pages.seine.menu.chayDesc">Bouillon de champignons et légumes racine. Pas une concession, une recette.</p>
+            </div>
+            <span class="seine-menu__item__price">€14</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · Broth timeline (III) — interactive -->
+    <section data-reveal aria-labelledby="seine-time-title">
+      <div class="container seine-section">
+        <p class="seine-section__num" data-i18n="pages.seine.timeline.num">III — Le bouillon, heure par heure</p>
+        <h2 id="seine-time-title" data-i18n="pages.seine.timeline.h2">Douze heures. Voici comment.</h2>
+        <ol class="seine-timeline" aria-label="Étapes du bouillon">
+          <li class="seine-timeline__step">
+            <span class="seine-timeline__hour">00h</span>
+            <p data-i18n="pages.seine.timeline.step00">Os de bœuf rincés à l'eau chaude. Premier feu.</p>
+          </li>
+          <li class="seine-timeline__step">
+            <span class="seine-timeline__hour">02h</span>
+            <p data-i18n="pages.seine.timeline.step02">Gingembre et oignons brûlés au feu vif. Ajoutés entiers.</p>
+          </li>
+          <li class="seine-timeline__step">
+            <span class="seine-timeline__hour">04h</span>
+            <p data-i18n="pages.seine.timeline.step04">Anis étoilé, cannelle, cardamome noire, clou de girofle. Torréfiés à sec, noués dans une mousseline.</p>
+          </li>
+          <li class="seine-timeline__step">
+            <span class="seine-timeline__hour">06h</span>
+            <p data-i18n="pages.seine.timeline.step06">Le bouillon prend sa couleur. Ambre clair.</p>
+          </li>
+          <li class="seine-timeline__step">
+            <span class="seine-timeline__hour">09h</span>
+            <p data-i18n="pages.seine.timeline.step09">Sel, sucre de canne, nuoc-mam. Goûter, ajuster.</p>
+          </li>
+          <li class="seine-timeline__step">
+            <span class="seine-timeline__hour">12h</span>
+            <p data-i18n="pages.seine.timeline.step12">Filtré, prêt à servir. Pas avant.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 5 · Pairings (IV) -->
+    <section data-reveal aria-labelledby="seine-pair-title">
+      <div class="container seine-section">
+        <p class="seine-section__num" data-i18n="pages.seine.pairings.num">IV — Pour accompagner</p>
+        <h2 id="seine-pair-title" data-i18n="pages.seine.pairings.h2">Avec votre pho.</h2>
+        <div class="seine-pairings__cols">
+          <div class="seine-pairings__col">
+            <h3 data-i18n="pages.seine.pairings.starterTitle">Pour commencer</h3>
+            <p data-i18n="pages.seine.pairings.starterBody">Nem rán · Gỏi cuốn · Salade de papaye verte</p>
+          </div>
+          <div class="seine-pairings__col">
+            <h3 data-i18n="pages.seine.pairings.sideTitle">À côté</h3>
+            <p data-i18n="pages.seine.pairings.sideBody">Bánh mì pâté · Riz gluant aux oignons frits</p>
+          </div>
+          <div class="seine-pairings__col">
+            <h3 data-i18n="pages.seine.pairings.drinkTitle">À boire</h3>
+            <p data-i18n="pages.seine.pairings.drinkBody">Trà đá · Bia Hanoi · Vin nature de notre cave</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 · Reservation CTA (V) -->
+    <section class="seine-cta" data-reveal aria-labelledby="seine-cta-title">
+      <div class="container container--narrow">
+        <p class="seine-section__num" data-i18n="pages.seine.cta.num">V — Une table vous attend</p>
+        <h2 id="seine-cta-title" data-i18n="pages.seine.cta.h2">Réservez votre pho.</h2>
+        <p class="lead" data-i18n="pages.seine.cta.sub">Service du midi&nbsp;: 12h–14h. Service du soir&nbsp;: 19h–22h. Vingt-quatre couverts seulement.</p>
+        <p class="seine-cta__info">[Adresse] · 75[XXX] Paris
+Métro [Station]
+[+33 1 00 00 00 00]
+seine@hanoiquan.fr</p>
+        <a href="/reservation/?branch=seine" class="btn btn--primary" data-i18n="pages.seine.cta.button">Réserver à HanoiQuan Seine</a>
+        <p class="seine-cta__crosslink" data-i18n-html="pages.seine.cta.crosslinkHtml">Envie d'une carte plus large&nbsp;? <a href="/14e/">Découvrir HanoiQuan 14e →</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="footer-col">
+        <h3 data-i18n="common.footer.brandTitle">HanoiQuan</h3>
+        <p data-i18n="common.footer.brandTagline">La cuisine vietnamienne à Paris, depuis [ANNÉE].</p>
+      </div>
+      <div class="footer-col">
+        <h3 data-i18n="common.footer.houses">Nos maisons</h3>
+        <ul>
+          <li>HanoiQuan 14e<br>[Adresse 14e]<br>[+33 1 00 00 00 00]</li>
+          <li>HanoiQuan Seine<br>[Adresse Seine]<br>[+33 1 00 00 00 00]</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 data-i18n="common.footer.discover">Découvrir</h3>
+        <ul>
+          <li><a href="/14e/" data-i18n="common.nav.branch14e">HanoiQuan 14e</a></li>
+          <li><a href="/seine/" data-i18n="common.nav.branchSeine">HanoiQuan Seine</a></li>
+          <li><a href="/about/" data-i18n="common.nav.about">À propos</a></li>
+          <li><a href="/contact/" data-i18n="common.nav.contact">Contact</a></li>
+          <li><a href="/reservation/" data-i18n="common.nav.reserve">Réserver</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 data-i18n="common.footer.language">Langue</h3>
+        <ul>
+          <li><a href="/" hreflang="fr" data-i18n="common.lang.fr">Français</a></li>
+          <li><a href="/en/" hreflang="en" data-i18n="common.lang.en">English</a></li>
+          <li><a href="/vi/" hreflang="vi" data-i18n="common.lang.vi">Tiếng Việt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <p data-i18n="common.footer.copyright">© 2026 HanoiQuan</p>
+      <ul>
+        <li><a href="/mentions-legales/" data-i18n="common.footer.legal">Mentions légales</a></li>
+        <li><a href="/politique-confidentialite/" data-i18n="common.footer.privacy">Politique de confidentialité</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script type="module" src="/assets/js/main.js"></script>
+</body>
+</html>

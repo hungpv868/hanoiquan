@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1A1310">
+  <title>À propos · HanoiQuan — L'histoire d'une cuisine entre Hanoi et Paris</title>
+  <meta name="description" data-i18n-attr="content:meta.about.description" content="L'histoire de HanoiQuan : une famille, deux maisons, une cuisine vietnamienne sincère à Paris.">
+
+  <link rel="canonical" href="https://hanoiquan.fr/about/">
+  <link rel="alternate" hreflang="fr" href="https://hanoiquan.fr/about/">
+  <link rel="alternate" hreflang="en" href="https://hanoiquan.fr/en/about/">
+  <link rel="alternate" hreflang="vi" href="https://hanoiquan.fr/vi/about/">
+  <link rel="alternate" hreflang="x-default" href="https://hanoiquan.fr/about/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="À propos — HanoiQuan">
+  <meta property="og:description" content="De Hanoi à Paris, l'histoire d'une famille et de deux maisons.">
+  <meta property="og:url" content="https://hanoiquan.fr/about/">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="vi_VN">
+  <meta property="og:site_name" content="HanoiQuan">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300..900;1,300..900&display=swap">
+
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/pages.css">
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('hanoiquan-theme')
+          || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        var root = document.documentElement;
+        root.setAttribute('data-theme', t);
+        root.style.colorScheme = t;
+        if (t === 'light') {
+          var meta = document.querySelector('meta[name="theme-color"]');
+          if (meta) meta.setAttribute('content', '#F7F1E3');
+        }
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "url": "https://hanoiquan.fr/about/",
+    "name": "À propos — HanoiQuan",
+    "inLanguage": ["fr-FR", "en-US", "vi-VN"],
+    "about": { "@id": "https://hanoiquan.fr/#organization" }
+  }
+  </script>
+</head>
+<body data-page="about">
+  <a class="skip-link" href="#main" data-i18n="common.skipLink">Aller au contenu principal</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="/" class="logo" data-i18n-attr="aria-label:common.logoAria" aria-label="HanoiQuan — accueil">HanoiQuan</a>
+      <button class="nav-toggle" data-i18n-attr="aria-label:common.nav.menuOpen" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-main">☰</button>
+      <nav class="nav-main" id="nav-main" data-i18n-attr="aria-label:common.nav.label" aria-label="Principal">
+        <ul>
+          <li><a href="/14e/" data-i18n="common.nav.branch14e">HanoiQuan 14e</a></li>
+          <li><a href="/seine/" data-i18n="common.nav.branchSeine">HanoiQuan Seine</a></li>
+          <li><a href="/about/" data-i18n="common.nav.about">À propos</a></li>
+          <li><a href="/contact/" data-i18n="common.nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="site-header__actions">
+        <div class="lang-switcher">
+          <button class="lang-switcher__toggle" data-i18n-attr="aria-label:common.lang.switch" aria-label="Changer de langue" aria-haspopup="true" aria-expanded="false">FR</button>
+          <ul class="lang-switcher__menu" role="menu">
+            <li><button data-lang="fr" role="menuitem" data-i18n="common.lang.fr">Français</button></li>
+            <li><button data-lang="en" role="menuitem" data-i18n="common.lang.en">English</button></li>
+            <li><button data-lang="vi" role="menuitem" data-i18n="common.lang.vi">Tiếng Việt</button></li>
+          </ul>
+        </div>
+        <button class="theme-toggle" type="button" aria-label="Activer le thème clair" aria-pressed="false">
+          <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg>
+          <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+        <a href="/reservation/" class="btn btn--primary" data-i18n="common.nav.reserve">Réserver</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- 1 · Hero -->
+    <section class="page-hero" data-reveal aria-labelledby="about-hero-title">
+      <div class="container container--narrow">
+        <p class="overline" data-i18n="pages.about.hero.overline">À propos</p>
+        <h1 id="about-hero-title" data-i18n="pages.about.hero.h1">De Hanoi à Paris, en passant par la cuisine.</h1>
+        <p class="lead" data-i18n="pages.about.hero.sub">Une famille, deux maisons, une seule manière de faire.</p>
+      </div>
+    </section>
+
+    <!-- 2 · Our story -->
+    <section class="about-story" data-reveal aria-labelledby="about-story-title">
+      <div class="container">
+        <div class="about-story__inner">
+          <div class="about-story__text">
+            <p class="overline" data-i18n="pages.about.story.overline">Notre histoire</p>
+            <h2 id="about-story-title" data-i18n="pages.about.story.h2">Tout commence à Hanoi.</h2>
+            <p data-i18n="pages.about.story.body1">Tout commence dans le quartier de [quartier Hanoi], entre la cuisine de [grand-mère / mère] et le marché. Une recette de bouillon de pho, transmise de génération en génération.</p>
+            <p data-i18n="pages.about.story.body2">Arrivée à Paris en [année], la famille apporte avec elle non pas une carte, mais une mémoire. Vingt ans plus tard, deux maisons en perpétuent le geste.</p>
+            <blockquote class="about-section__quote" data-i18n="pages.about.story.quote">« On ne sert pas un pays, on sert une mémoire. »</blockquote>
+          </div>
+          <div class="about-story__media"
+               role="img"
+               aria-label="Archive familiale, Hanoi années 1980, ton sépia."></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 · Vietnamese cooking in France -->
+    <section class="about-cooking" data-reveal aria-labelledby="about-cooking-title">
+      <div class="container about-section">
+        <p class="overline" data-i18n="pages.about.cooking.overline">Cuisine vietnamienne en France</p>
+        <h2 id="about-cooking-title" data-i18n="pages.about.cooking.h2">Traduire sans trahir.</h2>
+        <div class="about-cooking__cols">
+          <p data-i18n="pages.about.cooking.body1">Cuisiner vietnamien à Paris, c'est trouver les bonnes herbes au marché, retrouver le geste juste pour rouler un nem, refuser les raccourcis qu'on accepte trop souvent ailleurs.</p>
+          <p data-i18n="pages.about.cooking.body2">Nous travaillons avec des producteurs locaux quand c'est possible — herbes maraîchères d'Île-de-France, viandes françaises — et faisons venir d'Asie ce qui n'a pas d'équivalent ici&nbsp;: nuoc-mam de [provenance], thé du Nord, certains légumes.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · Ingredients & craft -->
+    <section class="about-ingredients" data-reveal aria-labelledby="about-ing-title">
+      <div class="container">
+        <p class="overline" data-i18n="pages.about.ingredients.overline">Ingrédients &amp; savoir-faire</p>
+        <h2 id="about-ing-title" data-i18n="pages.about.ingredients.h2">Ce qui ne se précipite pas.</h2>
+        <div class="about-ingredients__cards">
+          <article class="about-ingredient-card">
+            <span class="about-ingredient-card__num" aria-hidden="true"></span>
+            <h3 data-i18n="pages.about.ingredients.marketTitle">Du marché à l'assiette</h3>
+            <p data-i18n="pages.about.ingredients.marketBody">Herbes fraîches du jour, légumes locaux quand la saison le permet. Sauce poisson sélectionnée à la main.</p>
+          </article>
+          <article class="about-ingredient-card">
+            <span class="about-ingredient-card__num" aria-hidden="true"></span>
+            <h3 data-i18n="pages.about.ingredients.handTitle">Tout fait sur place</h3>
+            <p data-i18n="pages.about.ingredients.handBody">Bouillon, pâté, pickles, raviolis, sauces. Pas de bases industrielles, pas de glutamate.</p>
+          </article>
+          <article class="about-ingredient-card">
+            <span class="about-ingredient-card__num" aria-hidden="true"></span>
+            <h3 data-i18n="pages.about.ingredients.timeTitle">Le temps comme ingrédient</h3>
+            <p data-i18n="pages.about.ingredients.timeBody">Douze heures pour le bouillon. Vingt-quatre heures pour les pickles. Le goût ne se commande pas, il s'attend.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 · Our two addresses -->
+    <section class="about-addresses" data-reveal aria-labelledby="about-addr-title">
+      <div class="container">
+        <p class="overline" data-i18n="pages.about.addresses.overline">Nos deux maisons</p>
+        <h2 id="about-addr-title" data-i18n="pages.about.addresses.h2">Une famille, deux adresses.</h2>
+        <div class="about-addresses__cards">
+          <a href="/14e/" class="about-address-card">
+            <span class="about-address-card__num" aria-hidden="true">I</span>
+            <h3 data-i18n="pages.about.addresses.card14eTitle">HanoiQuan 14e</h3>
+            <p data-i18n="pages.about.addresses.card14eBody">La cuisine vietnamienne dans toute sa diversité — pho, bun, banh mi.</p>
+            <span class="about-address-card__cta" data-i18n="pages.about.addresses.card14eCta">Découvrir 14e →</span>
+          </a>
+          <a href="/seine/" class="about-address-card">
+            <span class="about-address-card__num" aria-hidden="true">II</span>
+            <h3 data-i18n="pages.about.addresses.cardSeineTitle">HanoiQuan Seine</h3>
+            <p data-i18n="pages.about.addresses.cardSeineBody">Le pho dans toute sa profondeur — cinq variations, douze heures.</p>
+            <span class="about-address-card__cta" data-i18n="pages.about.addresses.cardSeineCta">Découvrir Seine →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 · Reservation CTA -->
+    <section class="about-cta" data-reveal aria-labelledby="about-cta-title">
+      <div class="container container--narrow">
+        <p class="overline" data-i18n="pages.about.cta.overline">Venez goûter</p>
+        <h2 id="about-cta-title" data-i18n="pages.about.cta.h2">Réservez votre table.</h2>
+        <p class="lead" data-i18n="pages.about.cta.body">Choisissez votre maison. Nous confirmons sous deux heures.</p>
+        <div class="about-cta__buttons">
+          <a href="/reservation/?branch=14e" class="btn btn--primary" data-i18n="pages.about.cta.btn14e">Réserver à 14e</a>
+          <a href="/reservation/?branch=seine" class="btn btn--ghost" data-i18n="pages.about.cta.btnSeine">Réserver à Seine</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="footer-col">
+        <h3 data-i18n="common.footer.brandTitle">HanoiQuan</h3>
+        <p data-i18n="common.footer.brandTagline">La cuisine vietnamienne à Paris, depuis [ANNÉE].</p>
+      </div>
+      <div class="footer-col">
+        <h3 data-i18n="common.footer.houses">Nos maisons</h3>
+        <ul>
+          <li>HanoiQuan 14e<br>[Adresse 14e]<br>[+33 1 00 00 00 00]</li>
+          <li>HanoiQuan Seine<br>[Adresse Seine]<br>[+33 1 00 00 00 00]</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 data-i18n="common.footer.discover">Découvrir</h3>
+        <ul>
+          <li><a href="/14e/" data-i18n="common.nav.branch14e">HanoiQuan 14e</a></li>
+          <li><a href="/seine/" data-i18n="common.nav.branchSeine">HanoiQuan Seine</a></li>
+          <li><a href="/about/" data-i18n="common.nav.about">À propos</a></li>
+          <li><a href="/contact/" data-i18n="common.nav.contact">Contact</a></li>
+          <li><a href="/reservation/" data-i18n="common.nav.reserve">Réserver</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 data-i18n="common.footer.language">Langue</h3>
+        <ul>
+          <li><a href="/" hreflang="fr" data-i18n="common.lang.fr">Français</a></li>
+          <li><a href="/en/" hreflang="en" data-i18n="common.lang.en">English</a></li>
+          <li><a href="/vi/" hreflang="vi" data-i18n="common.lang.vi">Tiếng Việt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <p data-i18n="common.footer.copyright">© 2026 HanoiQuan</p>
+      <ul>
+        <li><a href="/mentions-legales/" data-i18n="common.footer.legal">Mentions légales</a></li>
+        <li><a href="/politique-confidentialite/" data-i18n="common.footer.privacy">Politique de confidentialité</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script type="module" src="/assets/js/main.js"></script>
+</body>
+</html>

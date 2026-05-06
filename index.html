@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1A1310">
+  <title>HanoiQuan · Restaurant vietnamien à Paris — 14e & Seine</title>
+  <meta name="description" data-i18n-attr="content:meta.home.description" content="Deux maisons, une même cuisine vietnamienne. HanoiQuan 14e pour la carte complète, HanoiQuan Seine pour le pho. Réservez votre table à Paris.">
+
+  <link rel="canonical" href="https://hanoiquan.fr/">
+  <link rel="alternate" hreflang="fr" href="https://hanoiquan.fr/">
+  <link rel="alternate" hreflang="en" href="https://hanoiquan.fr/en/">
+  <link rel="alternate" hreflang="vi" href="https://hanoiquan.fr/vi/">
+  <link rel="alternate" hreflang="x-default" href="https://hanoiquan.fr/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="HanoiQuan — La cuisine vietnamienne à Paris">
+  <meta property="og:description" content="Deux maisons, une même cuisine vietnamienne. Réservez votre table.">
+  <meta property="og:url" content="https://hanoiquan.fr/">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="vi_VN">
+  <meta property="og:site_name" content="HanoiQuan">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300..900;1,300..900&display=swap">
+
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/home.css">
+
+  <script>
+    /* Set theme + color-scheme + meta theme-color BEFORE first paint
+       to avoid flash of incorrect theme. */
+    (function () {
+      try {
+        var t = localStorage.getItem('hanoiquan-theme')
+          || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        var root = document.documentElement;
+        root.setAttribute('data-theme', t);
+        root.style.colorScheme = t;
+        if (t === 'light') {
+          var meta = document.querySelector('meta[name="theme-color"]');
+          if (meta) meta.setAttribute('content', '#F7F1E3');
+        }
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://hanoiquan.fr/#organization",
+        "name": "HanoiQuan",
+        "url": "https://hanoiquan.fr/",
+        "description": "Cuisine vietnamienne à Paris — deux maisons.",
+        "sameAs": []
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://hanoiquan.fr/#website",
+        "url": "https://hanoiquan.fr/",
+        "name": "HanoiQuan",
+        "inLanguage": ["fr-FR", "en-US", "vi-VN"],
+        "publisher": { "@id": "https://hanoiquan.fr/#organization" }
+      },
+      {
+        "@type": "Restaurant",
+        "@id": "https://hanoiquan.fr/14e/#restaurant",
+        "name": "HanoiQuan 14e",
+        "url": "https://hanoiquan.fr/14e/",
+        "servesCuisine": "Vietnamese",
+        "priceRange": "€€",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "[Adresse 14e]",
+          "postalCode": "75014",
+          "addressLocality": "Paris",
+          "addressCountry": "FR"
+        },
+        "telephone": "+33-1-00-00-00-00",
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "12:00", "closes": "14:30" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "19:00", "closes": "22:30" }
+        ],
+        "acceptsReservations": true,
+        "parentOrganization": { "@id": "https://hanoiquan.fr/#organization" }
+      },
+      {
+        "@type": "Restaurant",
+        "@id": "https://hanoiquan.fr/seine/#restaurant",
+        "name": "HanoiQuan Seine",
+        "url": "https://hanoiquan.fr/seine/",
+        "servesCuisine": "Vietnamese",
+        "priceRange": "€€",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "[Adresse Seine]",
+          "postalCode": "75000",
+          "addressLocality": "Paris",
+          "addressCountry": "FR"
+        },
+        "telephone": "+33-1-00-00-00-00",
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "12:00", "closes": "14:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "19:00", "closes": "22:00" }
+        ],
+        "acceptsReservations": true,
+        "parentOrganization": { "@id": "https://hanoiquan.fr/#organization" }
+      }
+    ]
+  }
+  </script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main" data-i18n="common.skipLink">Aller au contenu principal</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="/" class="logo" data-i18n-attr="aria-label:common.logoAria" aria-label="HanoiQuan — accueil">HanoiQuan</a>
+
+      <button class="nav-toggle" data-i18n-attr="aria-label:common.nav.menuOpen" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-main">☰</button>
+
+      <nav class="nav-main" id="nav-main" data-i18n-attr="aria-label:common.nav.label" aria-label="Principal">
+        <ul>
+          <li><a href="/14e/" data-i18n="common.nav.branch14e">HanoiQuan 14e</a></li>
+          <li><a href="/seine/" data-i18n="common.nav.branchSeine">HanoiQuan Seine</a></li>
+          <li><a href="/about/" data-i18n="common.nav.about">À propos</a></li>
+          <li><a href="/contact/" data-i18n="common.nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-header__actions">
+        <div class="lang-switcher">
+          <button class="lang-switcher__toggle" data-i18n-attr="aria-label:common.lang.switch" aria-label="Changer de langue" aria-haspopup="true" aria-expanded="false">FR</button>
+          <ul class="lang-switcher__menu" role="menu">
+            <li><button data-lang="fr" role="menuitem" data-i18n="common.lang.fr">Français</button></li>
+            <li><button data-lang="en" role="menuitem" data-i18n="common.lang.en">English</button></li>
+            <li><button data-lang="vi" role="menuitem" data-i18n="common.lang.vi">Tiếng Việt</button></li>
+          </ul>
+        </div>
+        <button class="theme-toggle" type="button" aria-label="Activer le thème clair" aria-pressed="false">
+          <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg>
+          <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+        <a href="/reservation/" class="btn btn--primary" data-i18n="common.nav.reserve">Réserver</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- 1 · Hero -->
+    <section class="home-hero" data-reveal aria-labelledby="hero-title">
+      <div class="home-hero__media">
+        <img
+          src="https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?auto=format&fit=crop&w=2400&q=85"
+          onerror="this.onerror=null;this.src='https://picsum.photos/seed/hanoiquan-hero/2400/1400'"
+          alt="Bol de pho fumant sur table en bois sombre, ambiance d'un restaurant vietnamien parisien."
+          data-i18n-attr="alt:pages.home.hero.imageAlt"
+          loading="eager"
+          decoding="async"
+          fetchpriority="high">
+      </div>
+      <div class="container home-hero__content">
+        <p class="overline" data-i18n="pages.home.hero.eyebrow">Paris · depuis [ANNÉE]</p>
+        <h1 id="hero-title" data-i18n="pages.home.hero.h1">La cuisine vietnamienne, deux maisons à Paris.</h1>
+        <p class="lead home-hero__sub" data-i18n-html="pages.home.hero.subHtml">Une carte complète dans le 14<sup>e</sup>. Le pho au bord de la Seine. Choisissez votre maison.</p>
+        <div class="home-hero__cta">
+          <a href="#branches" class="btn btn--primary" data-i18n="pages.home.hero.ctaPrimary">Découvrir nos maisons</a>
+          <a href="/reservation/" class="btn btn--ghost" data-i18n="pages.home.hero.ctaSecondary">Réserver une table</a>
+        </div>
+      </div>
+      <a href="#story" class="home-hero__scroll" data-i18n-attr="aria-label:pages.home.hero.scrollHint" aria-label="Faites défiler">
+        <span data-i18n="pages.home.hero.scrollHint">Faites défiler</span>
+        <span class="home-hero__scroll-line" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <!-- 2 · Brand story -->
+    <section id="story" class="home-story" data-reveal aria-labelledby="story-title">
+      <div class="container home-story__inner">
+        <div class="home-story__text">
+          <p class="overline" data-i18n="pages.home.story.overline">Notre histoire</p>
+          <h2 id="story-title" data-i18n="pages.home.story.h2">D'une rue de Hanoi à un quartier de Paris.</h2>
+          <p data-i18n="pages.home.story.body">Tout commence dans une cuisine de Hanoi, où une recette de bouillon de pho passe de mère en fille. Des années plus tard, à Paris, deux maisons en perpétuent la mémoire.</p>
+          <a href="/about/" class="btn btn--text" data-i18n="pages.home.story.cta">Lire notre histoire</a>
+        </div>
+        <figure class="home-story__media">
+          <img
+            src="https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=1400&q=85"
+            onerror="this.onerror=null;this.src='https://picsum.photos/seed/hanoiquan-story/1400/1750'"
+            alt="Mains du chef versant le bouillon de pho dans une marmite, contre-jour chaud."
+            data-i18n-attr="alt:pages.home.story.imageAlt"
+            loading="lazy"
+            decoding="async">
+          <figcaption data-i18n="pages.home.story.figcaption">Cuisine ouverte · service du soir</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 3 · Houses — branches + maps + addresses combined -->
+    <section id="branches" class="home-houses" data-reveal aria-labelledby="houses-title">
+      <div class="home-houses__head">
+        <p class="overline" data-i18n="pages.home.branches.overline">Nos deux maisons</p>
+        <h2 id="houses-title" data-i18n="pages.home.branches.h2">Deux adresses, deux atmosphères.</h2>
+      </div>
+
+      <div class="home-houses__grid">
+
+        <article class="house-card" aria-labelledby="hc-14e-title">
+          <div class="house-card__hero">
+            <img
+              src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1600&q=85"
+              onerror="this.onerror=null;this.src='https://picsum.photos/seed/hanoiquan-14e/1600/1000'"
+              alt="Devanture de HanoiQuan 14e éclairée le soir, vue depuis la rue."
+              data-i18n-attr="alt:pages.home.branches.imageAlt14e"
+              loading="lazy" decoding="async">
+            <div class="house-card__hero-body">
+              <div>
+                <h3 id="hc-14e-title" class="house-card__title" data-i18n="pages.home.branches.card14eTitle">HanoiQuan 14e</h3>
+                <p class="house-card__tagline" data-i18n="pages.home.locations.tagline14e">Carte vietnamienne complète</p>
+              </div>
+              <span class="house-card__num" aria-hidden="true">I</span>
+            </div>
+          </div>
+
+          <div class="house-card__body">
+            <p class="house-card__description" data-i18n="pages.home.branches.card14eTagline">La cuisine vietnamienne, dans toute sa diversité.</p>
+
+            <div class="house-card__info">
+              <div>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>[Adresse 14e] · 75014 Paris</span>
+              </div>
+              <div>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92z"/></svg>
+                <span>+33 1 00 00 00 00</span>
+              </div>
+              <div>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                <span data-i18n="pages.home.locations.hours">Mar–Dim · 12h–14h30 · 19h–22h30</span>
+              </div>
+            </div>
+
+            <div class="house-card__map">
+              <iframe
+                src="https://www.google.com/maps?q=Restaurant+vietnamien+Paris+14&output=embed"
+                title="Carte HanoiQuan 14e"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen></iframe>
+            </div>
+
+            <div class="house-card__ctas">
+              <a href="/14e/" class="btn btn--primary" data-i18n="pages.home.branches.discover">Découvrir →</a>
+              <a href="https://www.google.com/maps/search/?api=1&query=Restaurant+vietnamien+Paris+14" target="_blank" rel="noopener" class="btn btn--ghost" data-i18n="pages.home.locations.directions">Itinéraire →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="house-card" aria-labelledby="hc-seine-title">
+          <div class="house-card__hero">
+            <img
+              src="https://images.unsplash.com/photo-1576577445504-6af96477db52?auto=format&fit=crop&w=1600&q=85"
+              onerror="this.onerror=null;this.src='https://picsum.photos/seed/hanoiquan-seine/1600/1000'"
+              alt="Salle intimiste de HanoiQuan Seine, table près de la fenêtre au crépuscule."
+              data-i18n-attr="alt:pages.home.branches.imageAltSeine"
+              loading="lazy" decoding="async">
+            <div class="house-card__hero-body">
+              <div>
+                <h3 id="hc-seine-title" class="house-card__title" data-i18n="pages.home.branches.cardSeineTitle">HanoiQuan Seine</h3>
+                <p class="house-card__tagline" data-i18n="pages.home.locations.taglineSeine">Spécialiste du pho</p>
+              </div>
+              <span class="house-card__num" aria-hidden="true">II</span>
+            </div>
+          </div>
+
+          <div class="house-card__body">
+            <p class="house-card__description" data-i18n="pages.home.branches.cardSeineTagline">Le pho, et rien d'autre. Ou presque.</p>
+
+            <div class="house-card__info">
+              <div>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>[Adresse Seine] · 75000 Paris</span>
+              </div>
+              <div>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92z"/></svg>
+                <span>+33 1 00 00 00 00</span>
+              </div>
+              <div>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                <span data-i18n="pages.home.locations.hoursSeine">Mar–Dim · 12h–14h · 19h–22h</span>
+              </div>
+            </div>
+
+            <div class="house-card__map">
+              <iframe
+                src="https://www.google.com/maps?q=Restaurant+pho+Paris+Seine&output=embed"
+                title="Carte HanoiQuan Seine"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen></iframe>
+            </div>
+
+            <div class="house-card__ctas">
+              <a href="/seine/" class="btn btn--primary" data-i18n="pages.home.branches.discover">Découvrir →</a>
+              <a href="https://www.google.com/maps/search/?api=1&query=Restaurant+pho+Paris+Seine" target="_blank" rel="noopener" class="btn btn--ghost" data-i18n="pages.home.locations.directions">Itinéraire →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="home-houses__help" data-i18n="pages.home.branches.helpLine">Hésitez ? Pho → Seine. Tout le reste → 14e.</p>
+    </section>
+
+    <!-- 4 · Signature experience -->
+    <section class="home-signature" data-reveal aria-labelledby="sig-title">
+      <div class="container">
+        <p class="overline" data-i18n="pages.home.signature.overline">Ce qui nous distingue</p>
+        <h2 id="sig-title" data-i18n="pages.home.signature.h2">Pas de raccourcis. Pas de compromis.</h2>
+        <div class="home-signature__cols">
+          <article class="signature-col">
+            <span class="signature-col__num" aria-hidden="true"></span>
+            <h3 data-i18n="pages.home.signature.brothTitle">Le bouillon</h3>
+            <p data-i18n="pages.home.signature.brothBody">Douze heures de mijotage, os de bœuf et épices torréfiées. Le secret n'en est pas un&nbsp;: c'est le temps.</p>
+          </article>
+          <article class="signature-col">
+            <span class="signature-col__num" aria-hidden="true"></span>
+            <h3 data-i18n="pages.home.signature.marketTitle">Le marché</h3>
+            <p data-i18n="pages.home.signature.marketBody">Herbes fraîches livrées chaque matin. Coriandre, basilic thaï, perilla — comme à Hanoi.</p>
+          </article>
+          <article class="signature-col">
+            <span class="signature-col__num" aria-hidden="true"></span>
+            <h3 data-i18n="pages.home.signature.handTitle">La main</h3>
+            <p data-i18n="pages.home.signature.handBody">Tout est fait sur place. Banh mi, raviolis, sauces. Rien n'arrive en sachet.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 · Bento gallery -->
+    <section class="home-gallery" data-reveal aria-labelledby="gal-title">
+      <div class="container home-gallery__head">
+        <p class="overline" data-i18n="pages.home.gallery.overline">En images</p>
+        <h2 id="gal-title" data-i18n="pages.home.gallery.h2">Quelques instants chez nous.</h2>
+      </div>
+      <div class="home-bento" role="list">
+        <figure class="bento-item" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1583224964978-2c2bb83f1ec3?auto=format&fit=crop&w=1600&q=85"
+            onerror="this.onerror=null;this.src='https://picsum.photos/seed/hanoi-pho-tai/1600/1600'"
+            alt="Bol de phở bò tái fumant, herbes fraîches et citron vert."
+            loading="lazy" decoding="async">
+          <figcaption data-i18n="pages.home.gallery.cap1">Phở bò tái · Maison Seine</figcaption>
+        </figure>
+        <figure class="bento-item" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=1400&q=85"
+            onerror="this.onerror=null;this.src='https://picsum.photos/seed/hanoi-banh-mi/1400/1000'"
+            alt="Banh mi croustillant garni de viande et coriandre."
+            loading="lazy" decoding="async">
+          <figcaption data-i18n="pages.home.gallery.cap2">Banh mi du midi · Maison 14e</figcaption>
+        </figure>
+        <figure class="bento-item" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1515872474884-c6dca87a4b4d?auto=format&fit=crop&w=1200&q=85"
+            onerror="this.onerror=null;this.src='https://picsum.photos/seed/hanoi-herbs/1000/1400'"
+            alt="Bouquet d'herbes fraîches — coriandre, basilic thaï, perilla."
+            loading="lazy" decoding="async">
+          <figcaption data-i18n="pages.home.gallery.cap3">Bouquet d'herbes · marché du matin</figcaption>
+        </figure>
+        <figure class="bento-item" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=85"
+            onerror="this.onerror=null;this.src='https://picsum.photos/seed/hanoi-service/600/1200'"
+            alt="Service du soir, lumière chaude sur les tables."
+            loading="lazy" decoding="async">
+          <figcaption data-i18n="pages.home.gallery.cap4">Service du soir · 14e</figcaption>
+        </figure>
+        <figure class="bento-item" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=1400&q=85"
+            onerror="this.onerror=null;this.src='https://picsum.photos/seed/hanoi-broth/1400/1000'"
+            alt="Vapeur de bouillon de pho qui s'élève d'une marmite."
+            loading="lazy" decoding="async">
+          <figcaption data-i18n="pages.home.gallery.cap5">Vapeur de bouillon · Seine</figcaption>
+        </figure>
+        <figure class="bento-item" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1497636577773-f1231844b336?auto=format&fit=crop&w=1600&q=85"
+            onerror="this.onerror=null;this.src='https://picsum.photos/seed/hanoi-coffee/1600/600'"
+            alt="Verre de cà phê sữa đá glacé sur une table en bois."
+            loading="lazy" decoding="async">
+          <figcaption data-i18n="pages.home.gallery.cap6">Cà phê sữa đá</figcaption>
+        </figure>
+      </div>
+    </section>
+
+
+    <!-- 6 · Reservation CTA -->
+    <section class="home-cta" data-reveal aria-labelledby="cta-title">
+      <div class="container container--narrow">
+        <p class="overline" data-i18n="pages.home.cta.overline">Une table vous attend</p>
+        <h2 id="cta-title" data-i18n="pages.home.cta.h2">Réservez en deux minutes.</h2>
+        <p class="lead" data-i18n="pages.home.cta.sub">Choisissez votre maison, votre date, votre heure. Nous confirmons sous deux heures.</p>
+        <a href="/reservation/" class="btn btn--primary" data-i18n="pages.home.cta.button">Réserver une table</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="footer-col">
+        <h3 data-i18n="common.footer.brandTitle">HanoiQuan</h3>
+        <p data-i18n="common.footer.brandTagline">La cuisine vietnamienne à Paris, depuis [ANNÉE].</p>
+      </div>
+      <div class="footer-col">
+        <h3 data-i18n="common.footer.houses">Nos maisons</h3>
+        <ul>
+          <li>HanoiQuan 14e<br>[Adresse 14e]<br>[+33 1 00 00 00 00]</li>
+          <li>HanoiQuan Seine<br>[Adresse Seine]<br>[+33 1 00 00 00 00]</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 data-i18n="common.footer.discover">Découvrir</h3>
+        <ul>
+          <li><a href="/14e/" data-i18n="common.nav.branch14e">HanoiQuan 14e</a></li>
+          <li><a href="/seine/" data-i18n="common.nav.branchSeine">HanoiQuan Seine</a></li>
+          <li><a href="/about/" data-i18n="common.nav.about">À propos</a></li>
+          <li><a href="/contact/" data-i18n="common.nav.contact">Contact</a></li>
+          <li><a href="/reservation/" data-i18n="common.nav.reserve">Réserver</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 data-i18n="common.footer.language">Langue</h3>
+        <ul>
+          <li><a href="/" hreflang="fr" data-i18n="common.lang.fr">Français</a></li>
+          <li><a href="/en/" hreflang="en" data-i18n="common.lang.en">English</a></li>
+          <li><a href="/vi/" hreflang="vi" data-i18n="common.lang.vi">Tiếng Việt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <p data-i18n="common.footer.copyright">© 2026 HanoiQuan</p>
+      <ul>
+        <li><a href="/mentions-legales/" data-i18n="common.footer.legal">Mentions légales</a></li>
+        <li><a href="/politique-confidentialite/" data-i18n="common.footer.privacy">Politique de confidentialité</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script type="module" src="/assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /assets/i18n/
+Disallow: /assets/data/
+
+Sitemap: https://hanoiquan.fr/sitemap.xml

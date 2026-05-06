@@ -1,0 +1,439 @@
+{
+  "meta": {
+    "home": {
+      "title": "HanoiQuan · Vietnamese Restaurant in Paris — 14e & Seine",
+      "description": "Two houses, one Vietnamese kitchen. HanoiQuan 14e for the full menu, HanoiQuan Seine for pho. Book your table in Paris."
+    },
+    "p14e": {
+      "title": "HanoiQuan 14e · Vietnamese Restaurant Paris 14 — Pho, Bun, Banh Mi",
+      "description": "Vietnamese restaurant in Paris 14th arrondissement. Full menu: pho, bun, banh mi, vegetarian dishes. Open lunch and dinner. Online booking."
+    },
+    "seine": {
+      "title": "HanoiQuan Seine · Pho Specialist in Paris — Riverside",
+      "description": "Authentic pho by the Seine. Broth simmered 12 hours, four variations, fresh herbs from the morning market. Book a table."
+    },
+    "about": {
+      "title": "About · HanoiQuan — A kitchen between Hanoi and Paris",
+      "description": "The story of HanoiQuan: one family, two houses, sincere Vietnamese cooking in Paris."
+    },
+    "contact": {
+      "title": "Contact · HanoiQuan — Addresses, hours, phone Paris 14 & Seine",
+      "description": "Addresses, hours and phone numbers for both our Vietnamese restaurants in Paris."
+    },
+    "reservation": {
+      "title": "Booking · HanoiQuan — Book online in 2 minutes",
+      "description": "Book your table at HanoiQuan 14e or HanoiQuan Seine online. Confirmation within 2 hours."
+    }
+  },
+  "common": {
+    "skipLink": "Skip to main content",
+    "logoAria": "HanoiQuan — home",
+    "nav": {
+      "label": "Main",
+      "menuOpen": "Open menu",
+      "branch14e": "HanoiQuan 14e",
+      "branchSeine": "HanoiQuan Seine",
+      "about": "About",
+      "contact": "Contact",
+      "reserve": "Book"
+    },
+    "lang": {
+      "switch": "Change language",
+      "fr": "Français",
+      "en": "English",
+      "vi": "Tiếng Việt"
+    },
+    "theme": {
+      "toLight": "Switch to light theme",
+      "toDark": "Switch to dark theme"
+    },
+    "footer": {
+      "brandTitle": "HanoiQuan",
+      "brandTagline": "Vietnamese cooking in Paris, since [YEAR].",
+      "houses": "Our houses",
+      "discover": "Discover",
+      "language": "Language",
+      "copyright": "© 2026 HanoiQuan",
+      "legal": "Legal notice",
+      "privacy": "Privacy policy"
+    }
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "eyebrow": "Paris · since [YEAR]",
+        "h1": "Vietnamese cuisine, two houses in Paris.",
+        "subHtml": "A full menu in the 14<sup>th</sup>. Pho by the Seine. Choose your house.",
+        "ctaPrimary": "Discover our houses",
+        "ctaSecondary": "Book a table",
+        "scrollHint": "Scroll down",
+        "imageAlt": "Steaming bowl of pho on a dark wooden table, the mood of a Parisian Vietnamese restaurant."
+      },
+      "story": {
+        "overline": "Our story",
+        "h2": "From a Hanoi street to a Paris neighbourhood.",
+        "body": "It begins in a Hanoi kitchen, where a pho broth recipe is passed down from mother to daughter. Years later, in Paris, two houses keep that memory alive.",
+        "cta": "Read our story",
+        "imageAlt": "Chef's hands pouring pho broth into a large pot, warm backlight.",
+        "figcaption": "Open kitchen · evening service"
+      },
+      "branches": {
+        "overline": "Our two houses",
+        "h2": "Two addresses, two atmospheres.",
+        "card14eTitle": "HanoiQuan 14e",
+        "card14eTagline": "Vietnamese cooking, in all its diversity.",
+        "cardSeineTitle": "HanoiQuan Seine",
+        "cardSeineTagline": "Pho, and almost nothing else.",
+        "discover": "Discover →",
+        "helpLine": "Not sure? Pho → Seine. Everything else → 14e.",
+        "imageAlt14e": "HanoiQuan 14e storefront lit at night, viewed from the street.",
+        "imageAltSeine": "Intimate dining room at HanoiQuan Seine, window-side table at dusk."
+      },
+      "signature": {
+        "overline": "What sets us apart",
+        "h2": "No shortcuts. No compromise.",
+        "brothTitle": "The broth",
+        "brothBody": "Twelve hours of simmering, beef bones and roasted spices. The secret is no secret: it is time.",
+        "marketTitle": "The market",
+        "marketBody": "Fresh herbs delivered every morning. Coriander, Thai basil, perilla — just like in Hanoi.",
+        "handTitle": "The hand",
+        "handBody": "Everything is made on site. Banh mi, dumplings, sauces. Nothing comes from a packet."
+      },
+      "gallery": {
+        "overline": "In pictures",
+        "h2": "A few moments in our houses.",
+        "cap1": "Phở bò tái · Maison Seine",
+        "cap2": "Lunchtime banh mi · Maison 14e",
+        "cap3": "Herbs · morning market",
+        "cap4": "Evening service · 14e",
+        "cap5": "Broth steam · Seine",
+        "cap6": "Cà phê sữa đá"
+      },
+      "cta": {
+        "overline": "A table is waiting",
+        "h2": "Book in two minutes.",
+        "sub": "Pick your house, your date, your time. We confirm within two hours.",
+        "button": "Book a table"
+      },
+      "locations": {
+        "overline": "Find us",
+        "h2": "Two addresses, two neighbourhoods.",
+        "tagline14e": "Full Vietnamese menu",
+        "taglineSeine": "Pho specialist",
+        "hours": "Tue–Sun · 12:00–14:30 · 19:00–22:30",
+        "hoursSeine": "Tue–Sun · 12:00–14:00 · 19:00–22:00",
+        "directions": "Get directions →"
+      }
+    },
+    "p14e": {
+      "hero": {
+        "eyebrowHtml": "House I · Paris 14<sup>th</sup>",
+        "h1": "Vietnamese cooking, at home.",
+        "sub": "From the street to the plate: pho, bun, banh mi, and everything in between.",
+        "ctaPrimary": "Book at HanoiQuan 14e",
+        "ctaSecondary": "See the menu ↓"
+      },
+      "featured": {
+        "overline": "Our signatures",
+        "h2": "Six dishes that define the house."
+      },
+      "menu": {
+        "overline": "The menu",
+        "h2": "Everything we eat in Hanoi, and a little more.",
+        "filterLabel": "Dish categories",
+        "filterAll": "All",
+        "filterPho": "Pho",
+        "filterBun": "Bun",
+        "filterBanhMi": "Banh mi",
+        "filterNem": "Nem & Gỏi",
+        "filterRiz": "Rice & wok",
+        "filterVege": "Vegetarian",
+        "filterDrinks": "Drinks",
+        "dishes": "dishes"
+      },
+      "chef": {
+        "overline": "In the kitchen",
+        "h2": "[Chef name], from Hanoi to rue [Placeholder].",
+        "body": "[Name] grew up between his mother's kitchen and the [district] market. He arrived in Paris in [year] and opened HanoiQuan 14e in [year].",
+        "quote": "\"Cooking Vietnamese in Paris is translation without betrayal.\""
+      },
+      "atmosphere": {
+        "overline": "The dining room",
+        "h2": "A neighbourhood house, a table to share.",
+        "body": "Forty seats, two large family tables and a counter facing the kitchen."
+      },
+      "info": {
+        "overline": "Come and see us",
+        "h2": "HanoiQuan 14e is waiting.",
+        "addressTitle": "Address",
+        "hoursTitle": "Hours",
+        "contactTitle": "Contact",
+        "callBtn": "Call",
+        "reserveBtn": "Book",
+        "crosslinkHtml": "Looking for authentic pho? <a href=\"/seine/\">Discover HanoiQuan Seine →</a>"
+      }
+    },
+    "seine": {
+      "hero": {
+        "eyebrow": "House II · Riverside",
+        "h1Html": "Pho,<br>twelve hours<br>of patience.",
+        "sub": "One promise, in four variations.",
+        "cta": "Book a table at Seine"
+      },
+      "philosophy": {
+        "num": "I — Our philosophy",
+        "h2": "A clear broth, a dense memory.",
+        "body1": "Pho is not a soup. It is a memory. In Hanoi you drink it in the morning, standing on a plastic stool, in the steam of the street. At HanoiQuan Seine we chose the Northern way: a clear, almost transparent broth where every ingredient stands out.",
+        "quote": "\"Clear broth, dense memory.\"",
+        "body2": "Beef bones, charred ginger, star anise, cinnamon, black cardamom. Twelve hours simmering, never boiling."
+      },
+      "menu": {
+        "num": "II — Five variations",
+        "h2": "Five pho. One single patience.",
+        "boTaiName": "Rare beef pho",
+        "boTaiDesc": "Thin slices, just seared in the boiling broth.",
+        "boChinName": "Cooked beef & tendons pho",
+        "boChinDesc": "For the purists. Slow-cooked, melt-in-the-mouth.",
+        "dacBietName": "House special pho",
+        "dacBietDesc": "Every cut of beef in one bowl — rare, cooked, fat, tendons.",
+        "gaName": "Chicken pho",
+        "gaDesc": "Free-range chicken broth, lighter, more delicate.",
+        "chayName": "Vegetarian pho",
+        "chayDesc": "Mushroom and root vegetable broth. Not a concession, a recipe."
+      },
+      "timeline": {
+        "num": "III — The broth, hour by hour",
+        "h2": "Twelve hours. Here's how.",
+        "step00": "Beef bones rinsed in hot water. First fire.",
+        "step02": "Ginger and onions charred over high heat. Added whole.",
+        "step04": "Star anise, cinnamon, black cardamom, clove. Dry-roasted, tied in muslin.",
+        "step06": "The broth takes its colour. Light amber.",
+        "step09": "Salt, cane sugar, fish sauce. Taste, adjust.",
+        "step12": "Filtered, ready to serve. Not before."
+      },
+      "pairings": {
+        "num": "IV — To go with",
+        "h2": "With your pho.",
+        "starterTitle": "To start",
+        "starterBody": "Nem rán · Gỏi cuốn · Green papaya salad",
+        "sideTitle": "On the side",
+        "sideBody": "Bánh mì pâté · Sticky rice with fried onions",
+        "drinkTitle": "To drink",
+        "drinkBody": "Trà đá · Bia Hanoi · Natural wine from our cellar"
+      },
+      "cta": {
+        "num": "V — A table is waiting",
+        "h2": "Book your pho.",
+        "sub": "Lunch service: 12pm–2pm. Dinner: 7pm–10pm. Twenty-four seats only.",
+        "button": "Book at HanoiQuan Seine",
+        "crosslinkHtml": "Want a wider menu? <a href=\"/14e/\">Discover HanoiQuan 14e →</a>"
+      }
+    },
+    "about": {
+      "hero": {
+        "overline": "About",
+        "h1": "From Hanoi to Paris, by way of the kitchen.",
+        "sub": "One family, two houses, one way of doing things."
+      },
+      "story": {
+        "overline": "Our story",
+        "h2": "It begins in Hanoi.",
+        "body1": "It all begins in [Hanoi district], between [grandmother's / mother's] kitchen and the market. A pho broth recipe, passed down through generations.",
+        "body2": "Arriving in Paris in [year], the family brought not a menu, but a memory. Twenty years later, two houses keep the gesture alive.",
+        "quote": "\"You don't serve a country, you serve a memory.\""
+      },
+      "cooking": {
+        "overline": "Vietnamese cooking in France",
+        "h2": "Translation without betrayal.",
+        "body1": "Cooking Vietnamese in Paris means finding the right herbs at the market, recovering the right gesture to roll a nem, refusing the shortcuts often accepted elsewhere.",
+        "body2": "We work with local producers when we can — herbs from Île-de-France, French meats — and bring from Asia what has no equivalent here: fish sauce from [origin], Northern tea, certain vegetables."
+      },
+      "ingredients": {
+        "overline": "Ingredients & craft",
+        "h2": "What cannot be rushed.",
+        "marketTitle": "From market to plate",
+        "marketBody": "Fresh herbs daily, local vegetables when the season allows. Hand-picked fish sauce.",
+        "handTitle": "Everything made on site",
+        "handBody": "Broth, pâté, pickles, dumplings, sauces. No industrial bases, no MSG.",
+        "timeTitle": "Time as an ingredient",
+        "timeBody": "Twelve hours for the broth. Twenty-four for the pickles. Flavour cannot be ordered, it must be waited for."
+      },
+      "addresses": {
+        "overline": "Our two houses",
+        "h2": "One family, two addresses.",
+        "card14eTitle": "HanoiQuan 14e",
+        "card14eBody": "Vietnamese cuisine in all its diversity — pho, bun, banh mi.",
+        "card14eCta": "Discover 14e →",
+        "cardSeineTitle": "HanoiQuan Seine",
+        "cardSeineBody": "Pho in all its depth — five variations, twelve hours.",
+        "cardSeineCta": "Discover Seine →"
+      },
+      "cta": {
+        "overline": "Come and taste",
+        "h2": "Book your table.",
+        "body": "Pick your house. We confirm within two hours.",
+        "btn14e": "Book at 14e",
+        "btnSeine": "Book at Seine"
+      }
+    },
+    "contact": {
+      "hero": {
+        "overline": "Contact",
+        "h1": "A question? Two houses to answer it.",
+        "sub": "To book, head this way. For everything else, write to us."
+      },
+      "addrLabel": "Address",
+      "metroLabel": "Metro",
+      "hoursLabel": "Hours",
+      "phoneLabel": "Tel",
+      "emailLabel": "Email",
+      "reserveBtn": "Book",
+      "directionsBtn": "Directions",
+      "faq": {
+        "overline": "FAQ",
+        "h2": "Frequently asked questions.",
+        "q1": "Do you accept groups?",
+        "a1": "Yes, up to 12 people at 14e. For Seine, please contact us (24 seats total).",
+        "q2": "Do you have vegetarian options?",
+        "a2": "A full section, and a vegetarian pho at Seine.",
+        "q3": "Are children welcome?",
+        "a3": "Of course. High chairs at 14e.",
+        "q4": "Do you deliver?",
+        "a4": "Not directly. We work with [platform].",
+        "q5": "Do you accept meal vouchers?",
+        "a5": "Yes, paper and card.",
+        "q6": "Private events / buyouts?",
+        "a6": "Possible on Mondays. Email events@hanoiquan.fr.",
+        "q7": "Allergies / special diets?",
+        "a7": "Let us know when booking, we adapt."
+      },
+      "form": {
+        "overline": "Another question",
+        "h2": "Write to us.",
+        "leadHtml": "For bookings, please use the <a href=\"/reservation/\">dedicated form</a> — faster reply.",
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "subjectGeneral": "General question",
+        "subjectPress": "Press",
+        "subjectEvent": "Private event",
+        "subjectPartner": "Partnership",
+        "subjectOther": "Other",
+        "message": "Message",
+        "submit": "Send",
+        "errorRequired": "Required",
+        "errorEmail": "Invalid email"
+      }
+    },
+    "reservation": {
+      "hero": {
+        "overline": "Booking",
+        "h1": "Book your table in two minutes.",
+        "sub": "Pick your house. We confirm by email within two hours."
+      },
+      "branchSelectLabel": "Choose the house",
+      "branch14eName": "HanoiQuan 14e",
+      "branch14eMeta": "Full menu · 40 seats · [Address]",
+      "branchSeineName": "HanoiQuan Seine",
+      "branchSeineMeta": "Pho specialist · 24 seats · [Address]",
+      "form": {
+        "date": "Date",
+        "time": "Time",
+        "guests": "Number of guests",
+        "guestsPlaceholder": "Choose…",
+        "guestsHelp": "For more than 12 people, please contact us directly.",
+        "occasion": "Occasion",
+        "occasionNone": "None",
+        "occasionBirthday": "Birthday",
+        "occasionDate": "Date",
+        "occasionBusiness": "Business",
+        "occasionFamily": "Family",
+        "occasionOther": "Other",
+        "name": "Full name",
+        "email": "Email",
+        "phone": "Phone",
+        "special": "Special requests",
+        "specialPlaceholder": "Allergies, table preference, etc.",
+        "rgpdHtml": "I agree to my data being used to process my booking. <a href=\"/politique-confidentialite/\">Privacy policy</a>",
+        "submit": "Confirm booking",
+        "errorRequired": "Required",
+        "errorEmail": "Invalid email",
+        "errorDate": "Please choose a future date",
+        "errorBranch": "Please choose a house",
+        "errorRgpd": "You must agree to book"
+      },
+      "success": {
+        "title": "Thank you!",
+        "body": "Your booking request has been received. We will confirm by email within two hours.",
+        "newBooking": "Make another booking"
+      },
+      "aside": {
+        "title": "Good to know",
+        "tip1": "Email confirmation within 2h",
+        "tip2": "Free cancellation up to 4h before",
+        "tip3": "For groups > 12 people, contact us directly",
+        "tip4": "Allergies? Mention them in special requests"
+      }
+    }
+  },
+  "data": {
+    "menu14e": {
+      "phoBoTai": {
+        "name": "Rare beef pho",
+        "desc": "Clear broth, fresh rice noodles, just-seared beef slices."
+      },
+      "phoGa": {
+        "name": "Free-range chicken pho",
+        "desc": "Lighter, more delicate poultry broth."
+      },
+      "phoChay": {
+        "name": "Vegetarian pho",
+        "desc": "Mushroom and root vegetable broth."
+      },
+      "bunCha": {
+        "name": "Charcoal-grilled bun cha",
+        "desc": "Grilled pork, vermicelli, fish sauce dressing."
+      },
+      "boBun": {
+        "name": "Lemongrass bo bun",
+        "desc": "Vermicelli, sautéed beef, peanuts, fresh herbs."
+      },
+      "bunBoHue": {
+        "name": "Spicy bun bo Hue",
+        "desc": "Bold central-Vietnamese soup, lemongrass and chilli."
+      },
+      "banhMiPorc": {
+        "name": "Grilled pork banh mi",
+        "desc": "Homemade pâté, pickles, coriander."
+      },
+      "banhMiTofu": {
+        "name": "Marinated tofu banh mi",
+        "desc": "Smoked tofu, mushrooms, pickles."
+      },
+      "nemRan": {
+        "name": "Crispy fried spring rolls",
+        "desc": "Pork, prawns, vermicelli. Served hot."
+      },
+      "goiCuon": {
+        "name": "Fresh summer rolls",
+        "desc": "Prawns, herbs, vermicelli. Peanut sauce."
+      },
+      "comTam": {
+        "name": "Com tam grilled pork",
+        "desc": "Broken rice, grilled pork chop, steamed egg."
+      },
+      "banhXeo": {
+        "name": "Banh xeo crispy crepe",
+        "desc": "Turmeric crepe, prawns, beansprouts."
+      },
+      "caPhe": {
+        "name": "Vietnamese iced coffee",
+        "desc": "Iced coffee with condensed milk, made on site."
+      },
+      "traSen": {
+        "name": "Lotus tea",
+        "desc": "Delicate lotus-scented tea."
+      }
+    }
+  }
+}
