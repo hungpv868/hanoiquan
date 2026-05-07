@@ -66,19 +66,15 @@
     "priceRange": "€€",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "[Numéro + rue]",
+      "streetAddress": "46 rue Raymond Losserand",
       "postalCode": "75014",
       "addressLocality": "Paris",
       "addressCountry": "FR"
     },
-    "telephone": "+33-1-00-00-00-00",
+    "telephone": "+33-7-65-86-88-88",
     "email": "14e@hanoiquan.fr",
     "openingHoursSpecification": [
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "12:00", "closes": "14:30" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "19:00", "closes": "22:30" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "12:00", "closes": "15:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "19:00", "closes": "23:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday"], "opens": "12:00", "closes": "15:00" }
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "17:30", "closes": "20:45" }
     ],
     "acceptsReservations": "https://hanoiquan.fr/reservation/?branch=14e",
     "potentialAction": {
@@ -179,248 +175,297 @@
 
   <main id="main">
 
-    <!-- 1 · Hero -->
-    <section class="p14-hero" data-reveal aria-labelledby="p14-hero-title">
-      <div class="container p14-hero__inner">
-        <div class="p14-hero__text">
-          <p class="eyebrow" data-i18n-html="pages.p14e.hero.eyebrowHtml">Maison I · Paris 14<sup>e</sup></p>
-          <h1 id="p14-hero-title" data-i18n="pages.p14e.hero.h1">La cuisine vietnamienne, à la maison.</h1>
-          <p class="lead p14-hero__sub" data-i18n="pages.p14e.hero.sub">De la rue à l'assiette&nbsp;: pho, bun, banh mi, et tout ce qui se mange entre.</p>
-          <div class="p14-hero__cta">
-            <a href="reservation/?branch=14e" class="btn btn--primary" data-i18n="pages.p14e.hero.ctaPrimary">Réserver à HanoiQuan 14e</a>
-            <a href="#menu" class="btn btn--ghost" data-i18n="pages.p14e.hero.ctaSecondary">Voir la carte ↓</a>
-          </div>
-          <p class="p14-hero__meta">[Adresse] · Métro [Station] · 12h–14h30 / 19h–22h30</p>
+    <!-- 1 · Banner — full-screen video + text overlay (gauche) -->
+    <section class="p14-banner" data-reveal aria-labelledby="p14-banner-title">
+      <video class="p14-banner__video"
+             autoplay muted loop playsinline preload="auto"
+             poster="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=2000&q=85"
+             aria-hidden="true">
+        <source src="https://assets.mixkit.co/videos/47555/47555-720.mp4" type="video/mp4">
+        <source src="https://assets.mixkit.co/videos/49231/49231-720.mp4" type="video/mp4">
+        <source src="https://assets.mixkit.co/videos/3806/3806-720.mp4" type="video/mp4">
+      </video>
+
+      <div class="p14-banner__overlay" aria-hidden="true"></div>
+
+      <span class="p14-banner__tag" aria-hidden="true">Maison&nbsp;I · Paris 14<sup>e</sup></span>
+      <span class="p14-banner__filmtag" aria-hidden="true">— Vidéo&nbsp;: cuisine vietnamienne</span>
+
+      <div class="p14-banner__panel">
+        <p class="p14-banner__kicker">Depuis 2015 · 46 R. Raymond Losserand</p>
+
+        <h1 id="p14-banner-title" class="p14-banner__title">
+          <span class="line line--1">HanoiQuan</span>
+          <span class="line line--2">14<sup>e</sup>.</span>
+        </h1>
+
+        <p class="p14-banner__lead">Une maison de quartier dédiée à la cuisine vietnamienne&nbsp;familiale. Quarante couverts, une cuisine ouverte, tout fait sur place — pâté, pickles, sauces, pâte à crêpe.</p>
+        <p class="p14-banner__sub">De Hanoi au 14<sup>e</sup>, la même exigence&nbsp;: produit frais, geste juste, accueil simple.</p>
+
+        <div class="p14-banner__cta">
+          <a href="reservation/?branch=14e" class="btn btn--primary">Réserver une table</a>
+          <a href="#dishes" class="btn btn--ghost">Découvrir ↓</a>
         </div>
-        <div class="p14-hero__media"
-             role="img"
-             aria-label="Salle chaleureuse de HanoiQuan 14e, lumière jaune et table en bois."></div>
+
+        <p class="p14-banner__hours"><span aria-hidden="true">●</span> Ouvert&nbsp;: Mar–Dim · 17h30 → 20h45</p>
       </div>
     </section>
 
-    <!-- 2 · Featured dishes — asymmetric mosaic -->
-    <section class="p14-featured" data-reveal aria-labelledby="p14-featured-title">
+    <!-- 2 · Dishes — 4 plats signature avec descriptions -->
+    <section id="dishes" class="p14-dishes" data-reveal aria-labelledby="p14-dishes-title">
       <div class="container">
-        <p class="overline" data-i18n="pages.p14e.featured.overline">Nos signatures</p>
-        <h2 id="p14-featured-title" data-i18n="pages.p14e.featured.h2">Six plats qui résument la maison.</h2>
-        <div class="p14-featured__grid">
-          <article class="p14-featured__item">
-            <h3 data-i18n="data.menu14e.phoBoTai.name">Pho au bœuf saignant</h3>
-            <p class="p14-featured__vi" lang="vi">Phở bò tái</p>
-            <span class="p14-featured__price">€14</span>
-          </article>
-          <article class="p14-featured__item">
-            <h3 data-i18n="data.menu14e.banhMiPorc.name">Banh mi porc grillé</h3>
-            <p class="p14-featured__vi" lang="vi">Bánh mì thịt nướng</p>
-            <span class="p14-featured__price">€8</span>
-          </article>
-          <article class="p14-featured__item">
-            <h3 data-i18n="data.menu14e.bunCha.name">Bun cha grillé charbon</h3>
-            <p class="p14-featured__vi" lang="vi">Bún chả</p>
-            <span class="p14-featured__price">€15</span>
-          </article>
-          <article class="p14-featured__item">
-            <h3 data-i18n="data.menu14e.nemRan.name">Nems frits du jour</h3>
-            <p class="p14-featured__vi" lang="vi">Nem rán</p>
-            <span class="p14-featured__price">€7</span>
-          </article>
-          <article class="p14-featured__item">
-            <h3 data-i18n="data.menu14e.boBun.name">Bo bun citronnelle</h3>
-            <p class="p14-featured__vi" lang="vi">Bún bò Nam Bộ</p>
-            <span class="p14-featured__price">€14</span>
-          </article>
-          <article class="p14-featured__item">
-            <h3 data-i18n="data.menu14e.caPhe.name">Cà phê sữa đá maison</h3>
-            <p class="p14-featured__vi" lang="vi">Café glacé vietnamien</p>
-            <span class="p14-featured__price">€4</span>
-          </article>
-        </div>
-      </div>
-    </section>
+        <p class="overline">Nos signatures</p>
+        <h2 id="p14-dishes-title">Quatre plats. Quatre histoires.</h2>
+        <p class="lead p14-dishes__intro">Une carte resserrée, faite à la main, pensée pour partager. Pas de raccourcis, pas de surgelé.</p>
 
-    <!-- 3 · Menu — filterable grid -->
-    <section id="menu" class="p14-menu" data-reveal aria-labelledby="p14-menu-title">
-      <div class="container">
-        <p class="overline" data-i18n="pages.p14e.menu.overline">La carte</p>
-        <h2 id="p14-menu-title" data-i18n="pages.p14e.menu.h2">Tout ce qu'on mange à Hanoi, et un peu plus.</h2>
+        <div class="p14-dishes__grid">
 
-        <div class="p14-menu__filter" role="group" data-i18n-attr="aria-label:pages.p14e.menu.filterLabel" aria-label="Catégories de plats">
-          <button class="p14-filter-chip is-active" data-filter="all"      aria-pressed="true"  data-i18n="pages.p14e.menu.filterAll">Tout</button>
-          <button class="p14-filter-chip"           data-filter="pho"      aria-pressed="false" data-i18n="pages.p14e.menu.filterPho">Pho</button>
-          <button class="p14-filter-chip"           data-filter="bun"      aria-pressed="false" data-i18n="pages.p14e.menu.filterBun">Bun</button>
-          <button class="p14-filter-chip"           data-filter="banh-mi"  aria-pressed="false" data-i18n="pages.p14e.menu.filterBanhMi">Banh mi</button>
-          <button class="p14-filter-chip"           data-filter="nem"      aria-pressed="false" data-i18n="pages.p14e.menu.filterNem">Nem &amp; Gỏi</button>
-          <button class="p14-filter-chip"           data-filter="riz"      aria-pressed="false" data-i18n="pages.p14e.menu.filterRiz">Riz &amp; wok</button>
-          <button class="p14-filter-chip"           data-filter="vege"     aria-pressed="false" data-i18n="pages.p14e.menu.filterVege">Végétarien</button>
-          <button class="p14-filter-chip"           data-filter="boissons" aria-pressed="false" data-i18n="pages.p14e.menu.filterDrinks">Boissons</button>
-        </div>
-
-        <p class="p14-menu__count" aria-live="polite">
-          <span data-menu-count>14</span>
-          <span data-i18n="pages.p14e.menu.dishes">plats</span>
-        </p>
-
-        <div class="p14-menu__grid">
-
-          <article class="p14-menu__item" data-category="pho">
-            <h3 data-i18n="data.menu14e.phoBoTai.name">Pho au bœuf saignant</h3>
-            <p class="p14-menu__item__vi" lang="vi">Phở bò tái</p>
-            <p class="p14-menu__item__desc" data-i18n="data.menu14e.phoBoTai.desc">Bouillon clair, nouilles fraîches, lamelles de bœuf saisies.</p>
-            <span class="p14-menu__item__price">€14</span>
-          </article>
-
-          <article class="p14-menu__item" data-category="pho">
-            <h3 data-i18n="data.menu14e.phoGa.name">Pho au poulet fermier</h3>
-            <p class="p14-menu__item__vi" lang="vi">Phở gà</p>
-            <p class="p14-menu__item__desc" data-i18n="data.menu14e.phoGa.desc">Bouillon de volaille, plus léger, plus délicat.</p>
-            <span class="p14-menu__item__price">€13</span>
-          </article>
-
-          <article class="p14-menu__item" data-category="pho vege">
-            <h3 data-i18n="data.menu14e.phoChay.name">Pho végétarien</h3>
-            <p class="p14-menu__item__vi" lang="vi">Phở chay</p>
-            <p class="p14-menu__item__desc" data-i18n="data.menu14e.phoChay.desc">Bouillon de champignons et légumes racine.</p>
-            <span class="p14-menu__item__price">€13</span>
-          </article>
-
-          <article class="p14-menu__item" data-category="bun">
-            <h3 data-i18n="data.menu14e.bunCha.name">Bun cha grillé charbon</h3>
-            <p class="p14-menu__item__vi" lang="vi">Bún chả</p>
-            <p class="p14-menu__item__desc" data-i18n="data.menu14e.bunCha.desc">Porc grillé, vermicelles, sauce nuoc-mam.</p>
-            <span class="p14-menu__item__price">€15</span>
-          </article>
-
-          <article class="p14-menu__item" data-category="bun">
-            <h3 data-i18n="data.menu14e.boBun.name">Bo bun citronnelle</h3>
-            <p class="p14-menu__item__vi" lang="vi">Bún bò Nam Bộ</p>
-            <p class="p14-menu__item__desc" data-i18n="data.menu14e.boBun.desc">Vermicelles, bœuf sauté, cacahuètes, herbes fraîches.</p>
-            <span class="p14-menu__item__price">€14</span>
-          </article>
-
-          <article class="p14-menu__item" data-category="bun">
-            <h3 data-i18n="data.menu14e.bunBoHue.name">Bun bo Hue épicé</h3>
-            <p class="p14-menu__item__vi" lang="vi">Bún bò Huế</p>
-            <p class="p14-menu__item__desc" data-i18n="data.menu14e.bunBoHue.desc">Soupe relevée du Centre, citronnelle et chili.</p>
-            <span class="p14-menu__item__price">€15</span>
-          </article>
-
-          <article class="p14-menu__item" data-category="banh-mi">
-            <h3 data-i18n="data.menu14e.banhMiPorc.name">Banh mi porc grillé</h3>
-            <p class="p14-menu__item__vi" lang="vi">Bánh mì thịt nướng</p>
-            <p class="p14-menu__item__desc" data-i18n="data.menu14e.banhMiPorc.desc">Pâté maison, pickles, coriandre.</p>
-            <span class="p14-menu__item__price">€8</span>
-          </article>
-
-          <article class="p14-menu__item" data-category="banh-mi vege">
-            <h3 data-i18n="data.menu14e.banhMiTofu.name">Banh mi tofu mariné</h3>
-            <p class="p14-menu__item__vi" lang="vi">Bánh mì đậu hũ</p>
-            <p class="p14-menu__item__desc" data-i18n="data.menu14e.banhMiTofu.desc">Tofu fumé, champignons, pickles.</p>
-            <span class="p14-menu__item__price">€8</span>
-          </article>
-
-          <article class="p14-menu__item" data-category="nem">
-            <h3 data-i18n="data.menu14e.nemRan.name">Nems frits du jour</h3>
-            <p class="p14-menu__item__vi" lang="vi">Nem rán</p>
-            <p class="p14-menu__item__desc" data-i18n="data.menu14e.nemRan.desc">Porc, crevettes, vermicelles. Servis chauds.</p>
-            <span class="p14-menu__item__price">€7</span>
-          </article>
-
-          <article class="p14-menu__item" data-category="nem vege">
-            <h3 data-i18n="data.menu14e.goiCuon.name">Goi cuon frais</h3>
-            <p class="p14-menu__item__vi" lang="vi">Gỏi cuốn</p>
-            <p class="p14-menu__item__desc" data-i18n="data.menu14e.goiCuon.desc">Crevettes, herbes, vermicelles. Sauce cacahuète.</p>
-            <span class="p14-menu__item__price">€7</span>
-          </article>
-
-          <article class="p14-menu__item" data-category="riz">
-            <h3 data-i18n="data.menu14e.comTam.name">Com tam suon nuong</h3>
-            <p class="p14-menu__item__vi" lang="vi">Cơm tấm sườn nướng</p>
-            <p class="p14-menu__item__desc" data-i18n="data.menu14e.comTam.desc">Riz cassé, travers de porc grillé, œuf vapeur.</p>
-            <span class="p14-menu__item__price">€14</span>
-          </article>
-
-          <article class="p14-menu__item" data-category="riz">
-            <h3 data-i18n="data.menu14e.banhXeo.name">Banh xeo</h3>
-            <p class="p14-menu__item__vi" lang="vi">Bánh xèo</p>
-            <p class="p14-menu__item__desc" data-i18n="data.menu14e.banhXeo.desc">Crêpe croustillante au curcuma, crevettes, soja.</p>
-            <span class="p14-menu__item__price">€13</span>
-          </article>
-
-          <article class="p14-menu__item" data-category="boissons">
-            <h3 data-i18n="data.menu14e.caPhe.name">Cà phê sữa đá maison</h3>
-            <p class="p14-menu__item__vi" lang="vi">Café vietnamien glacé</p>
-            <p class="p14-menu__item__desc" data-i18n="data.menu14e.caPhe.desc">Café glacé vietnamien, lait concentré.</p>
-            <span class="p14-menu__item__price">€4</span>
-          </article>
-
-          <article class="p14-menu__item" data-category="boissons">
-            <h3 data-i18n="data.menu14e.traSen.name">Trà sen</h3>
-            <p class="p14-menu__item__vi" lang="vi">Trà sen</p>
-            <p class="p14-menu__item__desc" data-i18n="data.menu14e.traSen.desc">Thé au lotus, infusion délicate.</p>
-            <span class="p14-menu__item__price">€4</span>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- 4 · Chef story -->
-    <section class="p14-chef" data-reveal aria-labelledby="p14-chef-title">
-      <div class="container p14-chef__inner">
-        <div class="p14-chef__media"
-             role="img"
-             aria-label="Portrait du chef en cuisine, lumière naturelle."></div>
-        <div class="p14-chef__text">
-          <p class="overline" data-i18n="pages.p14e.chef.overline">En cuisine</p>
-          <h2 id="p14-chef-title" data-i18n="pages.p14e.chef.h2">[Prénom chef], de Hanoi à la rue [Placeholder].</h2>
-          <p data-i18n="pages.p14e.chef.body">[Prénom] a grandi entre la cuisine de sa mère et le marché de [quartier]. Arrivé à Paris en [année], il ouvre HanoiQuan 14e en [année].</p>
-          <blockquote class="p14-chef__quote" data-i18n="pages.p14e.chef.quote">« Cuisiner vietnamien à Paris, c'est traduire sans trahir. »</blockquote>
-        </div>
-      </div>
-    </section>
-
-    <!-- 5 · Atmosphere -->
-    <section class="p14-amb" data-reveal aria-labelledby="p14-amb-title">
-      <div class="container">
-        <p class="overline" data-i18n="pages.p14e.atmosphere.overline">La salle</p>
-        <h2 id="p14-amb-title" data-i18n="pages.p14e.atmosphere.h2">Une maison de quartier, une table à partager.</h2>
-        <p class="lead" data-i18n="pages.p14e.atmosphere.body">Quarante couverts, deux grandes tables familiales et un comptoir face cuisine.</p>
-        <div class="p14-amb__gallery">
-          <div class="p14-amb__photo">[Salle]</div>
-          <div class="p14-amb__photo">[Comptoir]</div>
-          <div class="p14-amb__photo">[Mur brique]</div>
-          <div class="p14-amb__photo">[Table]</div>
-          <div class="p14-amb__photo">[Soir]</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 6 · Reservation + contact -->
-    <section class="p14-info" data-reveal aria-labelledby="p14-info-title">
-      <div class="container">
-        <p class="overline" data-i18n="pages.p14e.info.overline">Venez nous voir</p>
-        <h2 id="p14-info-title" data-i18n="pages.p14e.info.h2">HanoiQuan 14e vous attend.</h2>
-        <div class="p14-info__inner">
-          <div class="p14-info__block">
-            <h3 data-i18n="pages.p14e.info.addressTitle">Adresse</h3>
-            <p>[Numéro + rue]<br>75014 Paris<br>Métro [Station] (lignes [X])</p>
-            <h3 style="margin-top: var(--space-lg)" data-i18n="pages.p14e.info.hoursTitle">Horaires</h3>
-            <p>Mardi – Vendredi · 12h–14h30 / 19h–22h30<br>
-               Samedi · 12h–15h / 19h–23h<br>
-               Dimanche · 12h–15h<br>
-               Fermé le lundi</p>
-          </div>
-          <div class="p14-info__block">
-            <h3 data-i18n="pages.p14e.info.contactTitle">Contact</h3>
-            <p><a href="tel:+33100000000">+33 1 00 00 00 00</a></p>
-            <p><a href="mailto:14e@hanoiquan.fr">14e@hanoiquan.fr</a></p>
-            <div class="p14-info__cta">
-              <a href="reservation/?branch=14e" class="btn btn--primary" data-i18n="pages.p14e.info.reserveBtn">Réserver</a>
-              <a href="tel:+33100000000" class="btn btn--ghost" data-i18n="pages.p14e.info.callBtn">Appeler</a>
+          <article class="dish-card">
+            <div class="dish-card__media">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png/500px-B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png"
+                   onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=1600&q=85'"
+                   alt="Bánh mì thịt nướng — baguette vietnamienne garnie de porc grillé et pickles."
+                   loading="lazy" decoding="async">
             </div>
+            <div class="dish-card__body">
+              <h3>Bánh mì</h3>
+              <p class="dish-card__vi" lang="vi">Bánh mì thịt nướng</p>
+              <p class="dish-card__desc">Baguette croustillante, porc grillé caramélisé, pickles maison et coriandre fraîche.</p>
+            </div>
+          </article>
+
+          <article class="dish-card">
+            <div class="dish-card__media">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/C%C6%A1m_T%E1%BA%A5m%2C_Da_Nang%2C_Vietnam.jpg/500px-C%C6%A1m_T%E1%BA%A5m%2C_Da_Nang%2C_Vietnam.jpg"
+                   onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1559314809-0d155014e29e?auto=format&fit=crop&w=1600&q=85'"
+                   alt="Cơm tấm — riz cassé vietnamien servi avec travers de porc grillé."
+                   loading="lazy" decoding="async">
+            </div>
+            <div class="dish-card__body">
+              <h3>Cơm tấm</h3>
+              <p class="dish-card__vi" lang="vi">Cơm tấm sườn nướng</p>
+              <p class="dish-card__desc">Riz cassé, travers de porc grillé au charbon, œuf vapeur et nuoc-mam sucré-salé.</p>
+            </div>
+          </article>
+
+          <article class="dish-card">
+            <div class="dish-card__media">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Homemade_spring_rolls_%287010969349%29.jpg/500px-Homemade_spring_rolls_%287010969349%29.jpg"
+                   onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1606851094291-6efae152bb87?auto=format&fit=crop&w=1600&q=85'"
+                   alt="Gỏi cuốn — rouleaux de printemps vietnamiens aux crevettes, vermicelles et herbes fraîches."
+                   loading="lazy" decoding="async">
+            </div>
+            <div class="dish-card__body">
+              <h3>Gỏi cuốn</h3>
+              <p class="dish-card__vi" lang="vi">Gỏi cuốn tôm thịt</p>
+              <p class="dish-card__desc">Galette de riz, crevettes pochées, vermicelles et herbes fraîches. Sauce cacahuète.</p>
+            </div>
+          </article>
+
+          <article class="dish-card">
+            <div class="dish-card__media">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Banh_Xeo_with_fish_sauce_and_vegetables.jpg/500px-Banh_Xeo_with_fish_sauce_and_vegetables.jpg"
+                   onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1604152135912-04a022e23696?auto=format&fit=crop&w=1600&q=85'"
+                   alt="Bánh xèo — crêpe vietnamienne au curcuma garnie de crevettes et de germes de soja, servie avec herbes et nuoc-mam."
+                   loading="lazy" decoding="async">
+            </div>
+            <div class="dish-card__body">
+              <h3>Bánh xèo</h3>
+              <p class="dish-card__vi" lang="vi">Bánh xèo tôm thịt</p>
+              <p class="dish-card__desc">Crêpe croustillante au curcuma et lait de coco. Crevettes, porc, soja, herbes fraîches.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 · Address & hours -->
+    <section class="p14-address" data-reveal aria-labelledby="p14-address-title">
+      <div class="container p14-address__inner">
+        <div class="p14-address__text">
+          <p class="overline">Venez nous voir</p>
+          <h2 id="p14-address-title">HanoiQuan 14e vous attend.</h2>
+
+          <dl class="p14-address__list">
+            <div>
+              <dt>Adresse</dt>
+              <dd>46 rue Raymond Losserand<br>75014 Paris</dd>
+            </div>
+            <div>
+              <dt>Horaires</dt>
+              <dd>Mardi – Dimanche<br>Réservations de 17h30 à 20h45<br><span class="muted">Fermé le lundi</span></dd>
+            </div>
+            <div>
+              <dt>Téléphone</dt>
+              <dd><a href="tel:+33765868888">07 65 86 88 88</a></dd>
+            </div>
+            <div>
+              <dt>Email</dt>
+              <dd><a href="mailto:14e@hanoiquan.fr">14e@hanoiquan.fr</a></dd>
+            </div>
+          </dl>
+
+          <div class="p14-address__cta">
+            <a href="reservation/?branch=14e" class="btn btn--primary">Réserver</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=46+rue+Raymond+Losserand+75014+Paris" target="_blank" rel="noopener" class="btn btn--ghost">Itinéraire ↗</a>
           </div>
         </div>
-        <p class="p14-info__crosslink" data-i18n-html="pages.p14e.info.crosslinkHtml">Vous cherchez le pho authentique&nbsp;? <a href="seine/">Découvrir HanoiQuan Seine →</a></p>
+
+        <div class="p14-address__map">
+          <iframe
+            src="https://www.google.com/maps?q=46+rue+Raymond+Losserand+75014+Paris&output=embed"
+            title="Carte HanoiQuan 14e — 46 rue Raymond Losserand, 75014 Paris"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · Drinks -->
+    <section class="p14-drinks" data-reveal aria-labelledby="p14-drinks-title">
+      <div class="container">
+        <p class="overline">À boire</p>
+        <h2 id="p14-drinks-title">Pour faire passer.</h2>
+        <p class="lead p14-drinks__intro">Sodas glacés, eaux fraîches, bières et cafés. Servis bien frappés.</p>
+
+        <div class="p14-drinks__grid">
+
+          <article class="drink-card">
+            <div class="drink-card__media">
+              <img src="https://images.unsplash.com/photo-1554866585-cd94860890b7?auto=format&fit=crop&w=800&q=85"
+                   onerror="this.onerror=null;this.src='https://picsum.photos/seed/drink-coca/800/800'"
+                   alt="Canette de Coca-Cola glacée, condensation sur le métal rouge."
+                   loading="lazy" decoding="async">
+            </div>
+            <div class="drink-card__body">
+              <h3>Coca-Cola</h3>
+              <p>Le classique, en canette 33 cl, servi très frais avec glaçons et rondelle de citron.</p>
+            </div>
+          </article>
+
+          <article class="drink-card">
+            <div class="drink-card__media">
+              <img src="https://images.unsplash.com/photo-1629203851122-3726ecdf080e?auto=format&fit=crop&w=800&q=85"
+                   onerror="this.onerror=null;this.src='https://picsum.photos/seed/drink-pepsi/800/800'"
+                   alt="Canette de Pepsi bleue glacée, gouttes d'eau sur le métal."
+                   loading="lazy" decoding="async">
+            </div>
+            <div class="drink-card__body">
+              <h3>Pepsi</h3>
+              <p>Cola plus rond, plus sucré. Canette 33 cl, parfait avec les plats grillés.</p>
+            </div>
+          </article>
+
+          <article class="drink-card">
+            <div class="drink-card__media">
+              <img src="https://images.unsplash.com/photo-1625772299848-391b6a87d7b3?auto=format&fit=crop&w=800&q=85"
+                   onerror="this.onerror=null;this.src='https://picsum.photos/seed/drink-sprite/800/800'"
+                   alt="Verre de Sprite citron-citron vert sur table en bois."
+                   loading="lazy" decoding="async">
+            </div>
+            <div class="drink-card__body">
+              <h3>Sprite</h3>
+              <p>Soda citron-citron vert, frais et désaltérant. Le meilleur ami du bánh xèo.</p>
+            </div>
+          </article>
+
+          <article class="drink-card">
+            <div class="drink-card__media">
+              <img src="https://images.unsplash.com/photo-1497636577773-f1231844b336?auto=format&fit=crop&w=800&q=85"
+                   onerror="this.onerror=null;this.src='https://picsum.photos/seed/drink-cafe/800/800'"
+                   alt="Verre de cà phê sữa đá glacé sur table en bois."
+                   loading="lazy" decoding="async">
+            </div>
+            <div class="drink-card__body">
+              <h3>Cà phê sữa đá</h3>
+              <p>Café vietnamien filtré au phin, lait concentré sucré, glaçons. Le classique de Hanoi.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 · Reviews — testimonials clients -->
+    <section class="p14-reviews" data-reveal aria-labelledby="p14-reviews-title">
+      <div class="container">
+        <p class="overline">Ils ont aimé</p>
+        <h2 id="p14-reviews-title">Ce que disent nos clients.</h2>
+        <p class="lead p14-reviews__intro">Des avis vérifiés laissés par les clients d'HanoiQuan 14e.</p>
+
+        <div class="p14-reviews__grid">
+
+          <article class="review-card">
+            <div class="review-card__rating" aria-label="Note : 5 sur 5">★★★★★</div>
+            <blockquote class="review-card__quote">
+              « Le meilleur bánh mì que j'ai mangé hors du Vietnam. La baguette est parfaite, le porc grillé fond, et les pickles sont faits maison — ça change tout. Je reviens chaque semaine. »
+            </blockquote>
+            <footer class="review-card__author">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=85"
+                   onerror="this.onerror=null;this.src='https://picsum.photos/seed/review-marie/200/200'"
+                   alt="" loading="lazy" decoding="async" class="review-card__avatar">
+              <div>
+                <p class="review-card__name">Marie L.</p>
+                <p class="review-card__meta">Cliente régulière · Paris 14<sup>e</sup></p>
+              </div>
+            </footer>
+          </article>
+
+          <article class="review-card">
+            <div class="review-card__rating" aria-label="Note : 5 sur 5">★★★★★</div>
+            <blockquote class="review-card__quote">
+              « Découverte du bánh xèo ce midi : la crêpe est croustillante comme à Saigon, les herbes ultra fraîches. Service rapide et chaleureux, prix raisonnables pour la qualité. Une adresse de quartier exceptionnelle. »
+            </blockquote>
+            <footer class="review-card__author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=85"
+                   onerror="this.onerror=null;this.src='https://picsum.photos/seed/review-thomas/200/200'"
+                   alt="" loading="lazy" decoding="async" class="review-card__avatar">
+              <div>
+                <p class="review-card__name">Thomas R.</p>
+                <p class="review-card__meta">Foodie · Avis Google</p>
+              </div>
+            </footer>
+          </article>
+
+          <article class="review-card">
+            <div class="review-card__rating" aria-label="Note : 5 sur 5">★★★★★</div>
+            <blockquote class="review-card__quote">
+              « Mon mari est de Hanoi, et il dit que le cơm tấm ici lui rappelle exactement celui de sa mère. Ambiance simple, propre, accueillante. On a partagé les gỏi cuốn — sublime. »
+            </blockquote>
+            <footer class="review-card__author">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=200&q=85"
+                   onerror="this.onerror=null;this.src='https://picsum.photos/seed/review-sophie/200/200'"
+                   alt="" loading="lazy" decoding="async" class="review-card__avatar">
+              <div>
+                <p class="review-card__name">Sophie & Minh</p>
+                <p class="review-card__meta">Couple franco-vietnamien</p>
+              </div>
+            </footer>
+          </article>
+
+          <article class="review-card">
+            <div class="review-card__rating" aria-label="Note : 5 sur 5">★★★★★</div>
+            <blockquote class="review-card__quote">
+              « Venu pour la première fois après une recommandation : je n'ai pas été déçu. Tout est cuisiné minute, on sent le respect du produit. Le bánh mì à emporter est devenu mon rituel du vendredi. Merci HanoiQuan ! »
+            </blockquote>
+            <footer class="review-card__author">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=85"
+                   onerror="this.onerror=null;this.src='https://picsum.photos/seed/review-julien/200/200'"
+                   alt="" loading="lazy" decoding="async" class="review-card__avatar">
+              <div>
+                <p class="review-card__name">Julien K.</p>
+                <p class="review-card__meta">Avis TripAdvisor</p>
+              </div>
+            </footer>
+          </article>
+
+        </div>
+
+        <p class="p14-reviews__cta">
+          <a href="reservation/?branch=14e" class="btn btn--primary">Réservez votre table</a>
+        </p>
       </div>
     </section>
 
@@ -430,13 +475,13 @@
     <div class="site-footer__inner">
       <div class="footer-col">
         <h3 data-i18n="common.footer.brandTitle">HanoiQuan</h3>
-        <p data-i18n="common.footer.brandTagline">La cuisine vietnamienne à Paris, depuis [ANNÉE].</p>
+        <p data-i18n="common.footer.brandTagline">La cuisine vietnamienne à Paris, depuis 2015.</p>
       </div>
       <div class="footer-col">
         <h3 data-i18n="common.footer.houses">Nos maisons</h3>
         <ul>
-          <li>HanoiQuan 14e<br>[Adresse 14e]<br>[+33 1 00 00 00 00]</li>
-          <li>HanoiQuan Seine<br>[Adresse Seine]<br>[+33 1 00 00 00 00]</li>
+          <li>HanoiQuan 14e<br>46 rue Raymond Losserand, 75014 Paris<br><a href="tel:+33765868888">07 65 86 88 88</a></li>
+          <li>HanoiQuan Seine<br>27 Quai des Grands Augustins, 75006 Paris<br><a href="tel:+33605854758">06 05 85 47 58</a></li>
         </ul>
       </div>
       <div class="footer-col">

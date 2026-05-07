@@ -437,4 +437,527 @@
   .p14-featured__item:hover,
   .p14-menu__item:hover { transform: none; }
   .p14-amb__photo:hover { transform: none; }
+  .dish-card:hover,
+  .drink-card:hover,
+  .review-card:hover { transform: none; }
+}
+
+
+/* ============================================================
+   v4 · Banner — full-screen video + left text overlay
+   Restaurant intro, no dish list. Distinct from home hero
+   (which centers content; this anchors left + editorial accents).
+   ============================================================ */
+.p14-banner {
+  position: relative;
+  min-height: 100vh;
+  min-height: 100svh;
+  width: 100%;
+  background: var(--bg-deep);
+  overflow: hidden;
+  isolation: isolate;
+  display: flex;
+  align-items: flex-end;
+  color: var(--ink-primary);
+}
+
+/* Full-bleed background video */
+.p14-banner__video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  filter: saturate(1.05) contrast(1.04) brightness(0.78);
+}
+
+/* Cinematic overlay — darker on the left so panel text stays legible */
+.p14-banner__overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(95deg,
+      rgba(10, 7, 5, 0.85) 0%,
+      rgba(10, 7, 5, 0.55) 35%,
+      rgba(10, 7, 5, 0.15) 65%,
+      rgba(10, 7, 5, 0.40) 100%),
+    linear-gradient(180deg, rgba(10, 7, 5, 0.10) 0%, rgba(10, 7, 5, 0.55) 100%);
+}
+
+/* Top-left chip — signature 14e element */
+.p14-banner__tag {
+  position: absolute;
+  top: clamp(var(--space-lg), 4vw, var(--space-2xl));
+  left: clamp(var(--space-lg), 5vw, var(--space-3xl));
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--accent-saffron);
+  padding: 6px 12px;
+  border: 1px solid color-mix(in srgb, var(--accent-saffron) 55%, transparent);
+  border-radius: 2px;
+  background: rgba(10, 7, 5, 0.45);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 2;
+}
+.p14-banner__tag sup { font-size: 0.6em; }
+
+/* Bottom-right film credit */
+.p14-banner__filmtag {
+  position: absolute;
+  bottom: clamp(var(--space-md), 3vw, var(--space-xl));
+  right: clamp(var(--space-md), 3vw, var(--space-xl));
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  color: var(--ink-primary);
+  text-transform: uppercase;
+  opacity: 0.6;
+  z-index: 2;
+}
+
+/* Left-anchored content panel */
+.p14-banner__panel {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 640px;
+  margin: 0;
+  padding: clamp(var(--space-2xl), 6vw, var(--space-4xl)) clamp(var(--space-lg), 5vw, var(--space-3xl));
+  padding-bottom: clamp(var(--space-3xl), 7vw, var(--space-5xl));
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.p14-banner__kicker {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--accent-saffron);
+  margin: 0;
+  padding-left: 28px;
+  position: relative;
+}
+.p14-banner__kicker::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 50%;
+  width: 18px;
+  height: 1px;
+  background: var(--accent-saffron);
+}
+
+/* Title — stacked, mixed weights, NO italic. Different from home hero. */
+.p14-banner__title {
+  margin: 0;
+  font-size: clamp(3rem, 8vw, 6.5rem);
+  line-height: 0.92;
+  letter-spacing: -0.04em;
+  font-weight: 800;
+  text-wrap: balance;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+}
+.p14-banner__title .line {
+  display: block;
+}
+.p14-banner__title .line--1 {
+  color: var(--ink-primary);
+}
+.p14-banner__title .line--2 {
+  color: var(--accent-saffron);
+  padding-left: 1.2em;
+  font-weight: 300;
+  font-style: normal;
+}
+.p14-banner__title sup {
+  font-size: 0.45em;
+  font-weight: 400;
+  vertical-align: super;
+}
+
+.p14-banner__lead {
+  margin: 0;
+  font-size: clamp(1rem, 1.4vw, 1.18rem);
+  line-height: 1.55;
+  color: var(--ink-primary);
+  max-width: 50ch;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.5);
+}
+.p14-banner__sub {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--ink-secondary);
+  max-width: 48ch;
+  font-style: italic;
+  border-left: 2px solid var(--accent-saffron);
+  padding-left: var(--space-md);
+}
+
+.p14-banner__cta {
+  display: flex;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+  margin-top: var(--space-sm);
+}
+
+.p14-banner__hours {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-secondary);
+  margin: var(--space-md) 0 0;
+}
+.p14-banner__hours span {
+  color: #4ade80;
+  margin-right: 8px;
+  font-size: 0.5rem;
+  vertical-align: middle;
+  animation: p14-pulse 2s ease-in-out infinite;
+  display: inline-block;
+}
+@keyframes p14-pulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.4; }
+}
+
+/* --- Responsive --- */
+@media (max-width: 720px) {
+  .p14-banner__overlay {
+    background:
+      linear-gradient(180deg,
+        rgba(10, 7, 5, 0.30) 0%,
+        rgba(10, 7, 5, 0.60) 50%,
+        rgba(10, 7, 5, 0.85) 100%);
+  }
+  .p14-banner__panel {
+    max-width: 100%;
+    padding-bottom: clamp(var(--space-2xl), 8vw, var(--space-4xl));
+  }
+  .p14-banner__title { font-size: clamp(2.6rem, 13vw, 4rem); }
+  .p14-banner__filmtag { display: none; }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .p14-banner__video { display: none; }
+  .p14-banner {
+    background-image:
+      linear-gradient(95deg, rgba(10, 7, 5, 0.85), rgba(10, 7, 5, 0.4)),
+      url("https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=2000&q=85");
+    background-size: cover;
+    background-position: center;
+  }
+  .p14-banner__hours span { animation: none; }
+}
+
+
+/* ============================================================
+   v2 · Dishes — 4 cards with photo + name + description
+   ============================================================ */
+.p14-dishes {
+  padding-block: var(--space-5xl);
+  background: var(--bg-section-a);
+}
+.p14-dishes__intro {
+  max-width: 56ch;
+  color: var(--ink-secondary);
+  margin-bottom: var(--space-3xl);
+}
+.p14-dishes__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2xl);
+  max-width: 1200px;
+  margin-inline: auto;
+}
+.dish-card {
+  background: var(--bg-elevated);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--accent-gold) 12%, transparent);
+  transition: transform 0.4s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+.dish-card:hover {
+  transform: translateY(-4px);
+  border-color: color-mix(in srgb, var(--accent-saffron) 35%, transparent);
+  box-shadow: 0 16px 40px -16px rgba(0, 0, 0, 0.6);
+}
+.dish-card__media {
+  aspect-ratio: 16 / 11;
+  overflow: hidden;
+  background: var(--bg-inset);
+}
+.dish-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+.dish-card:hover .dish-card__media img { transform: scale(1.04); }
+.dish-card__body {
+  padding: var(--space-lg) var(--space-xl) var(--space-xl);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xs);
+}
+.dish-card__body h3 {
+  font-size: clamp(1.5rem, 2.2vw, 1.85rem);
+  color: var(--accent-saffron);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+.dish-card__vi {
+  font-style: italic;
+  color: var(--ink-muted);
+  font-size: var(--fs-caption);
+  margin: 0;
+}
+.dish-card__desc {
+  color: var(--ink-secondary);
+  font-size: var(--fs-body);
+  line-height: 1.55;
+  margin-top: var(--space-sm);
+}
+@media (max-width: 720px) {
+  .p14-dishes__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+}
+
+
+/* ============================================================
+   v2 · Address — text + map side by side
+   ============================================================ */
+.p14-address {
+  padding-block: var(--space-5xl);
+  background: var(--bg-base);
+}
+.p14-address__inner {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: var(--space-3xl);
+  align-items: stretch;
+}
+@media (max-width: 900px) {
+  .p14-address__inner { grid-template-columns: 1fr; }
+}
+.p14-address__text h2 {
+  margin-block: var(--space-md) var(--space-xl);
+}
+.p14-address__list {
+  display: grid;
+  gap: var(--space-lg);
+  margin: 0 0 var(--space-2xl);
+  padding: 0;
+}
+.p14-address__list > div {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: var(--space-md);
+  padding-bottom: var(--space-md);
+  border-bottom: 1px solid color-mix(in srgb, var(--accent-gold) 14%, var(--border-subtle));
+}
+.p14-address__list dt {
+  font-family: var(--font-mono);
+  font-size: var(--fs-overline);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+  padding-top: 4px;
+}
+.p14-address__list dd {
+  margin: 0;
+  color: var(--ink-primary);
+  line-height: 1.6;
+}
+.p14-address__list .muted { color: var(--ink-muted); font-size: var(--fs-caption); }
+.p14-address__list a { color: var(--ink-primary); text-decoration: underline; text-underline-offset: 3px; }
+.p14-address__list a:hover { color: var(--accent-saffron); }
+.p14-address__cta {
+  display: flex;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+.p14-address__map {
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--bg-inset);
+  border: 1px solid color-mix(in srgb, var(--accent-gold) 18%, var(--border-subtle));
+  min-height: 380px;
+}
+.p14-address__map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  border: 0;
+  filter: saturate(1.05);
+}
+
+
+/* ============================================================
+   v2 · Drinks — soft-drink cards
+   ============================================================ */
+.p14-drinks {
+  padding-block: var(--space-5xl);
+  background: var(--bg-section-b);
+}
+.p14-drinks__intro {
+  max-width: 52ch;
+  color: var(--ink-secondary);
+  margin-bottom: var(--space-3xl);
+}
+.p14-drinks__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-xl);
+}
+.drink-card {
+  background: var(--bg-elevated);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--accent-gold) 10%, transparent);
+  transition: transform 0.4s ease, border-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+.drink-card:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--accent-saffron) 30%, transparent);
+}
+.drink-card__media {
+  aspect-ratio: 1 / 1;
+  background: var(--bg-inset);
+  overflow: hidden;
+}
+.drink-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.drink-card__body {
+  padding: var(--space-md) var(--space-lg) var(--space-lg);
+}
+.drink-card__body h3 {
+  font-size: 1.15rem;
+  color: var(--accent-saffron);
+  font-weight: 600;
+  margin: 0 0 var(--space-xs);
+}
+.drink-card__body p {
+  color: var(--ink-secondary);
+  font-size: var(--fs-caption);
+  line-height: 1.55;
+  margin: 0;
+}
+
+
+/* ============================================================
+   v2 · Reviews — testimonial cards
+   ============================================================ */
+.p14-reviews {
+  padding-block: var(--space-5xl);
+  background: var(--bg-section-a);
+}
+.p14-reviews__intro {
+  max-width: 52ch;
+  color: var(--ink-secondary);
+  margin-bottom: var(--space-3xl);
+}
+.p14-reviews__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-xl);
+  margin-bottom: var(--space-3xl);
+}
+.review-card {
+  background: var(--bg-elevated);
+  border-radius: var(--radius-md);
+  padding: var(--space-xl);
+  border: 1px solid color-mix(in srgb, var(--accent-gold) 12%, transparent);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  transition: transform 0.4s ease, border-color 0.3s ease;
+  position: relative;
+}
+.review-card::before {
+  content: "“";
+  position: absolute;
+  top: 8px;
+  right: 18px;
+  font-family: var(--font-display, Georgia, serif);
+  font-size: 5rem;
+  line-height: 1;
+  color: color-mix(in srgb, var(--accent-saffron) 22%, transparent);
+  pointer-events: none;
+}
+.review-card:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--accent-saffron) 35%, transparent);
+}
+.review-card__rating {
+  color: var(--accent-saffron);
+  font-size: 1.1rem;
+  letter-spacing: 0.15em;
+}
+.review-card__quote {
+  margin: 0;
+  color: var(--ink-primary);
+  font-size: var(--fs-body);
+  line-height: 1.65;
+  font-style: italic;
+  border: 0;
+  padding: 0;
+  flex: 1;
+}
+.review-card__author {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid color-mix(in srgb, var(--accent-gold) 14%, var(--border-subtle));
+}
+.review-card__avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid color-mix(in srgb, var(--accent-saffron) 35%, transparent);
+}
+.review-card__name {
+  font-weight: 600;
+  color: var(--ink-primary);
+  margin: 0;
+  font-size: 0.95rem;
+}
+.review-card__meta {
+  font-size: var(--fs-caption);
+  color: var(--ink-muted);
+  margin: 2px 0 0;
+}
+.p14-reviews__cta {
+  text-align: center;
+  margin: 0;
 }

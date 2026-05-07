@@ -49,7 +49,7 @@
     },
     "footer": {
       "brandTitle": "HanoiQuan",
-      "brandTagline": "Hương vị Việt giữa Paris, từ năm [NĂM].",
+      "brandTagline": "Hương vị Việt giữa Paris, từ năm 2015.",
       "houses": "Hai quán",
       "discover": "Khám phá",
       "language": "Ngôn ngữ",
@@ -61,7 +61,7 @@
   "pages": {
     "home": {
       "hero": {
-        "eyebrow": "Paris · từ năm [NĂM]",
+        "eyebrow": "Paris · từ năm 2015",
         "h1": "Hương vị Việt, hai quán giữa Paris.",
         "subHtml": "Menu đầy đủ tại quận 14<sup>e</sup>. Phở bên sông Seine. Chọn quán bạn muốn ghé.",
         "ctaPrimary": "Khám phá hai quán",
@@ -101,13 +101,19 @@
       },
       "gallery": {
         "overline": "Hình ảnh",
-        "h2": "Đôi khoảnh khắc tại quán.",
+        "h2": "Trong bếp, ngoài bàn, trên đĩa.",
         "cap1": "Phở bò tái · Quán Seine",
         "cap2": "Bánh mì trưa · Quán 14e",
-        "cap3": "Rau thơm · chợ sáng",
-        "cap4": "Buổi tối · 14e",
-        "cap5": "Hơi nước phở · Seine",
-        "cap6": "Cà phê sữa đá"
+        "cap3": "Đầu bếp · bếp mở",
+        "cap4": "Sơ chế thủ công · trạm lạnh",
+        "cap5": "Nồi nước dùng · 12 giờ ninh",
+        "cap6": "Cà phê sữa đá",
+        "alt1": "Bát phở bò tái nóng hổi với rau thơm và chanh.",
+        "alt2": "Ổ bánh mì giòn rụm với thịt và rau mùi.",
+        "alt3": "Đầu bếp trong bếp mở, đang vào ca phục vụ.",
+        "alt4": "Sơ chế thủ công — rau thơm và dao trên thớt.",
+        "alt5": "Hơi nước bốc lên từ nồi nước dùng phở.",
+        "alt6": "Ly cà phê sữa đá trên bàn gỗ."
       },
       "cta": {
         "overline": "Một bàn đang chờ",
@@ -120,8 +126,8 @@
         "h2": "Hai địa chỉ, hai khu phố.",
         "tagline14e": "Thực đơn Việt đầy đủ",
         "taglineSeine": "Chuyên gia phở",
-        "hours": "Thứ 3–CN · 12:00–14:30 · 19:00–22:30",
-        "hoursSeine": "Thứ 3–CN · 12:00–14:00 · 19:00–22:00",
+        "hours": "Thứ 3–CN · 17:30–20:45",
+        "hoursSeine": "Thứ 3–CN · 17:30–20:45",
         "directions": "Chỉ đường →"
       }
     },
@@ -333,9 +339,9 @@
       },
       "branchSelectLabel": "Chọn quán",
       "branch14eName": "HanoiQuan 14e",
-      "branch14eMeta": "Menu đầy đủ · 40 chỗ · [Địa chỉ]",
+      "branch14eMeta": "Menu đầy đủ · 40 chỗ · 46 rue Raymond Losserand, 75014 Paris",
       "branchSeineName": "HanoiQuan Seine",
-      "branchSeineMeta": "Chuyên phở · 24 chỗ · [Địa chỉ]",
+      "branchSeineMeta": "Chuyên phở · 24 chỗ · 27 Quai des Grands Augustins, 75006 Paris",
       "form": {
         "date": "Ngày",
         "time": "Giờ",

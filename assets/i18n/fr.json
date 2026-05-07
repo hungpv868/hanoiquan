@@ -49,7 +49,7 @@
     },
     "footer": {
       "brandTitle": "HanoiQuan",
-      "brandTagline": "La cuisine vietnamienne à Paris, depuis [ANNÉE].",
+      "brandTagline": "La cuisine vietnamienne à Paris, depuis 2015.",
       "houses": "Nos maisons",
       "discover": "Découvrir",
       "language": "Langue",
@@ -61,7 +61,7 @@
   "pages": {
     "home": {
       "hero": {
-        "eyebrow": "Paris · depuis [ANNÉE]",
+        "eyebrow": "Paris · depuis 2015",
         "h1": "La cuisine vietnamienne, deux maisons à Paris.",
         "subHtml": "Une carte complète dans le 14<sup>e</sup>. Le pho au bord de la Seine. Choisissez votre maison.",
         "ctaPrimary": "Découvrir nos maisons",
@@ -101,13 +101,19 @@
       },
       "gallery": {
         "overline": "En images",
-        "h2": "Quelques instants chez nous.",
+        "h2": "En cuisine, en salle, dans l'assiette.",
         "cap1": "Phở bò tái · Maison Seine",
         "cap2": "Banh mi du midi · Maison 14e",
-        "cap3": "Bouquet d'herbes · marché du matin",
-        "cap4": "Service du soir · 14e",
-        "cap5": "Vapeur de bouillon · Seine",
-        "cap6": "Cà phê sữa đá"
+        "cap3": "Le chef · cuisine ouverte",
+        "cap4": "Découpe à la main · poste froid",
+        "cap5": "Bouillon en préparation · 12 heures",
+        "cap6": "Cà phê sữa đá",
+        "alt1": "Bol de phở bò tái fumant, herbes fraîches et citron vert.",
+        "alt2": "Banh mi croustillant garni de viande et coriandre.",
+        "alt3": "Le chef en cuisine ouverte, en plein service.",
+        "alt4": "Préparation manuelle des plats, herbes fraîches et lames sur planche.",
+        "alt5": "Vapeur de bouillon de pho qui s'élève d'une marmite.",
+        "alt6": "Verre de cà phê sữa đá glacé sur une table en bois."
       },
       "cta": {
         "overline": "Une table vous attend",
@@ -120,8 +126,8 @@
         "h2": "Deux adresses, deux quartiers.",
         "tagline14e": "Carte vietnamienne complète",
         "taglineSeine": "Spécialiste du pho",
-        "hours": "Mar–Dim · 12h–14h30 · 19h–22h30",
-        "hoursSeine": "Mar–Dim · 12h–14h · 19h–22h",
+        "hours": "Mar–Dim · 17h30–20h45",
+        "hoursSeine": "Mar–Dim · 17h30–20h45",
         "directions": "Itinéraire →"
       }
     },
@@ -333,9 +339,9 @@
       },
       "branchSelectLabel": "Choisir la maison",
       "branch14eName": "HanoiQuan 14e",
-      "branch14eMeta": "Carte complète · 40 couverts · [Adresse]",
+      "branch14eMeta": "Carte complète · 40 couverts · 46 rue Raymond Losserand, 75014 Paris",
       "branchSeineName": "HanoiQuan Seine",
-      "branchSeineMeta": "Spécialiste pho · 24 couverts · [Adresse]",
+      "branchSeineMeta": "Spécialiste pho · 24 couverts · 27 Quai des Grands Augustins, 75006 Paris",
       "form": {
         "date": "Date",
         "time": "Heure",

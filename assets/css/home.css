@@ -405,7 +405,7 @@
 
 .house-card__map {
   position: relative;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 21 / 9;
   border-radius: var(--radius-sm);
   overflow: hidden;
   background: var(--bg-inset);

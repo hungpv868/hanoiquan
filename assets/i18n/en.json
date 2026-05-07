@@ -49,7 +49,7 @@
     },
     "footer": {
       "brandTitle": "HanoiQuan",
-      "brandTagline": "Vietnamese cooking in Paris, since [YEAR].",
+      "brandTagline": "Vietnamese cooking in Paris, since 2015.",
       "houses": "Our houses",
       "discover": "Discover",
       "language": "Language",
@@ -61,7 +61,7 @@
   "pages": {
     "home": {
       "hero": {
-        "eyebrow": "Paris · since [YEAR]",
+        "eyebrow": "Paris · since 2015",
         "h1": "Vietnamese cuisine, two houses in Paris.",
         "subHtml": "A full menu in the 14<sup>th</sup>. Pho by the Seine. Choose your house.",
         "ctaPrimary": "Discover our houses",
@@ -101,13 +101,19 @@
       },
       "gallery": {
         "overline": "In pictures",
-        "h2": "A few moments in our houses.",
+        "h2": "In the kitchen, in the dining room, on the plate.",
         "cap1": "Phở bò tái · Maison Seine",
         "cap2": "Lunchtime banh mi · Maison 14e",
-        "cap3": "Herbs · morning market",
-        "cap4": "Evening service · 14e",
-        "cap5": "Broth steam · Seine",
-        "cap6": "Cà phê sữa đá"
+        "cap3": "The chef · open kitchen",
+        "cap4": "Hand-cut prep · cold station",
+        "cap5": "Broth simmering · 12 hours",
+        "cap6": "Cà phê sữa đá",
+        "alt1": "Steaming bowl of phở bò tái with fresh herbs and lime.",
+        "alt2": "Crispy banh mi sandwich with meat and coriander.",
+        "alt3": "The chef in the open kitchen during service.",
+        "alt4": "Manual prep work — fresh herbs and knives on the board.",
+        "alt5": "Steam rising from a pho broth pot.",
+        "alt6": "Glass of iced cà phê sữa đá on a wooden table."
       },
       "cta": {
         "overline": "A table is waiting",
@@ -120,8 +126,8 @@
         "h2": "Two addresses, two neighbourhoods.",
         "tagline14e": "Full Vietnamese menu",
         "taglineSeine": "Pho specialist",
-        "hours": "Tue–Sun · 12:00–14:30 · 19:00–22:30",
-        "hoursSeine": "Tue–Sun · 12:00–14:00 · 19:00–22:00",
+        "hours": "Tue–Sun · 17:30–20:45",
+        "hoursSeine": "Tue–Sun · 17:30–20:45",
         "directions": "Get directions →"
       }
     },
@@ -333,9 +339,9 @@
       },
       "branchSelectLabel": "Choose the house",
       "branch14eName": "HanoiQuan 14e",
-      "branch14eMeta": "Full menu · 40 seats · [Address]",
+      "branch14eMeta": "Full menu · 40 seats · 46 rue Raymond Losserand, 75014 Paris",
       "branchSeineName": "HanoiQuan Seine",
-      "branchSeineMeta": "Pho specialist · 24 seats · [Address]",
+      "branchSeineMeta": "Pho specialist · 24 seats · 27 Quai des Grands Augustins, 75006 Paris",
       "form": {
         "date": "Date",
         "time": "Time",
