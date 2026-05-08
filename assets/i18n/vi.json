@@ -1,38 +1,38 @@
 {
   "meta": {
     "home": {
-      "title": "HanoiQuan · Quán Việt tại Paris — 14e & Seine",
-      "description": "Hai quán, một hương vị Việt giữa lòng Paris. HanoiQuan 14e cho menu đầy đủ, HanoiQuan Seine chuyên về phở. Đặt bàn ngay."
+      "title": "HaNoiQuan · Quán Việt tại Paris — 14e & Seine",
+      "description": "Hai quán, một hương vị Việt giữa lòng Paris. HaNoiQuan 14e cho menu đầy đủ, HaNoiQuan Seine chuyên về phở. Đặt bàn ngay."
     },
     "p14e": {
-      "title": "HanoiQuan 14e · Quán Việt Paris quận 14 — Phở, Bún, Bánh Mì",
+      "title": "HaNoiQuan 14e · Quán Việt Paris quận 14 — Phở, Bún, Bánh Mì",
       "description": "Quán Việt tại quận 14 Paris. Menu đầy đủ: phở, bún, bánh mì, món chay. Mở cửa trưa và tối. Đặt bàn online."
     },
     "seine": {
-      "title": "HanoiQuan Seine · Chuyên Phở tại Paris — Bên sông Seine",
+      "title": "HaNoiQuan Seine · Chuyên Phở tại Paris — Bên sông Seine",
       "description": "Phở đúng vị bên sông Seine. Nước dùng ninh 12 giờ, bốn biến tấu, rau thơm tươi mỗi sáng. Đặt bàn ngay."
     },
     "about": {
-      "title": "Về chúng tôi · HanoiQuan — Hành trình từ Hà Nội đến Paris",
-      "description": "Câu chuyện HanoiQuan: một gia đình, hai quán, gian bếp Việt chân thật giữa Paris."
+      "title": "Về chúng tôi · HaNoiQuan — Hành trình từ Hà Nội đến Paris",
+      "description": "Câu chuyện HaNoiQuan: một gia đình, hai quán, gian bếp Việt chân thật giữa Paris."
     },
     "contact": {
-      "title": "Liên hệ · HanoiQuan — Địa chỉ, giờ mở, điện thoại Paris 14 & Seine",
-      "description": "Địa chỉ, giờ mở cửa và số điện thoại của hai quán Việt HanoiQuan tại Paris."
+      "title": "Liên hệ · HaNoiQuan — Địa chỉ, giờ mở, điện thoại Paris 14 & Seine",
+      "description": "Địa chỉ, giờ mở cửa và số điện thoại của hai quán Việt HaNoiQuan tại Paris."
     },
     "reservation": {
-      "title": "Đặt bàn · HanoiQuan — Đặt online trong 2 phút",
-      "description": "Đặt bàn tại HanoiQuan 14e hoặc HanoiQuan Seine online. Xác nhận trong 2 giờ."
+      "title": "Đặt bàn · HaNoiQuan — Đặt online trong 2 phút",
+      "description": "Đặt bàn tại HaNoiQuan 14e hoặc HaNoiQuan Seine online. Xác nhận trong 2 giờ."
     }
   },
   "common": {
     "skipLink": "Đến nội dung chính",
-    "logoAria": "HanoiQuan — trang chủ",
+    "logoAria": "HaNoiQuan — trang chủ",
     "nav": {
       "label": "Chính",
       "menuOpen": "Mở menu",
-      "branch14e": "HanoiQuan 14e",
-      "branchSeine": "HanoiQuan Seine",
+      "branch14e": "HaNoiQuan 14e",
+      "branchSeine": "HaNoiQuan Seine",
       "about": "Về chúng tôi",
       "contact": "Liên hệ",
       "reserve": "Đặt bàn"
@@ -48,12 +48,12 @@
       "toDark": "Chuyển sang giao diện tối"
     },
     "footer": {
-      "brandTitle": "HanoiQuan",
+      "brandTitle": "HaNoiQuan",
       "brandTagline": "Hương vị Việt giữa Paris, từ năm 2015.",
       "houses": "Hai quán",
       "discover": "Khám phá",
       "language": "Ngôn ngữ",
-      "copyright": "© 2026 HanoiQuan",
+      "copyright": "© 2026 HaNoiQuan",
       "legal": "Thông tin pháp lý",
       "privacy": "Chính sách bảo mật"
     }
@@ -80,14 +80,14 @@
       "branches": {
         "overline": "Hai quán của chúng tôi",
         "h2": "Hai địa chỉ, hai không gian.",
-        "card14eTitle": "HanoiQuan 14e",
+        "card14eTitle": "HaNoiQuan 14e",
         "card14eTagline": "Ẩm thực Việt, đa dạng và đầy đủ.",
-        "cardSeineTitle": "HanoiQuan Seine",
+        "cardSeineTitle": "HaNoiQuan Seine",
         "cardSeineTagline": "Phở, và gần như chỉ phở.",
         "discover": "Khám phá →",
         "helpLine": "Phân vân? Phở → Seine. Còn lại → 14e.",
-        "imageAlt14e": "Mặt tiền HanoiQuan 14e sáng đèn vào buổi tối, nhìn từ phố.",
-        "imageAltSeine": "Không gian ấm cúng HanoiQuan Seine, bàn cạnh cửa sổ lúc hoàng hôn."
+        "imageAlt14e": "Mặt tiền HaNoiQuan 14e sáng đèn vào buổi tối, nhìn từ phố.",
+        "imageAltSeine": "Không gian ấm cúng HaNoiQuan Seine, bàn cạnh cửa sổ lúc hoàng hôn."
       },
       "signature": {
         "overline": "Điều khác biệt",
@@ -136,7 +136,7 @@
         "eyebrowHtml": "Quán I · Paris quận 14",
         "h1": "Hương vị Việt, như ở nhà.",
         "sub": "Từ phố vào đĩa: phở, bún, bánh mì, và mọi thứ ở giữa.",
-        "ctaPrimary": "Đặt bàn HanoiQuan 14e",
+        "ctaPrimary": "Đặt bàn HaNoiQuan 14e",
         "ctaSecondary": "Xem menu ↓"
       },
       "featured": {
@@ -159,8 +159,8 @@
       },
       "chef": {
         "overline": "Trong bếp",
-        "h2": "[Tên đầu bếp], từ Hà Nội đến phố [Placeholder].",
-        "body": "[Tên] lớn lên giữa gian bếp của mẹ và chợ [khu phố]. Đến Paris năm [năm], mở HanoiQuan 14e năm [năm].",
+        "h2": "Đầu bếp của chúng tôi, từ Hà Nội đến Paris.",
+        "body": "Đầu bếp của quán lớn lên giữa gian bếp của mẹ và những phiên chợ Hà Nội. Đến Paris năm 2008, anh mở HaNoiQuan 14e vào năm 2015.",
         "quote": "« Nấu món Việt giữa Paris là dịch lại mà không phản bội. »"
       },
       "atmosphere": {
@@ -170,19 +170,19 @@
       },
       "info": {
         "overline": "Đến với chúng tôi",
-        "h2": "HanoiQuan 14e đang chờ bạn.",
+        "h2": "HaNoiQuan 14e đang chờ bạn.",
         "addressTitle": "Địa chỉ",
         "hoursTitle": "Giờ mở",
         "contactTitle": "Liên hệ",
         "callBtn": "Gọi điện",
         "reserveBtn": "Đặt bàn",
-        "crosslinkHtml": "Bạn tìm phở chính gốc? <a href=\"/seine/\">Khám phá HanoiQuan Seine →</a>"
+        "crosslinkHtml": "Bạn tìm phở chính gốc? <a href=\"/seine/\">Khám phá HaNoiQuan Seine →</a>"
       },
       "banner": {
         "tagHtml": "Quán I · Paris 14<sup>e</sup>",
         "filmTag": "— Video: ẩm thực Việt",
         "kicker": "Từ năm 2015 · 46 R. Raymond Losserand",
-        "title1": "HanoiQuan",
+        "title1": "HaNoiQuan",
         "title2Html": "14<sup>e</sup>.",
         "lead": "Quán Việt giữa khu phố, nấu kiểu nhà. Bốn mươi chỗ ngồi, bếp mở, mọi thứ làm tại quán — pa-tê, đồ chua, nước chấm, bột bánh.",
         "sub": "Từ Hà Nội đến quận 14, cùng một tiêu chuẩn: nguyên liệu tươi, tay nghề chuẩn, đón khách thân tình.",
@@ -213,7 +213,7 @@
       },
       "address": {
         "overline": "Đến quán",
-        "h2": "HanoiQuan 14e đang đợi bạn.",
+        "h2": "HaNoiQuan 14e đang đợi bạn.",
         "addrLabel": "Địa chỉ",
         "hoursLabel": "Giờ mở cửa",
         "phoneLabel": "Điện thoại",
@@ -222,7 +222,7 @@
         "hoursValueHtml": "Thứ Ba – Chủ Nhật<br>Đặt bàn từ 17:30 đến 20:45<br><span class=\"muted\">Đóng cửa Thứ Hai</span>",
         "reserveBtn": "Đặt bàn",
         "directionsBtn": "Đường đi ↗",
-        "mapTitle": "Bản đồ HanoiQuan 14e — 46 rue Raymond Losserand, 75014 Paris"
+        "mapTitle": "Bản đồ HaNoiQuan 14e — 46 rue Raymond Losserand, 75014 Paris"
       },
       "drinks": {
         "overline": "Đồ uống",
@@ -241,7 +241,7 @@
       "reviews": {
         "overline": "Khách yêu thích",
         "h2": "Khách của chúng tôi nói gì.",
-        "intro": "Đánh giá thực tế từ khách của HanoiQuan 14e.",
+        "intro": "Đánh giá thực tế từ khách của HaNoiQuan 14e.",
         "ratingAria": "Đánh giá: 5 trên 5 sao",
         "r1Quote": "« Bánh mì ngon nhất tôi ăn ngoài Việt Nam. Bánh giòn vừa, thịt nướng tan trong miệng, đồ chua tự làm — khác biệt hẳn. Tuần nào cũng quay lại. »",
         "r1Name": "Marie L.",
@@ -252,7 +252,7 @@
         "r3Quote": "« Chồng tôi gốc Hà Nội, anh ấy bảo cơm tấm ở đây giống hệt mẹ anh nấu. Không gian giản dị, sạch, ấm. Hai vợ chồng chia gỏi cuốn — tuyệt vời. »",
         "r3Name": "Sophie & Minh",
         "r3Meta": "Cặp đôi Pháp–Việt",
-        "r4Quote": "« Lần đầu đến vì có người giới thiệu: không thất vọng. Mọi thứ đều nấu liền, cảm nhận được sự tôn trọng nguyên liệu. Bánh mì mang về thứ Sáu thành thói quen của tôi. Cảm ơn HanoiQuan! »",
+        "r4Quote": "« Lần đầu đến vì có người giới thiệu: không thất vọng. Mọi thứ đều nấu liền, cảm nhận được sự tôn trọng nguyên liệu. Bánh mì mang về thứ Sáu thành thói quen của tôi. Cảm ơn HaNoiQuan! »",
         "r4Name": "Julien K.",
         "r4Meta": "Đánh giá TripAdvisor",
         "ctaBtn": "Đặt bàn ngay"
@@ -268,7 +268,7 @@
       "philosophy": {
         "num": "I — Triết lý",
         "h2": "Nước trong, ký ức đậm.",
-        "body1": "Phở không chỉ là súp. Phở là ký ức. Ở Hà Nội người ta húp phở buổi sáng, đứng trên ghế nhựa, trong làn hơi đường phố. Tại HanoiQuan Seine chúng tôi chọn lối Bắc: nước dùng trong, gần như trong suốt, để mỗi nguyên liệu được tách bạch.",
+        "body1": "Phở không chỉ là súp. Phở là ký ức. Ở Hà Nội người ta húp phở buổi sáng, đứng trên ghế nhựa, trong làn hơi đường phố. Tại HaNoiQuan Seine chúng tôi chọn lối Bắc: nước dùng trong, gần như trong suốt, để mỗi nguyên liệu được tách bạch.",
         "quote": "« Nước trong, ký ức đậm. »",
         "body2": "Xương bò, gừng nướng, hoa hồi, quế, thảo quả đen. Mười hai giờ riu nhỏ, không bao giờ sôi mạnh."
       },
@@ -310,8 +310,103 @@
         "num": "V — Một bàn đang chờ",
         "h2": "Đặt bàn cho bữa phở.",
         "sub": "Trưa: 12h–14h. Tối: 19h–22h. Chỉ hai mươi tư chỗ.",
-        "button": "Đặt bàn HanoiQuan Seine",
-        "crosslinkHtml": "Muốn menu rộng hơn? <a href=\"/14e/\">Khám phá HanoiQuan 14e →</a>"
+        "button": "Đặt bàn HaNoiQuan Seine",
+        "crosslinkHtml": "Muốn menu rộng hơn? <a href=\"/14e/\">Khám phá HaNoiQuan 14e →</a>"
+      },
+      "banner": {
+        "eyebrow": "HaNoiQuan · Quán II · Bên sông Seine",
+        "title": "Phở.",
+        "tagline": "Mười hai giờ kiên nhẫn, một bát mỗi tối.",
+        "meta": "27 Quai des Grands Augustins · 75006 · Thứ 3–CN · 17:30 → 20:45",
+        "scrollAria": "Cuộn xuống nội dung",
+        "imageAlt": "Bát phở chụp từ trên xuống, hơi nước bốc lên — khoảnh khắc đặc trưng của quán."
+      },
+      "manifesto": {
+        "overline": "Lời của đầu bếp",
+        "title1": "Nồi nước dùng",
+        "title2": "là tất cả.",
+        "body1": "Một lời hứa, bốn biến tấu. Xương bò, gừng nướng lửa, thảo quả đen, quế, hoa hồi. Mười hai giờ ninh — không bao giờ sôi bùng. Hai mươi tư chỗ ngồi, hai ca phục vụ. Khi nồi nước cạn, quán đóng cửa.",
+        "body2": "Ở Hà Nội, người ta nói một bát phở ngon được nhận ra qua sự yên tĩnh của nó. Bên sông Seine, chúng tôi đã quyết định giữ nguyên sự yên tĩnh ấy.",
+        "signoff": "— Đầu bếp, HaNoiQuan Seine"
+      },
+      "scene": {
+        "overline": "Nồi nước dùng",
+        "titleLine1": "Mười hai giờ.",
+        "titleLine2": "Không hơn không kém.",
+        "body": "Xương trần qua nước sôi, hớt bọt hai lần. Gừng và hành nướng cháy trên lửa trần, cho vào nguyên cả củ. Hoa hồi, thảo quả đen, quế, đinh hương — rang khô, gói trong vải mỏng. Nước dùng chuyển màu hổ phách vào giờ thứ sáu. Không bao giờ nêm muối trước giờ thứ chín. Lọc, chan thật nóng. Không sớm hơn.",
+        "imageAlt": "Bát phở Sài Gòn đầy đủ, ăn kèm rau thơm, húng quế Thái và giá đỗ."
+      },
+      "pho": {
+        "overline": "Thực đơn phở",
+        "title": "Bốn biến tấu.",
+        "dacBietSub": "Đặc biệt của quán",
+        "dacBietName": "Phở đặc biệt",
+        "dacBietDesc": "Tái, chín, nạm, gân, viên. Kế thừa từ miền Nam — bát phở nói lên tất cả chỉ trong một thìa.",
+        "dacBietAlt": "Phở đặc biệt — đủ các loại bò trong một bát.",
+        "boTaiSub": "Bò tái",
+        "boTaiName": "Phở bò tái",
+        "boTaiDesc": "Thái lát hai milimét, đặt sống lên trên bánh. Nước dùng nóng hổi sẽ làm phần còn lại.",
+        "boTaiAlt": "Phở bò tái — nước dùng trong, lát bò tái mỏng.",
+        "gaSub": "Gà · kiểu Bắc",
+        "gaName": "Phở gà",
+        "gaDesc": "Nước dùng gà ta thả vườn. Không rau ăn kèm, đi thẳng vào trọng tâm. Hà Nội trong một thìa.",
+        "gaAlt": "Phở gà kiểu Bắc, không rau ăn kèm.",
+        "gaSudSub": "Phong cách Sài Gòn",
+        "gaSudName": "Phở gà miền Nam",
+        "gaSudDesc": "Nhiều rau thơm hơn. Húng quế Thái, tía tô, chanh.",
+        "gaSudAlt": "Phở gà phong cách Sài Gòn, ăn kèm húng quế Thái và giá."
+      },
+      "bun": {
+        "overline": "Thực đơn bún",
+        "title": "Ba bún, ba miền Việt Nam.",
+        "region1Locator": "Bắc · Hà Nội",
+        "region1Name": "Bún chả",
+        "region1Vi": "Bún chả Hà Nội",
+        "region1Desc": "Món ăn của Hà Nội, được Obama và Bourdain ăn năm 2016. Thịt viên và miếng thịt nướng than hoa, bún tươi, rau thơm, chấm trong nước mắm pha loãng.",
+        "region1Why": "Phải ăn theo kiểu chấm — không trộn. Nghi thức quan trọng không kém nước chấm.",
+        "region1Alt": "Bún chả — thịt nướng than hoa, bún tươi và nước mắm pha, biểu tượng ẩm thực Hà Nội.",
+        "region2Locator": "Trung · Huế",
+        "region2Name": "Bún bò Huế",
+        "region2Vi": "Bún bò Huế",
+        "region2Desc": "Tô bún hoàng cung, đậm vị hơn người anh em phở. Sả, mắm tôm, ớt. Nước dùng đỏ cam đậm, sợi bún to, chân giò bò và chả heo.",
+        "region2Why": "Ở Huế, người ta không đùa với ớt. Phiên bản của chúng tôi giữ trung thành — báo trước nếu bạn muốn nhẹ.",
+        "region2Alt": "Bún bò Huế — món bún cay từ miền Trung Việt Nam.",
+        "region3Locator": "Nam · Sài Gòn",
+        "region3Name": "Bún bò Nam Bộ",
+        "region3Vi": "Bún bò Nam Bộ",
+        "region3Desc": "Không phải món súp — một bát trộn. Bò xào sả, bún tươi ấm, đậu phộng giã, hành phi, rau thơm, nước mắm pha ngọt. Trộn đều trước khi gắp miếng đầu tiên.",
+        "region3Why": "Phục vụ khô. Ở đây, nước dùng trở thành nước chấm.",
+        "region3Alt": "Bún bò Nam Bộ — bún, bò xào sả, đậu phộng và rau thơm miền Nam."
+      },
+      "reviews": {
+        "overline": "Báo chí & khách quen",
+        "title": "Khách nói gì về chúng tôi.",
+        "r1Quote": "Nước dùng trong vắt một cách hiếm có. Tìm lại được sự nghiêm cẩn của phở Hà Nội, sự kiên nhẫn mà không thực đơn Paris nào còn giữ. Hai mươi tư chỗ ngồi, một ca phục vụ — đó là quan điểm, và đó là quyết định đúng.",
+        "r1Name": "Marie-Claire H.",
+        "r1MetaHtml": "Khách quen buổi tối · Paris 7<sup>e</sup>",
+        "r2Quote": "Một gian bếp tinh tế không phô trương. Thực đơn gói gọn một trang, nước dùng ninh mười hai giờ, từng chi tiết — từ gừng nướng đến tương ớt nhà làm — kể câu chuyện về tay nghề. Đáng giới thiệu hết lời.",
+        "r2Name": "Alexandre Dubois",
+        "r2Meta": "Nhà phê bình ẩm thực · Le Figaro",
+        "r3Quote": "Tôi lớn lên cùng nồi phở của bà ngoại ở Hà Nội. Không bao giờ nghĩ sẽ tìm lại được vị ấy ở Paris — vị của nồi nước không bị thúc ép. Bún chả khiến tôi rơi nước mắt. Lặng lẽ.",
+        "r3Name": "Hoàng Lan",
+        "r3Meta": "Chủ quán ẩm thực Hà Nội · ghé qua",
+        "r4Quote": "Tổ chức sinh nhật ở đây. Phục vụ buổi tối ấm cúng, ánh đèn vàng, một bát bún bò Huế đầy đặn không tưởng. Cô phục vụ dành thời gian giải thích từng loại rau — hiếm lắm. Đã thành quán ruột.",
+        "r4Name": "Thomas & Cécile",
+        "r4Meta": "Tiệc sinh nhật · tháng 12 / 2025"
+      },
+      "close": {
+        "overline": "Một bàn đang đợi bạn",
+        "titleLine1": "Hai mươi tư",
+        "titleLine2": "chỗ ngồi.",
+        "body": "Thứ Ba đến Chủ Nhật, chỉ phục vụ buổi tối. Khi nồi nước cạn, quán đóng cửa.",
+        "addrLabel": "Địa chỉ",
+        "addrValueHtml": "27 Quai des Grands Augustins<br>75006 Paris · Bên sông Seine",
+        "hoursLabel": "Giờ mở",
+        "hoursValueHtml": "Thứ 3 — CN · 17:30 → 20:45<br><span class=\"muted\">Đóng cửa Thứ 2</span>",
+        "directLabel": "Liên hệ trực tiếp",
+        "ctaPrimary": "Đặt bàn",
+        "ctaGhost": "Đường đi ↗",
+        "imageAlt": "Bát phở phục vụ buổi tối, ánh đèn ấm."
       }
     },
     "about": {
@@ -324,8 +419,9 @@
         "overline": "Câu chuyện",
         "h2": "Bắt đầu từ Hà Nội.",
         "body1": "Tất cả bắt đầu ở khu phố [khu Hà Nội], giữa gian bếp của [bà / mẹ] và chợ. Một công thức nồi nước phở, truyền qua bao thế hệ.",
-        "body2": "Đặt chân đến Paris năm [năm], gia đình mang theo không phải một thực đơn, mà một ký ức. Hai mươi năm sau, hai quán cùng giữ lại cử chỉ ấy.",
-        "quote": "« Mình không phục vụ một đất nước, mình phục vụ một ký ức. »"
+        "body2": "Đặt chân đến Paris năm 2010, gia đình mang theo không phải một thực đơn, mà một ký ức. Năm năm sau, hai quán tiếp nối ngọn lửa ấy.",
+        "quote": "« Mình không phục vụ một đất nước, mình phục vụ một ký ức. »",
+        "imageAlt": "Bàn tay đầu bếp đang chan nước phở vào nồi — bàn tay nối tiếp truyền thống qua nhiều thế hệ."
       },
       "cooking": {
         "overline": "Ẩm thực Việt giữa Pháp",
@@ -346,10 +442,10 @@
       "addresses": {
         "overline": "Hai quán",
         "h2": "Một gia đình, hai địa chỉ.",
-        "card14eTitle": "HanoiQuan 14e",
+        "card14eTitle": "HaNoiQuan 14e",
         "card14eBody": "Ẩm thực Việt đầy đủ — phở, bún, bánh mì.",
         "card14eCta": "Khám phá 14e →",
-        "cardSeineTitle": "HanoiQuan Seine",
+        "cardSeineTitle": "HaNoiQuan Seine",
         "cardSeineBody": "Phở trong chiều sâu — năm biến tấu, mười hai giờ.",
         "cardSeineCta": "Khám phá Seine →"
       },
@@ -408,18 +504,22 @@
         "submit": "Gửi",
         "errorRequired": "Bắt buộc",
         "errorEmail": "Email không hợp lệ"
-      }
+      },
+      "hoursValueHtml": "Thứ 3–CN · 17:30–20:45<br>Đóng cửa Thứ 2",
+      "mapH2": "Tìm chúng tôi tại Paris.",
+      "mapMaison1": "Quán I",
+      "mapMaison2": "Quán II"
     },
     "reservation": {
       "hero": {
         "overline": "Đặt bàn",
-        "h1": "Đặt bàn trong hai phút.",
-        "sub": "Chọn quán. Chúng tôi xác nhận qua email trong vòng hai giờ."
+        "h1": "Đặt bàn của bạn.",
+        "sub": "Gọi điện hoặc gửi email trực tiếp. Chúng tôi xác nhận trong vòng 2 giờ."
       },
       "branchSelectLabel": "Chọn quán",
-      "branch14eName": "HanoiQuan 14e",
+      "branch14eName": "HaNoiQuan 14e",
       "branch14eMeta": "Menu đầy đủ · 40 chỗ · 46 rue Raymond Losserand, 75014 Paris",
-      "branchSeineName": "HanoiQuan Seine",
+      "branchSeineName": "HaNoiQuan Seine",
       "branchSeineMeta": "Chuyên phở · 24 chỗ · 27 Quai des Grands Augustins, 75006 Paris",
       "form": {
         "date": "Ngày",
@@ -454,11 +554,13 @@
       },
       "aside": {
         "title": "Cần biết",
-        "tip1": "Xác nhận qua email trong 2h",
+        "tip1": "Xác nhận qua điện thoại hoặc email trong 2h",
         "tip2": "Huỷ miễn phí trước 4h",
-        "tip3": "Nhóm > 12 người, liên hệ trực tiếp",
-        "tip4": "Dị ứng? Ghi vào yêu cầu đặc biệt"
-      }
+        "tip3": "Đoàn trên 12 người, vui lòng gọi điện",
+        "tip4": "Có dị ứng? Hãy nhắc khi đặt bàn"
+      },
+      "callBtn": "Gọi điện",
+      "emailBtn": "Email"
     }
   },
   "data": {

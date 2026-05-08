@@ -1,38 +1,38 @@
 {
   "meta": {
     "home": {
-      "title": "HanoiQuan · Vietnamese Restaurant in Paris — 14e & Seine",
-      "description": "Two houses, one Vietnamese kitchen. HanoiQuan 14e for the full menu, HanoiQuan Seine for pho. Book your table in Paris."
+      "title": "HaNoiQuan · Vietnamese Restaurant in Paris — 14e & Seine",
+      "description": "Two houses, one Vietnamese kitchen. HaNoiQuan 14e for the full menu, HaNoiQuan Seine for pho. Book your table in Paris."
     },
     "p14e": {
-      "title": "HanoiQuan 14e · Vietnamese Restaurant Paris 14 — Pho, Bun, Banh Mi",
+      "title": "HaNoiQuan 14e · Vietnamese Restaurant Paris 14 — Pho, Bun, Banh Mi",
       "description": "Vietnamese restaurant in Paris 14th arrondissement. Full menu: pho, bun, banh mi, vegetarian dishes. Open lunch and dinner. Online booking."
     },
     "seine": {
-      "title": "HanoiQuan Seine · Pho Specialist in Paris — Riverside",
+      "title": "HaNoiQuan Seine · Pho Specialist in Paris — Riverside",
       "description": "Authentic pho by the Seine. Broth simmered 12 hours, four variations, fresh herbs from the morning market. Book a table."
     },
     "about": {
-      "title": "About · HanoiQuan — A kitchen between Hanoi and Paris",
-      "description": "The story of HanoiQuan: one family, two houses, sincere Vietnamese cooking in Paris."
+      "title": "About · HaNoiQuan — A kitchen between Hanoi and Paris",
+      "description": "The story of HaNoiQuan: one family, two houses, sincere Vietnamese cooking in Paris."
     },
     "contact": {
-      "title": "Contact · HanoiQuan — Addresses, hours, phone Paris 14 & Seine",
+      "title": "Contact · HaNoiQuan — Addresses, hours, phone Paris 14 & Seine",
       "description": "Addresses, hours and phone numbers for both our Vietnamese restaurants in Paris."
     },
     "reservation": {
-      "title": "Booking · HanoiQuan — Book online in 2 minutes",
-      "description": "Book your table at HanoiQuan 14e or HanoiQuan Seine online. Confirmation within 2 hours."
+      "title": "Booking · HaNoiQuan — Book online in 2 minutes",
+      "description": "Book your table at HaNoiQuan 14e or HaNoiQuan Seine online. Confirmation within 2 hours."
     }
   },
   "common": {
     "skipLink": "Skip to main content",
-    "logoAria": "HanoiQuan — home",
+    "logoAria": "HaNoiQuan — home",
     "nav": {
       "label": "Main",
       "menuOpen": "Open menu",
-      "branch14e": "HanoiQuan 14e",
-      "branchSeine": "HanoiQuan Seine",
+      "branch14e": "HaNoiQuan 14e",
+      "branchSeine": "HaNoiQuan Seine",
       "about": "About",
       "contact": "Contact",
       "reserve": "Book"
@@ -48,12 +48,12 @@
       "toDark": "Switch to dark theme"
     },
     "footer": {
-      "brandTitle": "HanoiQuan",
+      "brandTitle": "HaNoiQuan",
       "brandTagline": "Vietnamese cooking in Paris, since 2015.",
       "houses": "Our houses",
       "discover": "Discover",
       "language": "Language",
-      "copyright": "© 2026 HanoiQuan",
+      "copyright": "© 2026 HaNoiQuan",
       "legal": "Legal notice",
       "privacy": "Privacy policy"
     }
@@ -80,14 +80,14 @@
       "branches": {
         "overline": "Our two houses",
         "h2": "Two addresses, two atmospheres.",
-        "card14eTitle": "HanoiQuan 14e",
+        "card14eTitle": "HaNoiQuan 14e",
         "card14eTagline": "Vietnamese cooking, in all its diversity.",
-        "cardSeineTitle": "HanoiQuan Seine",
+        "cardSeineTitle": "HaNoiQuan Seine",
         "cardSeineTagline": "Pho, and almost nothing else.",
         "discover": "Discover →",
         "helpLine": "Not sure? Pho → Seine. Everything else → 14e.",
-        "imageAlt14e": "HanoiQuan 14e storefront lit at night, viewed from the street.",
-        "imageAltSeine": "Intimate dining room at HanoiQuan Seine, window-side table at dusk."
+        "imageAlt14e": "HaNoiQuan 14e storefront lit at night, viewed from the street.",
+        "imageAltSeine": "Intimate dining room at HaNoiQuan Seine, window-side table at dusk."
       },
       "signature": {
         "overline": "What sets us apart",
@@ -136,7 +136,7 @@
         "eyebrowHtml": "House I · Paris 14<sup>th</sup>",
         "h1": "Vietnamese cooking, at home.",
         "sub": "From the street to the plate: pho, bun, banh mi, and everything in between.",
-        "ctaPrimary": "Book at HanoiQuan 14e",
+        "ctaPrimary": "Book at HaNoiQuan 14e",
         "ctaSecondary": "See the menu ↓"
       },
       "featured": {
@@ -160,7 +160,7 @@
       "chef": {
         "overline": "In the kitchen",
         "h2": "[Chef name], from Hanoi to rue [Placeholder].",
-        "body": "[Name] grew up between his mother's kitchen and the [district] market. He arrived in Paris in [year] and opened HanoiQuan 14e in [year].",
+        "body": "[Name] grew up between his mother's kitchen and the [district] market. He arrived in Paris in [year] and opened HaNoiQuan 14e in [year].",
         "quote": "\"Cooking Vietnamese in Paris is translation without betrayal.\""
       },
       "atmosphere": {
@@ -170,19 +170,19 @@
       },
       "info": {
         "overline": "Come and see us",
-        "h2": "HanoiQuan 14e is waiting.",
+        "h2": "HaNoiQuan 14e is waiting.",
         "addressTitle": "Address",
         "hoursTitle": "Hours",
         "contactTitle": "Contact",
         "callBtn": "Call",
         "reserveBtn": "Book",
-        "crosslinkHtml": "Looking for authentic pho? <a href=\"/seine/\">Discover HanoiQuan Seine →</a>"
+        "crosslinkHtml": "Looking for authentic pho? <a href=\"/seine/\">Discover HaNoiQuan Seine →</a>"
       },
       "banner": {
         "tagHtml": "House I · Paris 14<sup>th</sup>",
         "filmTag": "— Video: Vietnamese cuisine",
         "kicker": "Since 2015 · 46 R. Raymond Losserand",
-        "title1": "HanoiQuan",
+        "title1": "HaNoiQuan",
         "title2Html": "14<sup>th</sup>.",
         "lead": "A neighbourhood house dedicated to home-style Vietnamese cooking. Forty seats, an open kitchen, everything made on site — pâté, pickles, sauces, crêpe batter.",
         "sub": "From Hanoi to the 14th, the same standard: fresh produce, honest gestures, simple welcome.",
@@ -213,7 +213,7 @@
       },
       "address": {
         "overline": "Come visit",
-        "h2": "HanoiQuan 14e is waiting.",
+        "h2": "HaNoiQuan 14e is waiting.",
         "addrLabel": "Address",
         "hoursLabel": "Hours",
         "phoneLabel": "Phone",
@@ -222,7 +222,7 @@
         "hoursValueHtml": "Tuesday – Sunday<br>Bookings from 17:30 to 20:45<br><span class=\"muted\">Closed Mondays</span>",
         "reserveBtn": "Book",
         "directionsBtn": "Directions ↗",
-        "mapTitle": "Map of HanoiQuan 14e — 46 rue Raymond Losserand, 75014 Paris"
+        "mapTitle": "Map of HaNoiQuan 14e — 46 rue Raymond Losserand, 75014 Paris"
       },
       "drinks": {
         "overline": "To drink",
@@ -241,7 +241,7 @@
       "reviews": {
         "overline": "They loved it",
         "h2": "What our guests say.",
-        "intro": "Verified reviews from HanoiQuan 14e guests.",
+        "intro": "Verified reviews from HaNoiQuan 14e guests.",
         "ratingAria": "Rating: 5 out of 5",
         "r1Quote": "\"The best bánh mì I've had outside Vietnam. The baguette is perfect, the grilled pork melts, and the pickles are house-made — it makes all the difference. I come back every week.\"",
         "r1Name": "Marie L.",
@@ -252,7 +252,7 @@
         "r3Quote": "\"My husband is from Hanoi, and he says the cơm tấm here reminds him exactly of his mother's. Simple, clean, welcoming atmosphere. We shared the gỏi cuốn — sublime.\"",
         "r3Name": "Sophie & Minh",
         "r3Meta": "French-Vietnamese couple",
-        "r4Quote": "\"Came for the first time after a recommendation: I wasn't disappointed. Everything is cooked to order, you can feel the respect for the ingredients. Friday bánh mì takeaway has become my ritual. Thank you HanoiQuan!\"",
+        "r4Quote": "\"Came for the first time after a recommendation: I wasn't disappointed. Everything is cooked to order, you can feel the respect for the ingredients. Friday bánh mì takeaway has become my ritual. Thank you HaNoiQuan!\"",
         "r4Name": "Julien K.",
         "r4Meta": "TripAdvisor review",
         "ctaBtn": "Book your table"
@@ -268,7 +268,7 @@
       "philosophy": {
         "num": "I — Our philosophy",
         "h2": "A clear broth, a dense memory.",
-        "body1": "Pho is not a soup. It is a memory. In Hanoi you drink it in the morning, standing on a plastic stool, in the steam of the street. At HanoiQuan Seine we chose the Northern way: a clear, almost transparent broth where every ingredient stands out.",
+        "body1": "Pho is not a soup. It is a memory. In Hanoi you drink it in the morning, standing on a plastic stool, in the steam of the street. At HaNoiQuan Seine we chose the Northern way: a clear, almost transparent broth where every ingredient stands out.",
         "quote": "\"Clear broth, dense memory.\"",
         "body2": "Beef bones, charred ginger, star anise, cinnamon, black cardamom. Twelve hours simmering, never boiling."
       },
@@ -310,8 +310,103 @@
         "num": "V — A table is waiting",
         "h2": "Book your pho.",
         "sub": "Lunch service: 12pm–2pm. Dinner: 7pm–10pm. Twenty-four seats only.",
-        "button": "Book at HanoiQuan Seine",
-        "crosslinkHtml": "Want a wider menu? <a href=\"/14e/\">Discover HanoiQuan 14e →</a>"
+        "button": "Book at HaNoiQuan Seine",
+        "crosslinkHtml": "Want a wider menu? <a href=\"/14e/\">Discover HaNoiQuan 14e →</a>"
+      },
+      "banner": {
+        "eyebrow": "HaNoiQuan · House II · By the Seine",
+        "title": "Phở.",
+        "tagline": "Twelve hours of patience, one bowl per evening.",
+        "meta": "27 Quai des Grands Augustins · 75006 · Tue–Sun · 17:30 → 20:45",
+        "scrollAria": "Scroll to content",
+        "imageAlt": "Top-down shot of a phở bowl with rising steam — the house's signature composition."
+      },
+      "manifesto": {
+        "overline": "From the chef",
+        "title1": "The broth",
+        "title2": "is everything.",
+        "body1": "One promise, four variations. Beef bones, ginger charred over open flame, black cardamom, cinnamon, star anise. Twelve hours simmering — never boiling. Twenty-four seats only, two services. When the broth is finished, the house closes.",
+        "body2": "In Hanoi they say a good phở is recognised by its silence. By the Seine, we decided to keep that silence.",
+        "signoff": "— The Chef, HaNoiQuan Seine"
+      },
+      "scene": {
+        "overline": "The broth",
+        "titleLine1": "Twelve hours.",
+        "titleLine2": "Not one less.",
+        "body": "Bones charred in boiling water, skimmed twice. Ginger and onions burned over open flame, added whole. Star anise, black cardamom, cinnamon, clove — dry-toasted, knotted in a muslin pouch. The broth takes on its amber colour around the sixth hour. Never salted before the ninth. Strained, poured boiling. Not before.",
+        "imageAlt": "Full bowl of phở Sài Gòn served with fresh herbs, Thai basil and bean sprouts."
+      },
+      "pho": {
+        "overline": "The phở menu",
+        "title": "Four compositions.",
+        "dacBietSub": "The house special",
+        "dacBietName": "Phở đặc biệt",
+        "dacBietDesc": "Rare, cooked, fatty cuts, tendons, meatballs. Inherited from the South — the bowl that says everything in one stroke.",
+        "dacBietAlt": "Phở đặc biệt — every cut of beef in a single bowl.",
+        "boTaiSub": "Rare beef",
+        "boTaiName": "Phở bò tái",
+        "boTaiDesc": "Sliced to two millimetres, laid raw on the noodles. The boiling broth does the rest.",
+        "boTaiAlt": "Phở bò tái — clear broth with rare beef slices.",
+        "gaSub": "Chicken · Northern style",
+        "gaName": "Phở gà",
+        "gaDesc": "Free-range chicken broth. No garnish, straight to the point. Hanoi in a single spoonful.",
+        "gaAlt": "Phở gà in the Northern style, served without garnish.",
+        "gaSudSub": "Saigon style",
+        "gaSudName": "Phở gà miền Nam",
+        "gaSudDesc": "More generous with herbs. Thai basil, perilla, lime.",
+        "gaSudAlt": "Phở gà Saigon style, served with Thai basil and bean sprouts."
+      },
+      "bun": {
+        "overline": "The bún menu",
+        "title": "Three bún, three Vietnams.",
+        "region1Locator": "North · Hà Nội",
+        "region1Name": "Bún chả",
+        "region1Vi": "Bún chả Hà Nội",
+        "region1Desc": "The Hanoi dish, eaten by Obama and Bourdain in 2016. Charcoal-grilled pork balls and slices, rice vermicelli and herbs, dipped in a diluted nước mắm sauce.",
+        "region1Why": "Eat it by dipping — not mixing. The ritual matters as much as the sauce.",
+        "region1Alt": "Bún chả — charcoal-grilled pork, rice vermicelli and nước mắm sauce, the iconic Hanoi dish.",
+        "region2Locator": "Centre · Huế",
+        "region2Name": "Bún bò Huế",
+        "region2Vi": "Bún bò Huế",
+        "region2Desc": "The imperial soup, spicier than its cousin phở. Lemongrass, shrimp paste, chili. Deep orange broth, thick vermicelli, beef shank and pork meatballs.",
+        "region2Why": "In Huế they don't joke with chili. Our version stays faithful — let us know if you'd prefer it milder.",
+        "region2Alt": "Bún bò Huế — spicy beef and pork soup from Central Vietnam.",
+        "region3Locator": "South · Sài Gòn",
+        "region3Name": "Bún bò Nam Bộ",
+        "region3Vi": "Bún bò Nam Bộ",
+        "region3Desc": "Not a soup, a composed bowl. Beef sautéed with lemongrass, warm vermicelli, crushed peanuts, fried onions, herbs, sweet nước mắm sauce. Mix vigorously before the first bite.",
+        "region3Why": "Served dry. The broth, here, becomes sauce.",
+        "region3Alt": "Bún bò Nam Bộ — vermicelli, lemongrass-sautéed beef, peanuts and fresh Southern herbs."
+      },
+      "reviews": {
+        "overline": "Press & regulars",
+        "title": "What's said about us.",
+        "r1Quote": "The broth is of a rare clarity. You find the rigour of Hanoi phở, the patience that no Paris menu holds anymore. Twenty-four seats, one service — it's a stance, and it's the right call.",
+        "r1Name": "Marie-Claire H.",
+        "r1MetaHtml": "Evening regular · Paris 7<sup>th</sup>",
+        "r2Quote": "Precision cooking without ostentation. The menu fits on one page, the broth simmers twelve hours, and every detail — from the charred ginger to the house chili — speaks of craft. Highly recommended.",
+        "r2Name": "Alexandre Dubois",
+        "r2Meta": "Food critic · Le Figaro",
+        "r3Quote": "I grew up with my grandmother's phở in Hà Nội. I never thought I'd find this taste in Paris — that of a broth no one rushed. The bún chả made me cry. Quietly.",
+        "r3Name": "Hoàng Lan",
+        "r3Meta": "Restaurateur in Hà Nội · visiting",
+        "r4Quote": "Birthday celebrated here. Intimate evening service, warm lighting, a wildly generous bún bò Huế. Our server took time to explain each herb — that's rare. New favourite.",
+        "r4Name": "Thomas & Cécile",
+        "r4Meta": "Anniversary dinner · December 2025"
+      },
+      "close": {
+        "overline": "A table awaits",
+        "titleLine1": "Twenty-four",
+        "titleLine2": "seats.",
+        "body": "Tuesday to Sunday, evening service only. When the broth is finished, the house closes.",
+        "addrLabel": "Address",
+        "addrValueHtml": "27 Quai des Grands Augustins<br>75006 Paris · By the Seine",
+        "hoursLabel": "Opening",
+        "hoursValueHtml": "Tue — Sun · 17:30 → 20:45<br><span class=\"muted\">Closed Mondays</span>",
+        "directLabel": "Direct",
+        "ctaPrimary": "Book a table",
+        "ctaGhost": "Directions ↗",
+        "imageAlt": "Bowl of phở served in the evening, warm lighting."
       }
     },
     "about": {
@@ -325,7 +420,8 @@
         "h2": "It begins in Hanoi.",
         "body1": "It all begins in [Hanoi district], between [grandmother's / mother's] kitchen and the market. A pho broth recipe, passed down through generations.",
         "body2": "Arriving in Paris in [year], the family brought not a menu, but a memory. Twenty years later, two houses keep the gesture alive.",
-        "quote": "\"You don't serve a country, you serve a memory.\""
+        "quote": "\"You don't serve a country, you serve a memory.\"",
+        "imageAlt": "Chef's hands pouring pho broth into a pot, a gesture passed down through generations."
       },
       "cooking": {
         "overline": "Vietnamese cooking in France",
@@ -346,10 +442,10 @@
       "addresses": {
         "overline": "Our two houses",
         "h2": "One family, two addresses.",
-        "card14eTitle": "HanoiQuan 14e",
+        "card14eTitle": "HaNoiQuan 14e",
         "card14eBody": "Vietnamese cuisine in all its diversity — pho, bun, banh mi.",
         "card14eCta": "Discover 14e →",
-        "cardSeineTitle": "HanoiQuan Seine",
+        "cardSeineTitle": "HaNoiQuan Seine",
         "cardSeineBody": "Pho in all its depth — five variations, twelve hours.",
         "cardSeineCta": "Discover Seine →"
       },
@@ -408,18 +504,22 @@
         "submit": "Send",
         "errorRequired": "Required",
         "errorEmail": "Invalid email"
-      }
+      },
+      "hoursValueHtml": "Tue–Sun · 17:30–20:45<br>Closed Mondays",
+      "mapH2": "Find us in Paris.",
+      "mapMaison1": "House I",
+      "mapMaison2": "House II"
     },
     "reservation": {
       "hero": {
         "overline": "Booking",
-        "h1": "Book your table in two minutes.",
-        "sub": "Pick your house. We confirm by email within two hours."
+        "h1": "Book your table.",
+        "sub": "Call or write to us directly. We confirm within two hours."
       },
       "branchSelectLabel": "Choose the house",
-      "branch14eName": "HanoiQuan 14e",
+      "branch14eName": "HaNoiQuan 14e",
       "branch14eMeta": "Full menu · 40 seats · 46 rue Raymond Losserand, 75014 Paris",
-      "branchSeineName": "HanoiQuan Seine",
+      "branchSeineName": "HaNoiQuan Seine",
       "branchSeineMeta": "Pho specialist · 24 seats · 27 Quai des Grands Augustins, 75006 Paris",
       "form": {
         "date": "Date",
@@ -454,11 +554,13 @@
       },
       "aside": {
         "title": "Good to know",
-        "tip1": "Email confirmation within 2h",
+        "tip1": "Confirmation by phone or email within 2 hours",
         "tip2": "Free cancellation up to 4h before",
-        "tip3": "For groups > 12 people, contact us directly",
-        "tip4": "Allergies? Mention them in special requests"
-      }
+        "tip3": "For groups of more than 12, please call us",
+        "tip4": "Allergies? Mention them when booking"
+      },
+      "callBtn": "Call",
+      "emailBtn": "Email"
     }
   },
   "data": {

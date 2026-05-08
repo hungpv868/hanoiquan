@@ -1,5 +1,5 @@
 /* ============================================================
-   HanoiQuan — Base
+   HaNoiQuan — Base
    Design tokens · reset · typography · layout · components
    shared across every page.
    ============================================================
@@ -537,15 +537,49 @@ section.section--loose { padding-block: var(--space-5xl); }
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
   font-family: var(--font-display);
   font-size: 1.35rem;
   font-weight: 700;
   letter-spacing: -0.02em;
   color: var(--ink-primary);
   white-space: nowrap;
+  text-decoration: none;
   transition: color var(--motion-fast) var(--ease-standard);
 }
-.logo:hover { color: var(--accent-vermillion); }
+.logo__badge {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  color: var(--accent-saffron);
+  filter: drop-shadow(0 2px 6px color-mix(in srgb, var(--accent-saffron) 28%, transparent));
+  transition:
+    transform var(--motion-base) var(--ease-emphasized),
+    color     var(--motion-base) var(--ease-standard),
+    filter    var(--motion-base) var(--ease-standard);
+}
+.logo__badge-bg { fill: var(--bg-elevated); }
+.logo__text {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.35rem;
+  letter-spacing: -0.02em;
+  color: var(--ink-primary);
+  line-height: 1;
+}
+.logo:hover .logo__badge {
+  transform: rotate(-8deg) scale(1.05);
+  color: var(--accent-gold);
+  filter: drop-shadow(0 4px 12px color-mix(in srgb, var(--accent-gold) 55%, transparent));
+}
+.logo:hover .logo__text { color: var(--accent-gold); }
+@media (max-width: 540px) {
+  .logo__badge { width: 36px; height: 36px; }
+  .logo__text  { font-size: 1.1rem; }
+  .logo        { gap: 0.5rem; }
+}
 
 /* Main nav */
 .nav-main ul {

@@ -1,4 +1,4 @@
-/* HanoiQuan — reservation page
+/* HaNoiQuan — reservation page
  * Branch selector + form validation + success/reset flow.
  *
  * Validation rules

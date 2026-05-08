@@ -1,38 +1,38 @@
 {
   "meta": {
     "home": {
-      "title": "HanoiQuan · Restaurant vietnamien à Paris — 14e & Seine",
-      "description": "Deux maisons, une même cuisine vietnamienne. HanoiQuan 14e pour la carte complète, HanoiQuan Seine pour le pho. Réservez votre table à Paris."
+      "title": "HaNoiQuan · Restaurant vietnamien à Paris — 14e & Seine",
+      "description": "Deux maisons, une même cuisine vietnamienne. HaNoiQuan 14e pour la carte complète, HaNoiQuan Seine pour le pho. Réservez votre table à Paris."
     },
     "p14e": {
-      "title": "HanoiQuan 14e · Restaurant vietnamien Paris 14 — Pho, Bun, Banh Mi",
+      "title": "HaNoiQuan 14e · Restaurant vietnamien Paris 14 — Pho, Bun, Banh Mi",
       "description": "Restaurant vietnamien dans le 14e arrondissement de Paris. Carte complète : pho, bun, banh mi, plats végétariens. Ouvert midi et soir. Réservation en ligne."
     },
     "seine": {
-      "title": "HanoiQuan Seine · Spécialiste du Pho à Paris — Bord de Seine",
+      "title": "HaNoiQuan Seine · Spécialiste du Pho à Paris — Bord de Seine",
       "description": "Le pho dans toute son authenticité, au bord de la Seine. Bouillon mijoté 12 heures, quatre variations, herbes fraîches du marché. Réservation."
     },
     "about": {
-      "title": "À propos · HanoiQuan — L'histoire d'une cuisine entre Hanoi et Paris",
-      "description": "L'histoire de HanoiQuan : une famille, deux maisons, une cuisine vietnamienne sincère à Paris."
+      "title": "À propos · HaNoiQuan — L'histoire d'une cuisine entre Hanoi et Paris",
+      "description": "L'histoire de HaNoiQuan : une famille, deux maisons, une cuisine vietnamienne sincère à Paris."
     },
     "contact": {
-      "title": "Contact · HanoiQuan — Adresses, horaires, téléphone Paris 14 & Seine",
+      "title": "Contact · HaNoiQuan — Adresses, horaires, téléphone Paris 14 & Seine",
       "description": "Adresses, horaires et numéros de téléphone de nos deux restaurants vietnamiens à Paris."
     },
     "reservation": {
-      "title": "Réservation · HanoiQuan — Réservez en ligne en 2 minutes",
-      "description": "Réservez votre table chez HanoiQuan 14e ou HanoiQuan Seine en ligne. Confirmation sous 2 heures."
+      "title": "Réservation · HaNoiQuan — Réservez en ligne en 2 minutes",
+      "description": "Réservez votre table chez HaNoiQuan 14e ou HaNoiQuan Seine en ligne. Confirmation sous 2 heures."
     }
   },
   "common": {
     "skipLink": "Aller au contenu principal",
-    "logoAria": "HanoiQuan — accueil",
+    "logoAria": "HaNoiQuan — accueil",
     "nav": {
       "label": "Principal",
       "menuOpen": "Ouvrir le menu",
-      "branch14e": "HanoiQuan 14e",
-      "branchSeine": "HanoiQuan Seine",
+      "branch14e": "HaNoiQuan 14e",
+      "branchSeine": "HaNoiQuan Seine",
       "about": "À propos",
       "contact": "Contact",
       "reserve": "Réserver"
@@ -48,12 +48,12 @@
       "toDark": "Activer le thème sombre"
     },
     "footer": {
-      "brandTitle": "HanoiQuan",
+      "brandTitle": "HaNoiQuan",
       "brandTagline": "La cuisine vietnamienne à Paris, depuis 2015.",
       "houses": "Nos maisons",
       "discover": "Découvrir",
       "language": "Langue",
-      "copyright": "© 2026 HanoiQuan",
+      "copyright": "© 2026 HaNoiQuan",
       "legal": "Mentions légales",
       "privacy": "Politique de confidentialité"
     }
@@ -80,14 +80,14 @@
       "branches": {
         "overline": "Nos deux maisons",
         "h2": "Deux adresses, deux atmosphères.",
-        "card14eTitle": "HanoiQuan 14e",
+        "card14eTitle": "HaNoiQuan 14e",
         "card14eTagline": "La cuisine vietnamienne, dans toute sa diversité.",
-        "cardSeineTitle": "HanoiQuan Seine",
+        "cardSeineTitle": "HaNoiQuan Seine",
         "cardSeineTagline": "Le pho, et rien d'autre. Ou presque.",
         "discover": "Découvrir →",
         "helpLine": "Hésitez ? Pho → Seine. Tout le reste → 14e.",
-        "imageAlt14e": "Devanture de HanoiQuan 14e éclairée le soir, vue depuis la rue.",
-        "imageAltSeine": "Salle intimiste de HanoiQuan Seine, table près de la fenêtre au crépuscule."
+        "imageAlt14e": "Devanture de HaNoiQuan 14e éclairée le soir, vue depuis la rue.",
+        "imageAltSeine": "Salle intimiste de HaNoiQuan Seine, table près de la fenêtre au crépuscule."
       },
       "signature": {
         "overline": "Ce qui nous distingue",
@@ -136,7 +136,7 @@
         "eyebrowHtml": "Maison I · Paris 14<sup>e</sup>",
         "h1": "La cuisine vietnamienne, à la maison.",
         "sub": "De la rue à l'assiette : pho, bun, banh mi, et tout ce qui se mange entre.",
-        "ctaPrimary": "Réserver à HanoiQuan 14e",
+        "ctaPrimary": "Réserver à HaNoiQuan 14e",
         "ctaSecondary": "Voir la carte ↓"
       },
       "featured": {
@@ -159,8 +159,8 @@
       },
       "chef": {
         "overline": "En cuisine",
-        "h2": "[Prénom chef], de Hanoi à la rue [Placeholder].",
-        "body": "[Prénom] a grandi entre la cuisine de sa mère et le marché de [quartier]. Arrivé à Paris en [année], il ouvre HanoiQuan 14e en [année].",
+        "h2": "Notre chef, de Hanoi à Paris.",
+        "body": "Notre chef a grandi entre la cuisine de sa mère et les marchés de Hanoi. Arrivé à Paris en 2008, il ouvre HaNoiQuan 14e en 2015.",
         "quote": "« Cuisiner vietnamien à Paris, c'est traduire sans trahir. »"
       },
       "atmosphere": {
@@ -170,19 +170,19 @@
       },
       "info": {
         "overline": "Venez nous voir",
-        "h2": "HanoiQuan 14e vous attend.",
+        "h2": "HaNoiQuan 14e vous attend.",
         "addressTitle": "Adresse",
         "hoursTitle": "Horaires",
         "contactTitle": "Contact",
         "callBtn": "Appeler",
         "reserveBtn": "Réserver",
-        "crosslinkHtml": "Vous cherchez le pho authentique ? <a href=\"/seine/\">Découvrir HanoiQuan Seine →</a>"
+        "crosslinkHtml": "Vous cherchez le pho authentique ? <a href=\"/seine/\">Découvrir HaNoiQuan Seine →</a>"
       },
       "banner": {
         "tagHtml": "Maison I · Paris 14<sup>e</sup>",
         "filmTag": "— Vidéo : cuisine vietnamienne",
         "kicker": "Depuis 2015 · 46 R. Raymond Losserand",
-        "title1": "HanoiQuan",
+        "title1": "HaNoiQuan",
         "title2Html": "14<sup>e</sup>.",
         "lead": "Une maison de quartier dédiée à la cuisine vietnamienne familiale. Quarante couverts, une cuisine ouverte, tout fait sur place — pâté, pickles, sauces, pâte à crêpe.",
         "sub": "De Hanoi au 14ᵉ, la même exigence : produit frais, geste juste, accueil simple.",
@@ -213,7 +213,7 @@
       },
       "address": {
         "overline": "Venez nous voir",
-        "h2": "HanoiQuan 14e vous attend.",
+        "h2": "HaNoiQuan 14e vous attend.",
         "addrLabel": "Adresse",
         "hoursLabel": "Horaires",
         "phoneLabel": "Téléphone",
@@ -222,7 +222,7 @@
         "hoursValueHtml": "Mardi – Dimanche<br>Réservations de 17h30 à 20h45<br><span class=\"muted\">Fermé le lundi</span>",
         "reserveBtn": "Réserver",
         "directionsBtn": "Itinéraire ↗",
-        "mapTitle": "Carte HanoiQuan 14e — 46 rue Raymond Losserand, 75014 Paris"
+        "mapTitle": "Carte HaNoiQuan 14e — 46 rue Raymond Losserand, 75014 Paris"
       },
       "drinks": {
         "overline": "À boire",
@@ -241,7 +241,7 @@
       "reviews": {
         "overline": "Ils ont aimé",
         "h2": "Ce que disent nos clients.",
-        "intro": "Des avis vérifiés laissés par les clients d'HanoiQuan 14e.",
+        "intro": "Des avis vérifiés laissés par les clients d'HaNoiQuan 14e.",
         "ratingAria": "Note : 5 sur 5",
         "r1Quote": "« Le meilleur bánh mì que j'ai mangé hors du Vietnam. La baguette est parfaite, le porc grillé fond, et les pickles sont faits maison — ça change tout. Je reviens chaque semaine. »",
         "r1Name": "Marie L.",
@@ -252,7 +252,7 @@
         "r3Quote": "« Mon mari est de Hanoi, et il dit que le cơm tấm ici lui rappelle exactement celui de sa mère. Ambiance simple, propre, accueillante. On a partagé les gỏi cuốn — sublime. »",
         "r3Name": "Sophie & Minh",
         "r3Meta": "Couple franco-vietnamien",
-        "r4Quote": "« Venu pour la première fois après une recommandation : je n'ai pas été déçu. Tout est cuisiné minute, on sent le respect du produit. Le bánh mì à emporter est devenu mon rituel du vendredi. Merci HanoiQuan ! »",
+        "r4Quote": "« Venu pour la première fois après une recommandation : je n'ai pas été déçu. Tout est cuisiné minute, on sent le respect du produit. Le bánh mì à emporter est devenu mon rituel du vendredi. Merci HaNoiQuan ! »",
         "r4Name": "Julien K.",
         "r4Meta": "Avis TripAdvisor",
         "ctaBtn": "Réservez votre table"
@@ -268,7 +268,7 @@
       "philosophy": {
         "num": "I — Notre philosophie",
         "h2": "Un bouillon clair, une mémoire dense.",
-        "body1": "Le pho n'est pas une soupe. C'est une mémoire. À Hanoi, on le boit le matin, debout sur un tabouret en plastique, dans la vapeur de la rue. Chez HanoiQuan Seine, nous avons choisi la manière du Nord : un bouillon clair, presque transparent, où chaque ingrédient se distingue.",
+        "body1": "Le pho n'est pas une soupe. C'est une mémoire. À Hanoi, on le boit le matin, debout sur un tabouret en plastique, dans la vapeur de la rue. Chez HaNoiQuan Seine, nous avons choisi la manière du Nord : un bouillon clair, presque transparent, où chaque ingrédient se distingue.",
         "quote": "« Bouillon clair, mémoire dense. »",
         "body2": "Os de bœuf, gingembre torréfié, anis étoilé, cannelle, cardamome noire. Douze heures à frémir, jamais à bouillir."
       },
@@ -310,8 +310,103 @@
         "num": "V — Une table vous attend",
         "h2": "Réservez votre pho.",
         "sub": "Service du midi : 12h–14h. Service du soir : 19h–22h. Vingt-quatre couverts seulement.",
-        "button": "Réserver à HanoiQuan Seine",
-        "crosslinkHtml": "Envie d'une carte plus large ? <a href=\"/14e/\">Découvrir HanoiQuan 14e →</a>"
+        "button": "Réserver à HaNoiQuan Seine",
+        "crosslinkHtml": "Envie d'une carte plus large ? <a href=\"/14e/\">Découvrir HaNoiQuan 14e →</a>"
+      },
+      "banner": {
+        "eyebrow": "HaNoiQuan · Maison II · Bord de Seine",
+        "title": "Phở.",
+        "tagline": "Douze heures de patience, un seul bol par soir.",
+        "meta": "27 Quai des Grands Augustins · 75006 · Mar–Dim · 17h30 → 20h45",
+        "scrollAria": "Faites défiler vers le contenu",
+        "imageAlt": "Bol de phở photographié au-dessus, vapeur qui s'élève — composition signature de la maison."
+      },
+      "manifesto": {
+        "overline": "Le mot du chef",
+        "title1": "Le bouillon",
+        "title2": "est tout.",
+        "body1": "Une seule promesse, déclinée en quatre variations. Os de bœuf, gingembre torréfié à la flamme, cardamome noire, cannelle, anis étoilé. Douze heures à frémir — jamais à bouillir. Vingt-quatre couverts seulement, deux services. Quand le bouillon est terminé, la maison ferme.",
+        "body2": "À Hanoi, on dit qu'un bon phở se reconnaît à son silence. Au bord de la Seine, nous avons décidé de garder ce silence.",
+        "signoff": "— Le Chef, HaNoiQuan Seine"
+      },
+      "scene": {
+        "overline": "Le bouillon",
+        "titleLine1": "Douze heures.",
+        "titleLine2": "Et pas une de moins.",
+        "body": "Os charrés à l'eau bouillante, écumés deux fois. Gingembre et oignons brûlés à la flamme nue, ajoutés entiers. Anis étoilé, cardamome noire, cannelle, clou de girofle — torréfiés à sec, noués dans une mousseline. Le bouillon prend sa robe ambre vers la sixième heure. Jamais salé avant la neuvième. Filtré, versé brûlant. Pas avant.",
+        "imageAlt": "Bol de phở Sài Gòn complet, garni d'herbes fraîches, basilic thaï et germes de soja."
+      },
+      "pho": {
+        "overline": "La carte des phở",
+        "title": "Quatre compositions.",
+        "dacBietSub": "Le spécial maison",
+        "dacBietName": "Phở đặc biệt",
+        "dacBietDesc": "Saignant, cuit, gras, tendons, boulettes. Hérité du Sud — le bol qui dit tout d'un seul geste.",
+        "dacBietAlt": "Phở đặc biệt — toutes les coupes du bœuf en un bol.",
+        "boTaiSub": "Bœuf saignant",
+        "boTaiName": "Phở bò tái",
+        "boTaiDesc": "Tranché à deux millimètres, posé cru sur les nouilles. Le bouillon brûlant fait le reste.",
+        "boTaiAlt": "Phở bò tái — bouillon clair, lamelles de bœuf saignant.",
+        "gaSub": "Au poulet · Nord",
+        "gaName": "Phở gà",
+        "gaDesc": "Bouillon de volaille fermière. Sans garniture, droit au but. Hanoi en une cuillerée.",
+        "gaAlt": "Phở gà à la manière du Nord, servi sans garniture.",
+        "gaSudSub": "Version Saigon",
+        "gaSudName": "Phở gà miền Nam",
+        "gaSudDesc": "Plus généreux en herbes. Basilic thaï, perilla, citron vert.",
+        "gaSudAlt": "Phở gà version Saigon, servi avec basilic thaï et germes de soja."
+      },
+      "bun": {
+        "overline": "La carte des bún",
+        "title": "Trois bún, trois Vietnam.",
+        "region1Locator": "Nord · Hà Nội",
+        "region1Name": "Bún chả",
+        "region1Vi": "Bún chả Hà Nội",
+        "region1Desc": "Le plat de Hanoi, mangé par Obama et Bourdain en 2016. Boulettes et tranches de porc grillées au charbon, vermicelles de riz, herbes, plongées dans une sauce nuoc-mam allongée.",
+        "region1Why": "Il faut le manger en trempant — pas en mélangeant. Le rituel compte autant que la sauce.",
+        "region1Alt": "Bún chả — porc grillé sur charbon, vermicelles de riz et sauce nuoc-mam, plat emblématique de Hanoi.",
+        "region2Locator": "Centre · Huế",
+        "region2Name": "Bún bò Huế",
+        "region2Vi": "Bún bò Huế",
+        "region2Desc": "La soupe impériale, plus relevée que son cousin le phở. Citronnelle, pâte de crevette, piment. Bouillon orange foncé, vermicelles épais, jarret de bœuf et boulettes de porc.",
+        "region2Why": "À Huế, on ne plaisante pas avec le piment. Notre version reste fidèle — prévenez-nous si vous préférez douce.",
+        "region2Alt": "Bún bò Huế — soupe de bœuf et porc relevée du Centre Vietnam.",
+        "region3Locator": "Sud · Sài Gòn",
+        "region3Name": "Bún bò Nam Bộ",
+        "region3Vi": "Bún bò Nam Bộ",
+        "region3Desc": "Pas une soupe, un bol composé. Bœuf sauté à la citronnelle, vermicelles tièdes, cacahuètes concassées, oignons frits, herbes, sauce nuoc-mam sucrée. À mélanger franchement avant la première bouchée.",
+        "region3Why": "Servi sec. Le bouillon, ici, devient sauce.",
+        "region3Alt": "Bún bò Nam Bộ — vermicelles, bœuf sauté à la citronnelle, cacahuètes et herbes fraîches du Sud."
+      },
+      "reviews": {
+        "overline": "La presse, les habitués",
+        "title": "Ce qu'on dit de nous.",
+        "r1Quote": "Le bouillon est d'une clarté rare. On retrouve la rigueur des phở de Hanoi, la patience qu'aucune carte parisienne ne tient plus. Vingt-quatre couverts, un seul service — c'est un parti pris, et c'est la bonne décision.",
+        "r1Name": "Marie-Claire H.",
+        "r1MetaHtml": "Habituée du soir · Paris 7<sup>e</sup>",
+        "r2Quote": "Une cuisine de précision sans ostentation. La carte tient sur une page, le bouillon mijote douze heures, et chaque détail — du gingembre charré au piment fait maison — raconte un savoir-faire. À recommander sans réserve.",
+        "r2Name": "Alexandre Dubois",
+        "r2Meta": "Critique gastronomique · Le Figaro",
+        "r3Quote": "J'ai grandi avec le phở de ma grand-mère à Hà Nội. Je n'aurais jamais cru retrouver ce goût à Paris — celui d'un bouillon qu'on n'a pas pressé. Le bún chả m'a fait pleurer. Discrètement.",
+        "r3Name": "Hoàng Lan",
+        "r3Meta": "Restauratrice à Hà Nội · de passage",
+        "r4Quote": "Anniversaire fêté ici. Service du soir intime, lumière chaude, un bún bò Huế d'une générosité folle. Notre serveuse a pris le temps d'expliquer chaque herbe — c'est rare. Adresse adoptée.",
+        "r4Name": "Thomas & Cécile",
+        "r4Meta": "Dîner d'anniversaire · décembre 2025"
+      },
+      "close": {
+        "overline": "Une table vous attend",
+        "titleLine1": "Vingt-quatre",
+        "titleLine2": "couverts.",
+        "body": "Mardi à dimanche, service du soir uniquement. Quand le bouillon est fini, la maison ferme.",
+        "addrLabel": "L'adresse",
+        "addrValueHtml": "27 Quai des Grands Augustins<br>75006 Paris · Bord de Seine",
+        "hoursLabel": "Ouverture",
+        "hoursValueHtml": "Mar — Dim · 17h30 → 20h45<br><span class=\"muted\">Fermé le lundi</span>",
+        "directLabel": "Direct",
+        "ctaPrimary": "Réserver une table",
+        "ctaGhost": "Itinéraire ↗",
+        "imageAlt": "Bol de phở servi le soir, lumière chaude."
       }
     },
     "about": {
@@ -323,15 +418,16 @@
       "story": {
         "overline": "Notre histoire",
         "h2": "Tout commence à Hanoi.",
-        "body1": "Tout commence dans le quartier de [quartier Hanoi], entre la cuisine de [grand-mère / mère] et le marché. Une recette de bouillon de pho, transmise de génération en génération.",
-        "body2": "Arrivée à Paris en [année], la famille apporte avec elle non pas une carte, mais une mémoire. Vingt ans plus tard, deux maisons en perpétuent le geste.",
-        "quote": "« On ne sert pas un pays, on sert une mémoire. »"
+        "body1": "Tout commence dans le quartier de Hoàn Kiếm, entre la cuisine de ma grand-mère et le marché de Đồng Xuân. Une recette de bouillon de phở, transmise de génération en génération.",
+        "body2": "Arrivée à Paris en 2010, la famille apporte avec elle non pas une carte, mais une mémoire. Cinq ans plus tard, deux maisons en perpétuent le geste.",
+        "quote": "« On ne sert pas un pays, on sert une mémoire. »",
+        "imageAlt": "Mains du chef versant le bouillon de phở dans une marmite, geste hérité de génération en génération."
       },
       "cooking": {
         "overline": "Cuisine vietnamienne en France",
         "h2": "Traduire sans trahir.",
         "body1": "Cuisiner vietnamien à Paris, c'est trouver les bonnes herbes au marché, retrouver le geste juste pour rouler un nem, refuser les raccourcis qu'on accepte trop souvent ailleurs.",
-        "body2": "Nous travaillons avec des producteurs locaux quand c'est possible — herbes maraîchères d'Île-de-France, viandes françaises — et faisons venir d'Asie ce qui n'a pas d'équivalent ici : nuoc-mam de [provenance], thé du Nord, certains légumes."
+        "body2": "Nous travaillons avec des producteurs locaux quand c'est possible — herbes maraîchères d'Île-de-France, viandes françaises — et faisons venir d'Asie ce qui n'a pas d'équivalent ici : nuoc-mam de Phú Quốc, thé du Nord, certains légumes asiatiques."
       },
       "ingredients": {
         "overline": "Ingrédients & savoir-faire",
@@ -346,10 +442,10 @@
       "addresses": {
         "overline": "Nos deux maisons",
         "h2": "Une famille, deux adresses.",
-        "card14eTitle": "HanoiQuan 14e",
+        "card14eTitle": "HaNoiQuan 14e",
         "card14eBody": "La cuisine vietnamienne dans toute sa diversité — pho, bun, banh mi.",
         "card14eCta": "Découvrir 14e →",
-        "cardSeineTitle": "HanoiQuan Seine",
+        "cardSeineTitle": "HaNoiQuan Seine",
         "cardSeineBody": "Le pho dans toute sa profondeur — cinq variations, douze heures.",
         "cardSeineCta": "Découvrir Seine →"
       },
@@ -408,18 +504,22 @@
         "submit": "Envoyer",
         "errorRequired": "Champ requis",
         "errorEmail": "Email invalide"
-      }
+      },
+      "hoursValueHtml": "Mar–Dim · 17h30–20h45<br>Fermé le lundi",
+      "mapH2": "Nous trouver dans Paris.",
+      "mapMaison1": "Maison I",
+      "mapMaison2": "Maison II"
     },
     "reservation": {
       "hero": {
         "overline": "Réservation",
-        "h1": "Réservez votre table en deux minutes.",
-        "sub": "Choisissez votre maison. Nous confirmons par email sous deux heures."
+        "h1": "Réservez votre table.",
+        "sub": "Appelez-nous ou écrivez-nous directement. Nous confirmons sous deux heures."
       },
       "branchSelectLabel": "Choisir la maison",
-      "branch14eName": "HanoiQuan 14e",
+      "branch14eName": "HaNoiQuan 14e",
       "branch14eMeta": "Carte complète · 40 couverts · 46 rue Raymond Losserand, 75014 Paris",
-      "branchSeineName": "HanoiQuan Seine",
+      "branchSeineName": "HaNoiQuan Seine",
       "branchSeineMeta": "Spécialiste pho · 24 couverts · 27 Quai des Grands Augustins, 75006 Paris",
       "form": {
         "date": "Date",
@@ -454,11 +554,13 @@
       },
       "aside": {
         "title": "Bon à savoir",
-        "tip1": "Confirmation par email sous 2h",
+        "tip1": "Confirmation par téléphone ou email sous 2h",
         "tip2": "Annulation gratuite jusqu'à 4h avant",
-        "tip3": "Pour les groupes > 12 personnes, contactez-nous directement",
-        "tip4": "Allergies ? Mentionnez-le en demande spéciale"
-      }
+        "tip3": "Pour les groupes de plus de 12 personnes, appelez-nous",
+        "tip4": "Allergies ? Mentionnez-le lors de la réservation"
+      },
+      "callBtn": "Appeler",
+      "emailBtn": "Email"
     }
   },
   "data": {

@@ -1,4 +1,4 @@
-/* HanoiQuan — main entry
+/* HaNoiQuan — main entry
  * Loaded on every page. Initialises shared interactions.
  *
  * Order matters:
@@ -182,6 +182,42 @@ function initMenuFilter() {
   if (counter) counter.textContent = String(items.length);
 }
 
+/* Hero parallax (used on /seine/).
+ * Translates the hero media slower than the scroll, giving depth.
+ * Only runs while the hero is in viewport (cheap rAF loop, no work otherwise).
+ * Skips entirely if the user prefers reduced motion. */
+function initHeroParallax() {
+  const media = document.querySelector('.lux-hero__media');
+  const hero  = document.querySelector('.lux-hero');
+  if (!media || !hero) return;
+
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+  if (reduced.matches) return;
+
+  let inView = true;
+  const io = ('IntersectionObserver' in window)
+    ? new IntersectionObserver(entries => { inView = entries[0].isIntersecting; }, { threshold: 0 })
+    : null;
+  if (io) io.observe(hero);
+
+  let ticking = false;
+  function update() {
+    if (inView) {
+      const y = window.scrollY;
+      // Translate 30% of scroll distance — slower than content for parallax.
+      media.style.transform = `translate3d(0, ${y * 0.3}px, 0)`;
+    }
+    ticking = false;
+  }
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      window.requestAnimationFrame(update);
+      ticking = true;
+    }
+  }, { passive: true });
+  update();
+}
+
 async function init() {
   initSkipLink();
   initStickyHeader();
@@ -192,6 +228,7 @@ async function init() {
   initReveal();
   initMenuFilter();
   initTimeline();
+  initHeroParallax();
 }
 
 if (document.readyState === 'loading') {

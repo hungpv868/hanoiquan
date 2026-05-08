@@ -1,4 +1,4 @@
-/* HanoiQuan — i18n
+/* HaNoiQuan — i18n
  *
  * Runtime translation engine.
  *   - 3 locales: fr (default), en, vi.

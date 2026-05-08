@@ -1,4 +1,4 @@
-/* HanoiQuan — theme toggle (light / dark)
+/* HaNoiQuan — theme toggle (light / dark)
  *
  * Source of truth: data-theme attribute on <html>.
  * Persistence:    localStorage["hanoiquan-theme"].
